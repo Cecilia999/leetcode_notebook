@@ -1,6 +1,6 @@
 # leetcode_notebook
 
-### 1. [backtracking](backtracking.md)
+### 1. [Backtracking](backtracking.md)
 
 ### 2. [Dynamic Programming](dynamic_programming.md)
 
