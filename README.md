@@ -15,3 +15,5 @@
 ### 7. [Breadth First Search](bfs.md)
 
 ### 8. [Binary Search](binary_search.md)
+
+### 9. [Linked List](linked_list.md)
