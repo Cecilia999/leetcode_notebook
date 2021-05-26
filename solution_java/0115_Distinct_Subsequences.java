@@ -1,10 +1,11 @@
 //思路：DP
 //这种两个string的问题都要想到dp
 //dp[i][j] = s[1:i]包含t[1:j]的个数
-//dp increment的判断条件是：
-//两个foor loop
-//  if s.char[i] == t.char[j]
-//      dp[i+1][j+1] = dp[i][j+1]
+//如果s[i+1] == t[j+1]，有 2 种匹配方式
+//一种将 s[i+1] 与 t[j+1] 匹配，那么 s[1:i]匹配 t[1:j]的子序列，子序列数为 dp[i][j]；
+//第二种将 s[i] 不与 t[j+1] 匹配，t[1:j+1] 作为 s[1:i] 的子序列，子序列数为 dp[i][j+1]
+//比如 s=rabb t=rab 这个b可以与第一个b配对或者第二个b配对
+//
 // "r" & "r" 的expect output=1
 class Solution {
   public int numDistinct(String s, String t) {
@@ -20,7 +21,7 @@ class Solution {
           dp[i][0] = 1;
       }
       
-      //dp[0][j] = 1 since no string is a subsequence of
+      //dp[0][j] = 0 since no string is a subsequence of
       //empty string except for empty stirng.
       //0 不用initialize也是0
       for(int j=1; j<tlen+1; j++){
