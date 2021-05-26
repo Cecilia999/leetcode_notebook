@@ -1,3 +1,7 @@
+//思路：backtrack
+//两个指针，一个start，一个遍历从start到s.length()的i
+//如果start到i是回文，加入templist，更新start=i+1，遍历这一分枝
+
 class Solution {
   public List<List<String>> partition(String s) {
       List<List<String>> list = new ArrayList<List<String>>();
