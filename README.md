@@ -23,7 +23,7 @@
 | 0115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)                     | [java](/solution_java/0115_Distinct_Subsequences.java)         | hard       |
 | 0120 | [Triangle](https://leetcode.com/problems/triangle/)                                               | [java](/solution_java/0120_Triangle.java)                      | medium     |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [java](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock)    | easy       |
-| 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)               | [java](/solution*java/0152* Maximum_Product_Subarray)          | medium     |
+| 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)               | [java](/solution_java/0152_Maximum_Product_Subarray.java)      | medium     |
 
 ### 3. [Two Pointer](two_pointer.md)
 
