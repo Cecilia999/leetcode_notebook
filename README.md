@@ -17,3 +17,5 @@
 ### 8. [Binary Search](binary_search.md)
 
 ### 9. [Linked List](linked_list.md)
+
+### 10. [Tree](tree.md)
