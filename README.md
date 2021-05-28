@@ -9,6 +9,7 @@
 | 046  | [Permutations](https://leetcode.com/problems/permutations/)                                        | [java](/solution_java/046_Permutations.java)             | medium     |
 | 047  | [Permutations II (contains duplicates)](https://leetcode.com/problems/permutations-ii/)            | [java](/solution_java/047_Permutations_II.java)          | medium     |
 | 0060 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)                        | [java](/solution_java/0060_Permutation_Subsequence.java) | medium     |
+| 0526 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)                      | [java](/solution_java/0526_Beautiful_Arrangement.java)   | medium     |
 | 039  | [Combination Sum](https://leetcode.com/problems/combination-sum/)                                  | [java](/solution_java/039_Combination_Sum.java)          | medium     |
 | 040  | [Combination Sum II (can't reuse same element)](https://leetcode.com/problems/combination-sum-ii/) | [java](/solution_java/040_Combination_Sum_II.java)       | medium     |
 | 0131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)                  | [java](/solution_java/131_Palindrome_Partitioning.java)  | medium     |
