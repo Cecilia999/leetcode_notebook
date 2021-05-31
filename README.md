@@ -12,6 +12,8 @@
 | 0526 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)                      | [java](/solution_java/0526_Beautiful_Arrangement.java)   | medium     |
 | 039  | [Combination Sum](https://leetcode.com/problems/combination-sum/)                                  | [java](/solution_java/039_Combination_Sum.java)          | medium     |
 | 040  | [Combination Sum II (can't reuse same element)](https://leetcode.com/problems/combination-sum-ii/) | [java](/solution_java/040_Combination_Sum_II.java)       | medium     |
+| 0077 | [Combinations](https://leetcode.com/problems/combinations/)                                        | [java](/solution_java/0077_Combinations.java)            | medium     |
+| 0216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)                          | [java](/solution_java/0216_Combination_Sum_III.java)     | medium     |
 | 0131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)                  | [java](/solution_java/131_Palindrome_Partitioning.java)  | medium     |
 
 ### 2. [Dynamic Programming](dynamic_programming.md)
