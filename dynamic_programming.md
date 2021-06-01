@@ -4,16 +4,16 @@
 
 ### 2. Fibonacci Numbers
 
-#### 1. fibonacci num
+1. fibonacci num
 
-#### 2. climbing stairs
+2. climbing stairs
 
 - [70. Climbing_Stairs](https://leetcode.com/problems/climbing-stairs/):  
   [Solution](/solution_java/0070_Climbing_Stairs.java)
 - [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/):  
   [Solution](/solution_java/0746_Min_Cost_Climbing_Stairs.java)
 
-#### 3. house robber
+3. house robber
 
 ### 3. Memory Search
 
