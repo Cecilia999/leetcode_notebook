@@ -33,6 +33,7 @@
 | 0416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)           | [java](/solution_java/0416_Partition_Equal_Subset_Sum.java)    | medium     |
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum/)                                           | [java](/solution_java/0494_Target_Sum.java)                    | medium     |
 | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)                       | [java](/solution_java/1049_Last_Stone_Weight_II.java)          | medium     |
+| 0474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)                                 | [java](/solution_java/474_Ones_and_Zeroes.java)                | medium     |
 
 ### 3. [Two Pointer](two_pointer.md)
 

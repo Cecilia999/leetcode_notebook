@@ -30,8 +30,15 @@
 
 3. Minimum Subset Sum Difference，子集和的最小差问题
 
-- [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/):  
+- [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/):  
   [Solution](/solution_java/1049_Last_Stone_Weight_II.java)
+
+4. 其他
+
+- [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/):  
+  [java](/solution_java/474_Ones_and_Zeroes.java)
+
+### 5. Unbounded Knapsack，无限（完全）背包
 
 ### 参考：
 
