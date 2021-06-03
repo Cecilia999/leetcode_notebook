@@ -34,8 +34,8 @@
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum/)                                           | [java](/solution_java/0494_Target_Sum.java)                    | medium     |
 | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)                       | [java](/solution_java/1049_Last_Stone_Weight_II.java)          | medium     |
 | 0474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)                                 | [java](/solution_java/474_Ones_and_Zeroes.java)                | medium     |
-| 0322 | [322. Coin Change](https://leetcode.com/problems/coin-change/)                                    | [java](/solution_java/0322_Coin_Change.java)                   | medium     |
-| 0518 | [518. Coin Change](https://leetcode.com/problems/coin-change-2/)                                  | [java](/solution_java/0518_Coin_Change_2.java)                 | medium     |
+| 0322 | [Coin Change](https://leetcode.com/problems/coin-change/)                                    | [java](/solution_java/0322_Coin_Change.java)                   | medium     |
+| 0518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/)                                  | [java](/solution_java/0518_Coin_Change_2.java)                 | medium     |
 
 ### 3. [Two Pointer](two_pointer.md)
 
