@@ -55,5 +55,3 @@
 ### 参考：
 
 https://blog.csdn.net/richenyunqi/article/details/105699183
-
-go get -u github.com.cnpmjs.org/ofabry/go-callvis
