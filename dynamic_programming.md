@@ -15,7 +15,10 @@
 
 3. house robber
 
-### 3. Memory Search
+### 3. Memory Search 记忆化搜索
+
+- [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/):  
+  [java](/solution_java/0329_Longest_Increasing_Path_in_a_Matrix.java)
 
 ### 4. 0/1 Knapsack (0/1 背包)
 
