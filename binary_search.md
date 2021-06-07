@@ -7,9 +7,9 @@
 
 ### 二分搜索的经典写法。需要注意的三点：
 
-循环退出条件，注意是 low <= high，而不是 low < high。  
-mid 的取值，mid := low + (high-low)/2 because if lo and hi are very large, (lo + hi)/2 might potentially cause overflow.
-low 和 high 的更新。low = mid + 1，high = mid - 1。
+循环退出条件，注意是 low <= high，而不是 low < high。         
+mid 的取值，mid := low + (high-low)/2   --->>>  because if lo and hi are very large, (lo + hi)/2 might potentially cause overflow.       
+low 和 high 的更新。low = mid + 1，high = mid - 1。           
 
 **java**
 
