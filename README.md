@@ -61,9 +61,11 @@
 
 ### 8. [Binary Search](binary_search.md)
 
-| \#  | Title                                                                                     | Solution                                                    | Difficulty |
-| --- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------- |
-| 004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [java](/solution_java/004_Median_of_Two_Sorted_Arrays.java) | hard       |
+| \#  | Title                                                                                                 | Solution                                                           | Difficulty |
+| --- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ---------- |
+| 004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)             | [java](/solution_java/004_Median_of_Two_Sorted_Arrays.java)        | hard       |
+| 033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)       | [java](/solution_java/0033_Search_in_Rotated_Sorted_Array.java)    | medium     |
+| 088 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [java](/solution_java/0081_Search_in_Rotated_Sorted_Array_II.java) | medium     |
 
 ### 9. [Linked List](linked_list.md)
 
