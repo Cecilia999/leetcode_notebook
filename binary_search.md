@@ -7,9 +7,9 @@
 
 ### 二分搜索的经典写法。需要注意的三点：
 
-循环退出条件，注意是 low <= high，而不是 low < high。         
-mid 的取值，mid := low + (high-low)/2   --->>>  because if lo and hi are very large, (lo + hi)/2 might potentially cause overflow.       
-low 和 high 的更新。low = mid + 1，high = mid - 1。           
+循环退出条件，注意是 low <= high，而不是 low < high。  
+mid 的取值，mid := low + (high-low)/2 --->>> because if lo and hi are very large, (lo + hi)/2 might potentially cause overflow.  
+low 和 high 的更新。low = mid + 1，high = mid - 1。
 
 **java**
 
@@ -65,6 +65,10 @@ func binarySearchMatrix(nums []int, target int) int {
   [java](/solution_java/0033_Search_in_Rotated_Sorted_Array.java)
 - [88. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/):  
   [java](/solution_java/0081_Search_in_Rotated_Sorted_Array_II.java)
+- [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/):  
+  [java](/solution_java/0153_Find_Minimum_in_Rotated_Sorted_Array.java)
+- [154. Find Minimum in Rotated Sorted Array ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/):  
+  [java](/solution_java/0154_Find_Minimum_in_Rotated_Sorted_Array_II.java)
 
 ### 2. max-min 最大值最小化问题
 
