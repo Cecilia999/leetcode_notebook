@@ -52,10 +52,101 @@ func binarySearchMatrix(nums []int, target int) int {
 
 ### 二分搜索的变种写法。有 4 个基本变种:
 
-- 查找第一个与 target 相等的元素，时间复杂度 O(logn)
-- 查找最后一个与 target 相等的元素，时间复杂度 O(logn)
-- 查找第一个大于等于 target 的元素，时间复杂度 O(logn)
-- 查找最后一个小于等于 target 的元素，时间复杂度 O(logn)
+1. 查找第一个与 target 相等的元素，时间复杂度 O(logn)
+
+```
+// 二分查找第一个与 target 相等的元素，时间复杂度 O(logn)
+func searchFirstEqualElement(nums []int, target int) int {
+	low, high := 0, len(nums)-1
+	for low <= high {
+		mid := low + ((high - low) >> 1)
+		if nums[mid] > target {
+			high = mid - 1
+		} else if nums[mid] < target {
+			low = mid + 1
+		} else {
+
+      // 找到第一个与 target 相等的元素
+      // 在这个else statement里首先nums[mid]就==target
+      //如果mid==0，已经是第一个数了
+      //或者mid的前一位不是target，因为是sorted array，那当前mid必须是第一个target
+
+			if (mid == 0) || (nums[mid-1] != target) {
+				return mid
+			}
+			high = mid - 1
+		}
+	}
+	return -1
+}
+```
+
+2. 查找最后一个与 target 相等的元素，时间复杂度 O(logn)
+
+```
+// 二分查找最后一个与 target 相等的元素，时间复杂度 O(logn)
+func searchLastEqualElement(nums []int, target int) int {
+	low, high := 0, len(nums)-1
+	for low <= high {
+		mid := low + ((high - low) >> 1)
+		if nums[mid] > target {
+			high = mid - 1
+		} else if nums[mid] < target {
+			low = mid + 1
+		} else {
+			if (mid == len(nums)-1) || (nums[mid+1] != target) { // 找到最后一个与 target 相等的元素
+				return mid
+			}
+			low = mid + 1
+		}
+	}
+	return -1
+}
+```
+
+3. 查找第一个大于等于 target 的元素，时间复杂度 O(logn)
+
+```
+// 二分查找第一个大于等于 target 的元素，时间复杂度 O(logn)
+func searchFirstGreaterElement(nums []int, target int) int {
+	low, high := 0, len(nums)-1
+	for low <= high {
+		mid := low + ((high - low) >> 1)
+		if nums[mid] >= target {
+			if (mid == 0) || (nums[mid-1] < target) { // 找到第一个大于等于 target 的元素
+				return mid
+			}
+
+      //如果当前nums[mid]>=target但不是第一个的话，说明mid太大了，decreas high
+			high = mid - 1
+		} else {
+			low = mid + 1
+		}
+	}
+	return -1
+}
+```
+
+4. 查找最后一个小于等于 target 的元素，时间复杂度 O(logn)
+
+```
+// 二分查找最后一个小于等于 target 的元素，时间复杂度 O(logn)
+func searchLastLessElement(nums []int, target int) int {
+	low, high := 0, len(nums)-1
+	for low <= high {
+		mid := low + ((high - low) >> 1)
+		if nums[mid] <= target {
+			if (mid == len(nums)-1) || (nums[mid+1] > target) { // 找到最后一个小于等于 target 的元素
+				return mid
+			}
+			low = mid + 1
+		} else {
+			high = mid - 1
+		}
+	}
+	return -1
+}
+```
 
 ### 1. 在基本有序的数组中用二分搜索
 
@@ -71,6 +162,13 @@ func binarySearchMatrix(nums []int, target int) int {
   [java](/solution_java/0154_Find_Minimum_in_Rotated_Sorted_Array_II.java)
 - [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)：
   [java](/solution_java/0852_Peak_Index_in_a_Mountain_Array.java)
+
+2. 查找第一个与 target 相等的元素 / 查找最后一个与 target 相等的元素 / 查找第一个大于等于 target 的元素 / 查找最后一个小于等于 target 的元素
+
+- [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/):  
+  [java](/solution_java/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.java)
+- [35 Search Insert Position](https://leetcode.com/problems/search-insert-position/):  
+  [java](/solution_java/0035_Search_Insert_Position.java)
 
 ### 2. max-min 最大值最小化问题
 

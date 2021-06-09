@@ -61,15 +61,17 @@
 
 ### 8. [Binary Search](binary_search.md)
 
-| \#   | Title                                                                                                             | Solution                                                                 | Difficulty |
-| ---- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ---------- |
-| 004  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                         | [java](/solution_java/004_Median_of_Two_Sorted_Arrays.java)              | hard       |
-| 033  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                   | [java](/solution_java/0033_Search_in_Rotated_Sorted_Array.java)          | medium     |
-| 088  | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)             | [java](/solution_java/0081_Search_in_Rotated_Sorted_Array_II.java)       | medium     |
-| 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)       | [java](/solution_java/0153_Find_Minimum_in_Rotated_Sorted_Array.java)    | medium     |
-| 0154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [java](/solution_java/0154_Find_Minimum_in_Rotated_Sorted_Array_II.java) | hard       |
-| 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)                   | [java](/solution_java/0852_Peak_Index_in_a_Mountain_Array.java)          | easy       |
-| 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                             | [java](/solution_java/0162_Find_Peak_Element.java)                       | medium     |
+| \#   | Title                                                                                                                                             | Solution                                                                                 | Difficulty |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------- |
+| 004  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                                                         | [java](/solution_java/004_Median_of_Two_Sorted_Arrays.java)                              | hard       |
+| 033  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                   | [java](/solution_java/0033_Search_in_Rotated_Sorted_Array.java)                          | medium     |
+| 088  | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)                                             | [java](/solution_java/0081_Search_in_Rotated_Sorted_Array_II.java)                       | medium     |
+| 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                       | [java](/solution_java/0153_Find_Minimum_in_Rotated_Sorted_Array.java)                    | medium     |
+| 0154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)                                 | [java](/solution_java/0154_Find_Minimum_in_Rotated_Sorted_Array_II.java)                 | hard       |
+| 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)                                                   | [java](/solution_java/0852_Peak_Index_in_a_Mountain_Array.java)                          | easy       |
+| 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                             | [java](/solution_java/0162_Find_Peak_Element.java)                                       | medium     |
+| 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [java](/solution_java/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.java) | medium     |
+| 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                                                   | [java](/solution_java/0035_Search_Insert_Position.java)                                  | easy       |
 
 ### 9. [Linked List](linked_list.md)
 
