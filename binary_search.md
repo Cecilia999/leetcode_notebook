@@ -154,7 +154,7 @@ func searchLastLessElement(nums []int, target int) int {
 
 - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/):  
   [java](/solution_java/0033_Search_in_Rotated_Sorted_Array.java)
-- [88. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/):  
+- [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/):  
   [java](/solution_java/0081_Search_in_Rotated_Sorted_Array_II.java)
 - [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/):  
   [java](/solution_java/0153_Find_Minimum_in_Rotated_Sorted_Array.java)
@@ -172,8 +172,8 @@ func searchLastLessElement(nums []int, target int) int {
 
 3. 2d array 的 binary search
 
-思路：把 2d array 当作 1d 来计算 row & col index               
-**m _ n matrix convert to an array : matrix[x][y] => arr[x * n + y]  
+思路：把 2d array 当作 1d 来计算 row & col index  
+**m \_ n matrix convert to an array : matrix[x][y] => arr[x * n + y]  
 an array convert to m \* n matrix : arr[x] =>matrix[x / n][x % n];**
 
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/):  
