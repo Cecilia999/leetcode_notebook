@@ -72,6 +72,7 @@
 | 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                             | [java](/solution_java/0162_Find_Peak_Element.java)                                       | medium     |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [java](/solution_java/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.java) | medium     |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                                                   | [java](/solution_java/0035_Search_Insert_Position.java)                                  | easy       |
+| 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                           | [java](/solution_java/0074_Search_a_2D_Matrix.java)                                      | medium     |
 
 ### 9. [Linked List](linked_list.md)
 
