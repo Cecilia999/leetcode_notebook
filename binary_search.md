@@ -170,6 +170,15 @@ func searchLastLessElement(nums []int, target int) int {
 - [35 Search Insert Position](https://leetcode.com/problems/search-insert-position/):  
   [java](/solution_java/0035_Search_Insert_Position.java)
 
+3. 2d array 的 binary search
+
+思路：把 2d array 当作 1d 来计算 row & col index
+**m _ n matrix convert to an array => matrix[x][y] => arr[x _ n + y]  
+an array convert to m \* n matrix => arr[x] =>matrix[x / n][x % n];**
+
+- [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/):  
+  [java](/solution_java/0074_Search_a_2D_Matrix.java)
+
 ### 2. max-min 最大值最小化问题
 
 **参考：**
