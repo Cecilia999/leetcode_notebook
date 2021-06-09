@@ -69,6 +69,8 @@ func binarySearchMatrix(nums []int, target int) int {
   [java](/solution_java/0153_Find_Minimum_in_Rotated_Sorted_Array.java)
 - [154. Find Minimum in Rotated Sorted Array ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/):  
   [java](/solution_java/0154_Find_Minimum_in_Rotated_Sorted_Array_II.java)
+- [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)：
+  [java](/solution_java/0852_Peak_Index_in_a_Mountain_Array.java)
 
 ### 2. max-min 最大值最小化问题
 

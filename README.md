@@ -68,6 +68,8 @@
 | 088  | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)             | [java](/solution_java/0081_Search_in_Rotated_Sorted_Array_II.java)       | medium     |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)       | [java](/solution_java/0153_Find_Minimum_in_Rotated_Sorted_Array.java)    | medium     |
 | 0154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [java](/solution_java/0154_Find_Minimum_in_Rotated_Sorted_Array_II.java) | hard       |
+| 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)                   | [java](/solution_java/0852_Peak_Index_in_a_Mountain_Array.java)          | easy       |
+| 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                             | [java](/solution_java/0162_Find_Peak_Element.java)                       | medium     |
 
 ### 9. [Linked List](linked_list.md)
 
