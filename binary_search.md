@@ -167,6 +167,11 @@ func searchLastLessElement(nums []int, target int) int {
 
 - [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/):  
   [java](/solution_java/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.java)
+
+  **牛客网: **  
+  这道题等同于剑指 offer 的[数字在升序数组中出现的次数](https://www.nowcoder.com/practice/70610bf967994b22bb1c26f9ae901fa2?tpId=13&&tqId=11190&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):  
+  [java](/牛客网/数字在升序数组中出现的次数.java)
+
 - [35 Search Insert Position](https://leetcode.com/problems/search-insert-position/):  
   [java](/solution_java/0035_Search_Insert_Position.java)
 
