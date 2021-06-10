@@ -52,6 +52,16 @@
   - [518. Coin Change 2](https://leetcode.com/problems/coin-change-2/):  
     [java](/solution_java/0518_Coin_Change_2.java)
 
+### 9. Optimal Solution，最优解问题
+
+#### 9.1 数组
+
+- [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/):  
+  [java](/solution_java/Maximum Subarray.java)
+  **这道题等同于**  
+  [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/):  
+  [java](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock)
+
 ### 参考：
 
 https://blog.csdn.net/richenyunqi/article/details/105699183

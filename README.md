@@ -28,6 +28,7 @@
 | 0095 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)             | [java](/solution_java/0095_Unique_Binary_Search_Trees_II.java)       | medium     |
 | 0115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)                             | [java](/solution_java/0115_Distinct_Subsequences.java)               | hard       |
 | 0120 | [Triangle](https://leetcode.com/problems/triangle/)                                                       | [java](/solution_java/0120_Triangle.java)                            | medium     |
+| 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                       | [java](/solution_java/Maximum Subarray.java)                         | easy       |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)         | [java](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock)          | easy       |
 | 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)                       | [java](/solution_java/0152_Maximum_Product_Subarray.java)            | medium     |
 | 0416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)                   | [java](/solution_java/0416_Partition_Equal_Subset_Sum.java)          | medium     |
@@ -38,6 +39,7 @@
 | 0518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/)                                             | [java](/solution_java/0518_Coin_Change_2.java)                       | medium     |
 | 0139 | [Word Break](https://leetcode.com/problems/word-break/)                                                   | [java](/solution_java/0139_Word_Break.java)                          | medium     |
 | 0329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [java](/solution_java/0329_Longest_Increasing_Path_in_a_Matrix.java) | hard       |
+| 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)                                           | [java](/solution_java/0264_Ugly_Number_II.java)                      | medium     |
 
 ### 3. [Two Pointer](two_pointer.md)
 
