@@ -66,6 +66,10 @@
 
 ### 6. [Depth First Search](dfs.md)
 
+| \#  | Title                                                                                                                                                                             | Solution                            | Difficulty |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ---------- |
+| jz9 | [跳台阶扩展问题](https://www.nowcoder.com/practice/22243d016f6b47f2a6928b4313c85387?tpId=13&&tqId=11162&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/跳台阶扩展问题.java) | easy       |
+
 ### 7. [Breadth First Search](bfs.md)
 
 ### 8. [Binary Search](binary_search.md)
