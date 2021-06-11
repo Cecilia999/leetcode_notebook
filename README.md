@@ -50,11 +50,13 @@
 
 ### 4. [Array](array.md)
 
-| \#  | Title                                                                                     | Solution                                                    | Difficulty |
-| --- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------- |
-| 001 | [Two Sum](https://leetcode.com/problems/two-sum/)                                         | [java](/solution_java/001_Two_Sum.java)                     | easy       |
-| 004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [java](/solution_java/004_Median_of_Two_Sorted_Arrays.java) | hard       |
-| 011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)     | [java](/solution_java/011_Container_With_Most_Water.java)   | medium     |
+| \#   | Title                                                                                     | Solution                                                    | Difficulty |
+| ---- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------- |
+| 001  | [Two Sum](https://leetcode.com/problems/two-sum/)                                         | [java](/solution_java/001_Two_Sum.java)                     | easy       |
+| 004  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [java](/solution_java/004_Median_of_Two_Sorted_Arrays.java) | hard       |
+| 011  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)     | [java](/solution_java/011_Container_With_Most_Water.java)   | medium     |
+| 0055 | [Jump Game](https://leetcode.com/problems/jump-game/)                                     | [java](/solution_java/0055_Jump_Game.java)                  | medium     |
+| 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                               | [java](/solution_java/0045_Jump_Game_II.java)               | medium     |
 
 ### 5. [String](string.md)
 
@@ -100,3 +102,9 @@
 | 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)       | [java](/solution_java/0096_Unique_Binary_Search_Trees.java)    | medium     |
 
 ### 11. [Sort](sort.md)
+
+### 12. [Greedy](greedy.md)
+
+| \#   | Title                                                       | Solution                                      | Difficulty |
+| ---- | ----------------------------------------------------------- | --------------------------------------------- | ---------- |
+| 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [java](/solution_java/0045_Jump_Game_II.java) | medium     |
