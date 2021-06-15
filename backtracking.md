@@ -24,7 +24,7 @@
    - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/):  
      [java](/solution_java/0216_Combination_Sum_III.java)
 
-   3. 子集问题 subsets
+3. 子集问题 subsets
 
    - [78. Subsets](https://leetcode.com/problems/subsets/):  
      [java](/solution_java/078_Subsets.java)
@@ -32,3 +32,13 @@
      [java](/solution_java/090_Subsets_II.java)
    - [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/):  
      [java](/solution_java/131_Palindrome_Partitioning.java)
+
+### recursion 递归
+
+1. matrix 的运动路径问题
+
+   - [机器人的运动范围](https://www.nowcoder.com/practice/6e5207314b5241fb83f2329e89fdecc8?tpId=13&&tqId=11219&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
+     [java](/牛客网/机器人的运动范围.java)
+
+   - [矩阵中的路径](https://www.nowcoder.com/practice/2a49359695a544b8939c77358d29b7e6?tpId=13&&tqId=11218&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):  
+     [java](/牛客网/矩阵中的路径.java)
