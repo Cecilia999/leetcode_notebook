@@ -40,6 +40,8 @@
    - [机器人的运动范围](https://www.nowcoder.com/practice/6e5207314b5241fb83f2329e89fdecc8?tpId=13&&tqId=11219&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
      [java](/牛客网/机器人的运动范围.java)
 
-   - [矩阵中的路径](https://www.nowcoder.com/practice/2a49359695a544b8939c77358d29b7e6?tpId=13&&tqId=11218&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking): [java](/牛客网/矩阵中的路径.java)
-     **这道题和 leetcode79 题一模一样**
-   - [79. Word Search](https://leetcode.com/problems/word-search/): [java](/solution_java/0079_Word_Search.java)
+   - [矩阵中的路径](https://www.nowcoder.com/practice/2a49359695a544b8939c77358d29b7e6?tpId=13&&tqId=11218&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking): [java](/牛客网/矩阵中的路径.java)  
+     **这道题和 leetcode79 题一模一样**  
+     [79. Word Search](https://leetcode.com/problems/word-search/): [java](/solution_java/0079_Word_Search.java)  
+     **变种**  
+     [200. Number of Islands](https://leetcode.com/problems/number-of-islands/): [java](/solution_java/0200_Number_of_Islands.java)
