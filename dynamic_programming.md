@@ -15,6 +15,8 @@
   [Solution](/solution_java/0070_Climbing_Stairs.java)
 - [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/):
   [Solution](/solution_java/0746_Min_Cost_Climbing_Stairs.java)
+- [跳台阶扩展问题](https://www.nowcoder.com/practice/22243d016f6b47f2a6928b4313c85387?tpId=13&&tqId=11162&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):  
+  [java](/牛客网/跳台阶扩展问题.java)
 
 3. house robber
 

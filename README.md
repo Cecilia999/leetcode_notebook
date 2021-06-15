@@ -107,6 +107,10 @@
 
 ### 11. [Sort](sort.md)
 
+| \#   | Title                                                                                             | Solution                                                         | Difficulty |
+| ---- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------- |
+| 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [java](/solution_java/0215_Kth_Largest_Element_in_an_Array.java) | medium     |
+
 ### 12. [Greedy](greedy.md)
 
 | \#   | Title                                                       | Solution                                      | Difficulty |
