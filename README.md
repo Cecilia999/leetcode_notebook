@@ -61,6 +61,8 @@
 | 011  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)     | [java](/solution_java/011_Container_With_Most_Water.java)   | medium     |
 | 0055 | [Jump Game](https://leetcode.com/problems/jump-game/)                                     | [java](/solution_java/0055_Jump_Game.java)                  | medium     |
 | 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                               | [java](/solution_java/0045_Jump_Game_II.java)               | medium     |
+| 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                             | [java](/solution_java/0054_Spiral_Matrix.java)              | medium     |
+| 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)                       | [java](/solution_java/0059_Spiral_Matrix_II.java)           | medium     |
 
 ### 5. [String](string.md)
 
