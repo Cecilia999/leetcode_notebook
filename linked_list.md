@@ -31,3 +31,5 @@ _只需要一次遍历就可以得到答案。_
   [java](/solution_java/0083_Remove_Duplicates_from_Sorted_List.java)
 - [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii):
   [java](/solution_java/0082_Remove_Duplicates_from_Sorted_List_II.java)
+- [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/):
+  [java](/solution_java/0203_Remove_Linked_List_Elements.java)

@@ -17,8 +17,7 @@ class Solution {
       if(head == null) return null;
       //老规矩创造一个newhead指向head,以防head会被删除
       ListNode newHead = new ListNode(0, head);
-      ListNode cur = head;
-      
+      ListNode cur = head;     
       ListNode pre = newHead;
       
       while(cur!=null){
