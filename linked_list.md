@@ -16,9 +16,18 @@
 
 ### 2. 链表寻找中间节点/链表寻找倒数第 n 个节点
 
+_只需要一次遍历就可以得到答案。_
+
 - [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/):  
   [java](/solution_java/0019_Remove_Nth_Node_From_End_of_List.java)
 - [链表中倒数最后 k 个结点](https://www.nowcoder.com/practice/886370fe658f41b498d40fb34ae76ff9?tpId=13&&tqId=11167&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):  
   [java](/牛客网/链表中倒数最后k个结点.java)
 
-只需要一次遍历就可以得到答案。
+### 3. 删掉重复/指定节点
+
+用两个指针 cur&pre，cur 用来判断节点，用 pre.next = ... 来删除节点
+
+- [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/):
+  [java](/solution_java/0083_Remove_Duplicates_from_Sorted_List.java)
+- [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii):
+  [java](/solution_java/0082_Remove_Duplicates_from_Sorted_List_II.java)

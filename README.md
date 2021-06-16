@@ -93,13 +93,15 @@
 
 ### 9. [Linked List](linked_list.md)
 
-| \#   | Title                                                                                                                                                                                      | Solution                                                          | Difficulty |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- | ---------- |
-| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                                                                                                                  | [java](/solution_java/0206_Reverse_Linked_List.java)              | easy       |
-| jz3  | [从尾到头打印链表](https://www.nowcoder.com/practice/d0267f7f55b3412ba93bd35cfa8e8035?tpId=13&&tqId=11156&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)        | [java](/牛客网/从尾到头打印链表.java)                             | easy       |
-| 0092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)                                                                                                            | [java](/solution_java/0092_Reverse_Linked_List_II.java)           | medium     |
-| 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)                                                                                        | [java](/solution_java/0019_Remove_Nth_Node_From_End_of_List.java) | medium     |
-| jz14 | [链表中倒数最后 k 个结点](https://www.nowcoder.com/practice/886370fe658f41b498d40fb34ae76ff9?tpId=13&&tqId=11167&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/链表中倒数最后k个结点.java)                        |
+| \#   | Title                                                                                                                                                                                      | Solution                                                               | Difficulty |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- | ---------- |
+| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                                                                                                                  | [java](/solution_java/0206_Reverse_Linked_List.java)                   | easy       |
+| jz3  | [从尾到头打印链表](https://www.nowcoder.com/practice/d0267f7f55b3412ba93bd35cfa8e8035?tpId=13&&tqId=11156&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)        | [java](/牛客网/从尾到头打印链表.java)                                  | easy       |
+| 0092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)                                                                                                            | [java](/solution_java/0092_Reverse_Linked_List_II.java)                | medium     |
+| 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)                                                                                        | [java](/solution_java/0019_Remove_Nth_Node_From_End_of_List.java)      | medium     |
+| jz14 | [链表中倒数最后 k 个结点](https://www.nowcoder.com/practice/886370fe658f41b498d40fb34ae76ff9?tpId=13&&tqId=11167&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/链表中倒数最后k个结点.java)                             |            |
+| 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)                                                                                    | [java](/solution_java/0083_Remove_Duplicates_from_Sorted_List.java)    | easy       |
+| 0082 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)                                                                              | [java](/solution_java/0082_Remove_Duplicates_from_Sorted_List_II.java) | medium     |
 
 ### 10. [Tree](tree.md)
 
