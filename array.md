@@ -15,3 +15,5 @@
      [java](/solution_java/0054_Spiral_Matrix.java)
    - [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/):
      [java](/solution_java/0059_Spiral_Matrix_II.java)
+     **一样的题**  
+     [顺时针打印矩阵](https://www.nowcoder.com/practice/9b4c81a02cd34f76be2659fa0d54342a?tpId=13&&tqId=11172&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)

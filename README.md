@@ -66,9 +66,10 @@
 
 ### 5. [String](string.md)
 
-| \#   | Title                                                                                                                                                                       | Solution                      | Difficulty |
-| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ---------- |
-| jz10 | [替换空格](https://www.nowcoder.com/practice/0e26e5551f2b489b9f58bc83aa4b6c68?tpId=13&&tqId=11155&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/替换空格.java) | easy       |
+| \#   | Title                                                                                                                                                                       | Solution                                                   | Difficulty |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
+| jz10 | [替换空格](https://www.nowcoder.com/practice/0e26e5551f2b489b9f58bc83aa4b6c68?tpId=13&&tqId=11155&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/替换空格.java)                              | easy       |
+| 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)                                                                                       | [java](/solution_java/0151_Reverse_Words_in_a_String.java) | medium     |
 
 ### 6. [Depth First Search](dfs.md)
 
@@ -116,9 +117,10 @@
 
 ### 11. [Sort](sort.md)
 
-| \#   | Title                                                                                             | Solution                                                         | Difficulty |
-| ---- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------- |
-| 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [java](/solution_java/0215_Kth_Largest_Element_in_an_Array.java) | medium     |
+| \#   | Title                                                                                                                                                                            | Solution                                                         | Difficulty |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------- |
+| 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)                                                                                | [java](/solution_java/0215_Kth_Largest_Element_in_an_Array.java) | medium     |
+| jz29 | [最小的 K 个数](https://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf?tpId=13&&tqId=11182&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/最小的K个数.java)                                 | 中等       |
 
 ### 12. [Greedy](greedy.md)
 
