@@ -66,10 +66,12 @@
 
 ### 5. [String](string.md)
 
-| \#   | Title                                                                                                                                                                       | Solution                                                   | Difficulty |
-| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
-| jz10 | [替换空格](https://www.nowcoder.com/practice/0e26e5551f2b489b9f58bc83aa4b6c68?tpId=13&&tqId=11155&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/替换空格.java)                              | easy       |
-| 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)                                                                                       | [java](/solution_java/0151_Reverse_Words_in_a_String.java) | medium     |
+| \#   | Title                                                                                                                                                                       | Solution                                                                        | Difficulty |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------- |
+| jz10 | [替换空格](https://www.nowcoder.com/practice/0e26e5551f2b489b9f58bc83aa4b6c68?tpId=13&&tqId=11155&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/替换空格.java)                                                   | easy       |
+| 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)                                                                                       | [java](/solution_java/0151_Reverse_Words_in_a_String.java)                      | medium     |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                                             | [java](/solution_java/0003_Longest_Substring_Without_Repeating_Characters.java) | medium     |
+| 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                                                                         | [java](/solution_java/0076_Minimum_Window_Substring.java)                       | hard       |
 
 ### 6. [Depth First Search](dfs.md)
 
