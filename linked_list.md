@@ -33,3 +33,10 @@ _只需要一次遍历就可以得到答案。_
   [java](/solution_java/0082_Remove_Duplicates_from_Sorted_List_II.java)
 - [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/):
   [java](/solution_java/0203_Remove_Linked_List_Elements.java)
+
+### 4. merge sorted list
+
+- [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/):
+  [java](/solution_java/0021_Merge_Two_Sorted_Lists.java)
+- [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/);
+  [java](/solution_java/0023_Merge_k_Sorted_Lists.java)
