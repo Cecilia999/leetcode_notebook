@@ -20,6 +20,11 @@
 - [最小的 K 个数](https://books.halfrost.com/leetcode/ChapterFour/0200~0299/0215.Kth-Largest-Element-in-an-Array/)  
   [java](/牛客网/最小的K个数.java)
 
+2. concat int to string override array.sort()
+
+- [179. Largest Number](https://leetcode.com/problems/largest-number/):
+  [java](/solution_java/0179_Largest_Number.java)
+
 ### 参考
 
 - 快速排序：https://www.cnblogs.com/anthonyhoo/p/12259543.html

@@ -128,6 +128,7 @@
 | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------- |
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)                                                                                | [java](/solution_java/0215_Kth_Largest_Element_in_an_Array.java) | medium     |
 | jz29 | [最小的 K 个数](https://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf?tpId=13&&tqId=11182&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/最小的K个数.java)                                 | 中等       |
+| 0179 | [Largest Number](https://leetcode.com/problems/largest-number/)                                                                                                                  | [java](/solution_java/0179_Largest_Number.java)                  | medium     |
 
 ### 12. [Greedy](greedy.md)
 
