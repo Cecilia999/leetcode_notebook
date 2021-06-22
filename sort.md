@@ -20,10 +20,16 @@
 - [最小的 K 个数](https://books.halfrost.com/leetcode/ChapterFour/0200~0299/0215.Kth-Largest-Element-in-an-Array/)  
   [java](/牛客网/最小的K个数.java)
 
-2. concat int to string override array.sort()
+2. 把 int array concat 成最大的数/最小的数
+
+**solution:**
+int array convert to string array
+override array.sort()
 
 - [179. Largest Number](https://leetcode.com/problems/largest-number/):
   [java](/solution_java/0179_Largest_Number.java)
+- [jz32. 把数组排成最小的数](https://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?tpId=13&&tqId=11185&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
+  [java](/牛客网/把数组排成最小的数.java)
 
 ### 参考
 
