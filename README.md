@@ -64,6 +64,7 @@
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                             | [java](/solution_java/0054_Spiral_Matrix.java)              | medium     |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)                       | [java](/solution_java/0059_Spiral_Matrix_II.java)           | medium     |
 | 0091 | [Decode Ways](https://leetcode.com/problems/decode-ways/)                                 | [java](/solution_java/0091_Decode_Ways.java)                | medium     |
+| 0136 | [Single Number](https://leetcode.com/problems/single-number/)                             | [java](/solution_java/0136_Single_Number.java)              | easy       |
 
 ### 5. [String](string.md)
 

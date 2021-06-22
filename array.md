@@ -7,6 +7,11 @@
    - [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/): 判断 jump 到 last index 所需的最小 jump 次数是多少，greedy algorithm  
      [ java](/solution_java/0045_Jump_Game_II.java)
 
+2. hash map 哈希表
+
+- [136. Single Number](https://leetcode.com/problems/single-number/):
+  [java](/solution_java/0136_Single_Number.java)
+
 ### 2d array -->> matrix
 
 1. spiral matrix 螺旋矩阵
