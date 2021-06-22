@@ -5,6 +5,11 @@
 - [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/):  
   [java](/solution_java/0151_Reverse_Words_in_a_String.java)
 
+2. hash map
+
+- [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/):
+  [java](/solution_java/0387_First_Unique_Character_in_a_String.java)
+
 ### sliding window 滑动窗口
 
 滑动窗口的基本思路：

@@ -57,6 +57,15 @@
   - [518. Coin Change 2](https://leetcode.com/problems/coin-change-2/):
     [java](/solution_java/0518_Coin_Change_2.java)
 
+### 6.counting dp 计数 dp
+
+计算有多少种方式/多少种可能
+
+#### 6.1 string 的 计数 dp
+
+- [91. Decode Ways](https://leetcode.com/problems/decode-ways/)：
+  [java](/solution_java/0091_Decode_Ways.java)
+
 ### 9. Optimal Solution，最优解问题
 
 #### 9.1 数组

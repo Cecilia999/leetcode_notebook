@@ -63,6 +63,7 @@
 | 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                               | [java](/solution_java/0045_Jump_Game_II.java)               | medium     |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                             | [java](/solution_java/0054_Spiral_Matrix.java)              | medium     |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)                       | [java](/solution_java/0059_Spiral_Matrix_II.java)           | medium     |
+| 0091 | [Decode Ways](https://leetcode.com/problems/decode-ways/)                                 | [java](/solution_java/0091_Decode_Ways.java)                | medium     |
 
 ### 5. [String](string.md)
 
@@ -72,6 +73,7 @@
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)                                                                                       | [java](/solution_java/0151_Reverse_Words_in_a_String.java)                      | medium     |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                                             | [java](/solution_java/0003_Longest_Substring_Without_Repeating_Characters.java) | medium     |
 | 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                                                                         | [java](/solution_java/0076_Minimum_Window_Substring.java)                       | hard       |
+| 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)                                                                     | [java](/solution_java/0387_First_Unique_Character_in_a_String.java)             | easy       |
 
 ### 6. [Depth First Search](dfs.md)
 
