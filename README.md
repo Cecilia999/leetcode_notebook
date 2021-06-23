@@ -139,9 +139,10 @@
 
 ### 13. [bit manipulation](bit_manipulation.md)
 
-| \#   | Title                                                               | Solution                                          | Difficulty |
-| ---- | ------------------------------------------------------------------- | ------------------------------------------------- | ---------- |
-| 0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [java](/solution_java/0191_Number_of_1_Bits.java) | easy       |
-| 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/)         | [java](/solution_java/0231_Power_of_Two.java)     | easy       |
-| 0136 | [Single Number](https://leetcode.com/problems/single-number/)       | [java](/solution_java/0136_Single_Number.java)    | easy       |
-| 0268 | [Missing Number](https://leetcode.com/problems/missing-number/)     | [java](/solution_java/0268_Missing_Number.java)   | easy       |
+| \#   | Title                                                                     | Solution                                             | Difficulty |
+| ---- | ------------------------------------------------------------------------- | ---------------------------------------------------- | ---------- |
+| 0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)       | [java](/solution_java/0191_Number_of_1_Bits.java)    | easy       |
+| 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/)               | [java](/solution_java/0231_Power_of_Two.java)        | easy       |
+| 0136 | [Single Number](https://leetcode.com/problems/single-number/)             | [java](/solution_java/0136_Single_Number.java)       | easy       |
+| 0268 | [Missing Number](https://leetcode.com/problems/missing-number/)           | [java](/solution_java/0268_Missing_Number.java)      | easy       |
+| 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [java](/solution_java/0389_Find_the_Difference.java) | easy       |

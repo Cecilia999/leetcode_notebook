@@ -28,8 +28,16 @@ public class Solution {
         
         //We keep doing this until the input Integer is 0.
         while(n!=0){
-            count = count + (n&1);
-            n=n>>>1;
+
+            // //每次check last bit是不是1
+            // count = count + (n&1);
+            // n=n>>>1;
+
+            //或者直接remove last 1 and increment count
+            count++;
+            n = n & (n - 1);
+
+            //这两种方法速度差不多
         }
         
         return count;
