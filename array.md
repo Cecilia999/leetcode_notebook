@@ -9,9 +9,6 @@
 
 2. hash map 哈希表
 
-- [136. Single Number](https://leetcode.com/problems/single-number/):
-  [java](/solution_java/0136_Single_Number.java)
-
 ### 2d array -->> matrix
 
 1. spiral matrix 螺旋矩阵

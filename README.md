@@ -64,7 +64,6 @@
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                             | [java](/solution_java/0054_Spiral_Matrix.java)              | medium     |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)                       | [java](/solution_java/0059_Spiral_Matrix_II.java)           | medium     |
 | 0091 | [Decode Ways](https://leetcode.com/problems/decode-ways/)                                 | [java](/solution_java/0091_Decode_Ways.java)                | medium     |
-| 0136 | [Single Number](https://leetcode.com/problems/single-number/)                             | [java](/solution_java/0136_Single_Number.java)              | easy       |
 
 ### 5. [String](string.md)
 
@@ -138,6 +137,10 @@
 | ---- | ----------------------------------------------------------- | --------------------------------------------- | ---------- |
 | 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [java](/solution_java/0045_Jump_Game_II.java) | medium     |
 
-### [bit manipulation](bit_manipulation.md)
+### 13. [bit manipulation](bit_manipulation.md)
 
-https://leetcode.com/problems/single-number-ii/discuss/43295/Detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers
+| \#   | Title                                                               | Solution                                          | Difficulty |
+| ---- | ------------------------------------------------------------------- | ------------------------------------------------- | ---------- |
+| 0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [java](/solution_java/0191_Number_of_1_Bits.java) | easy       |
+| 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/)         | [java](/solution_java/0231_Power_of_Two.java)     | easy       |
+| 0136 | [Single Number](https://leetcode.com/problems/single-number/)       | [java](/solution_java/0136_Single_Number.java)    | easy       |
