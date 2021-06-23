@@ -74,6 +74,8 @@
 
    - [136. Single Number](https://leetcode.com/problems/single-number/):
      [java](/solution_java/0136_Single_Number.java)
+   - [268. Missing Number](https://leetcode.com/problems/missing-number/):
+     [java](/solution_java/0268_Missing_Number.java)
 
 ### lc
 
