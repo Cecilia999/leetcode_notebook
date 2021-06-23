@@ -1,3 +1,5 @@
+//TODO: 这道题应该lc想考察的是bit manipulation
+
 class Solution {
     public int singleNumber(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();

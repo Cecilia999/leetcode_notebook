@@ -137,3 +137,7 @@
 | \#   | Title                                                       | Solution                                      | Difficulty |
 | ---- | ----------------------------------------------------------- | --------------------------------------------- | ---------- |
 | 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [java](/solution_java/0045_Jump_Game_II.java) | medium     |
+
+### [bit manipulation](bit_manipulation.md)
+
+https://leetcode.com/problems/single-number-ii/discuss/43295/Detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers
