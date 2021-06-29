@@ -37,21 +37,27 @@
 - https://leetcode.com/problems/single-number-ii/discuss/43295/Detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers
 - https://books.halfrost.com/leetcode/ChapterTwo/Bit_Manipulation/
 
-### 常用思路
+### 常用总结
 
-1. n & (n-1): removes the last non-zero bit from our number
+1. n & (n-1): removes the last non-zero bit from our number 将最低位(LSB)的 1 清零
 
    example:
    1.n = 100000, then n - 1 = 011111 and n & (n-1) = 000000
    2.n = 101110, then n - 1 = 101101 and n & (n-1) = 101100
 
-2. n & 1: check the last bit is 1 or not
+2. n & = -n 得到最低位(LSB)的 1
+
+   - [260. Single Number III](https://leetcode.com/problems/single-number-iii/):
+     [java](/solution_java/0260_Single_Number_III.java)
+
+3. n & 1: check the last bit is 1 or not
+   n & 1 == 1 判断是否是奇数(偶数)用来判断奇偶，奇数的 last bit 必须是 1，反之偶数的 last bit 必须是 0
 
    example:
    1.n = 101110, then 1 = 000001 and n & 1 = 000000
    2.n = 101111, then 1 = 000001 and n & 1 = 000001
 
-3. XOR ^ 异或的特性
+4. XOR ^ 异或的特性
 
    - x ^ 0 = x  
      x ^ x = 0

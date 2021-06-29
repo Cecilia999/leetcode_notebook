@@ -9,6 +9,11 @@
 
 2. hash map 哈希表
 
+3. two pointer
+
+   - [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/):
+     [java](/solution_java/0905_Sort_Array_By_Parity.java)
+
 ### 2d array -->> matrix
 
 1. spiral matrix 螺旋矩阵

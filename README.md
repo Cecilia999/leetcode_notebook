@@ -64,6 +64,7 @@
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                             | [java](/solution_java/0054_Spiral_Matrix.java)              | medium     |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)                       | [java](/solution_java/0059_Spiral_Matrix_II.java)           | medium     |
 | 0091 | [Decode Ways](https://leetcode.com/problems/decode-ways/)                                 | [java](/solution_java/0091_Decode_Ways.java)                | medium     |
+| 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)               | [java](/solution_java/0905_Sort_Array_By_Parity.java)       | easy       |
 
 ### 5. [String](string.md)
 
@@ -113,6 +114,8 @@
 | 0160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                                                                                        | [java](/solution_java/0160_Intersection_of_Two_Linked_Lists.java)      | easy       |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                                                                                                            | [java](/solution_java/0021_Merge_Two_Sorted_Lists.java)                | easy       |
 | 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                                                                                                | [java](/solution_java/0023_Merge_k_Sorted_Lists.java)                  | hard       |
+| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                                                                                                                      | [java](/solution_java/0141_Linked_List_Cycle.java)                     | easy       |
+| 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                                      | [java](/solution_java/0876_Middle_of_the_Linked_List.java)             | easy       |
 
 ### 10. [Tree](tree.md)
 
@@ -121,6 +124,8 @@
 | 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [java](/solution_java/0094_Binary_Tree_Inorder_Traversal.java) | easy       |
 | 0095 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [java](/solution_java/0095_Unique_Binary_Search_Trees_II)      | medium     |
 | 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)       | [java](/solution_java/0096_Unique_Binary_Search_Trees.java)    | medium     |
+| 0100 | [Same Tree](https://leetcode.com/problems/same-tree/)                                         | [java](/solution_java/0100_Same_Tree.java)                     | easy       |
+| 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)             | [java](/solution_java/0572_Subtree_of_Another_Tree.java)       | easy       |
 
 ### 11. [Sort](sort.md)
 
@@ -146,3 +151,4 @@
 | 0136 | [Single Number](https://leetcode.com/problems/single-number/)             | [java](/solution_java/0136_Single_Number.java)       | easy       |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number/)           | [java](/solution_java/0268_Missing_Number.java)      | easy       |
 | 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [java](/solution_java/0389_Find_the_Difference.java) | easy       |
+| 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii/)     | [java](/solution_java/0260_Single_Number_III.java)   | medium     |

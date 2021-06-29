@@ -17,7 +17,10 @@
 ### 2. 链表寻找中间节点/链表寻找倒数第 n 个节点
 
 _只需要一次遍历就可以得到答案。_
+**!!two pointer!!**
 
+- [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/):
+  [java](/solution_java/0876_Middle_of_the_Linked_List.java)
 - [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/):  
   [java](/solution_java/0019_Remove_Nth_Node_From_End_of_List.java)
 - [链表中倒数最后 k 个结点](https://www.nowcoder.com/practice/886370fe658f41b498d40fb34ae76ff9?tpId=13&&tqId=11167&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):  
@@ -40,3 +43,10 @@ _只需要一次遍历就可以得到答案。_
   [java](/solution_java/0021_Merge_Two_Sorted_Lists.java)
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/);
   [java](/solution_java/0023_Merge_k_Sorted_Lists.java)
+
+### 5. 判断链表是否存在环，如果有环，输出环的交叉点的下标；判断 2 个链表是否有交叉点，如果有交叉点，输出交叉点。第 141 题，第 142 题，第 160 题。
+
+- [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/):
+  [java](/solution_java/0141_Linked_List_Cycle.java)
+- [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/):
+  [java](/solution_java/0160_Intersection_of_Two_Linked_Lists.java)
