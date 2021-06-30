@@ -4,13 +4,13 @@
 
 1. bitwise operators
 
-   - The bitwise **&** operator performs a bitwise **AND** operation.  
+   - The bitwise **&=** operator performs a bitwise **AND** operation.  
      a 和 b 都是 1，返回 1，否则返回 0
 
-   - The bitwise **^** operator performs a bitwise **exclusive OR** operation (also called XOR).  
+   - The bitwise **^=** operator performs a bitwise **exclusive OR** operation (also called XOR).  
      只有 a 和 b 不同，返回 1，否则返回 0
 
-   - The bitwise **|** operator performs a bitwise **inclusive OR** operation.  
+   - The bitwise **|=** operator performs a bitwise **inclusive OR** operation.  
      a 和 b 有一个是 1，返回 1，全都是 0 才返回 0
 
    ![Alt text](/images/inclusiveOR_exclusiveOR.jpg)
@@ -24,7 +24,7 @@
    - signed left shift **(<<)**
      - 把 bit 向左移并且在后面补 0
      - Non-circular shifting. 但 java 的 int type 是 circular 的 -->> Integer.MAX_VALUE+1==Integer.MIN_VALUE
-   - Arithmetic right shift (>>)
+   - Arithmetic right shift **(>>)**
      - 也叫 signed right shift，开头是 1.
      - The bit pattern is given by the left-hand operand, and the number of positions to shift by the right-hand operand.
    - Logical right shift **(>>>)**
@@ -45,6 +45,9 @@
    1.n = 100000, then n - 1 = 011111 and n & (n-1) = 000000
    2.n = 101110, then n - 1 = 101101 and n & (n-1) = 101100
 
+   - [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/):
+     [java](/solution_java/0201_Bitwise_AND_of_Numbers_Range.java)
+
 2. n & = -n 得到最低位(LSB)的 1
 
    - [260. Single Number III](https://leetcode.com/problems/single-number-iii/):
@@ -57,7 +60,14 @@
    1.n = 101110, then 1 = 000001 and n & 1 = 000000
    2.n = 101111, then 1 = 000001 and n & 1 = 000001
 
-4. XOR ^ 异或的特性
+4. n & ~n = 0 ==>> 如果 x & y = 0 说明 x 和 y 完全不相同
+
+   这个特性可以用于两个 string 比较有没有相同的字母
+
+   - [318. Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/):  
+     [java](/solution_java/0318_Maximum_Product_of_Word_Lengths.java)
+
+5. XOR ^ 异或的特性
 
    - x ^ 0 = x  
      x ^ x = 0
