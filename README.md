@@ -166,4 +166,6 @@
 
 # Math
 
-| 0050 | [ Pow(x, n)](https://leetcode.com/problems/powx-n/) | [java](/solution_java/0050_Pow(x, n).java) | medium |
+| \#   | Title                                               | Solution                                   | Difficulty |
+| ---- | --------------------------------------------------- | ------------------------------------------ | ---------- |
+| 0050 | [ Pow(x, n)](https://leetcode.com/problems/powx-n/) | [java](/solution_java/0050_Pow(x, n).java) | medium     |
