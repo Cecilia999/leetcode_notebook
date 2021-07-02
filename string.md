@@ -10,6 +10,11 @@
 - [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/):
   [java](/solution_java/0387_First_Unique_Character_in_a_String.java)
 
+3. string.IndexOf()
+
+- [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/):
+  [java](/solution_java/0014_Longest_Common_Prefix.java)
+
 ### sliding window 滑动窗口
 
 滑动窗口的基本思路：

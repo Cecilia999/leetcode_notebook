@@ -1,8 +1,13 @@
 # Dynamic Programming
 
-### 1. Number Tower
+## 1. Number Tower
 
-### 2. Fibonacci Numbers
+- [64. Minimum Path Sum 最小路径和](https://leetcode.com/problems/minimum-path-sum/):
+  [java](/solution_java/0064_Minimum_Path_Sum.java)
+- [120. Triangle 三角形最小路径和](https://leetcode.com/problems/triangle/):
+  [java](/solution_java/0120_Triangle.java)
+
+## 2. Fibonacci Numbers
 
 1. fibonacci num
 
@@ -20,14 +25,14 @@
 
 3. house robber
 
-### 3. Memory Search 记忆化搜索
+## 3. Memory Search 记忆化搜索
 
 - [139. Word Break](https://leetcode.com/problems/word-break/):
   [java](/solution_java/0139_Word_Break.java)
 - [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/):
   [java](/solution_java/0329_Longest_Increasing_Path_in_a_Matrix.java)
 
-### 4. 0/1 Knapsack (0/1 背包)
+## 4. 0/1 Knapsack (0/1 背包)
 
 - 4.1 Equal Subset Sum Partition，相等子集划分问题
 
@@ -48,7 +53,7 @@
   - [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/):
     [java](/solution_java/474_Ones_and_Zeroes.java)
 
-### 5. Unbounded Knapsack，无限背包 （repetition of items are allowed）
+## 5. Unbounded Knapsack，无限背包 （repetition of items are allowed）
 
 - 5.1 Coin Change 换硬币问题
 
@@ -57,24 +62,60 @@
   - [518. Coin Change 2](https://leetcode.com/problems/coin-change-2/):
     [java](/solution_java/0518_Coin_Change_2.java)
 
-### 6.counting dp 计数 dp
+## 6.counting dp 计数 dp
 
 计算有多少种方式/多少种可能
 
-#### 6.1 string 的 计数 dp
+### 6.1 string 的 计数 dp
 
 - [91. Decode Ways](https://leetcode.com/problems/decode-ways/)：
   [java](/solution_java/0091_Decode_Ways.java)
 
-### 9. Optimal Solution，最优解问题
+### 6.2 二维 array 的计数 dp
 
-#### 9.1 数组
+- [62. Unique Paths](https://leetcode.com/problems/unique-paths/):
+  [java](/solution_java/0062_Unique_Paths.java)
+- [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/):
+  [java](/solution_java/0063_Unique_Paths_II.java)
+
+## 7. Optimal Solution，最优解问题
+
+### 7.1 数组
 
 - [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/):
   [java](/solution_java/0053_Maximum_Subarray.java)
   **这道题等同于**
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/):
   [java](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock)
+
+## 8. Subsequence/Substring，子序列/子字符串
+
+### 8.1. Longest Subsequence/Substring(Subarray)，最长子序列/子字符串
+
+**注意：**
+
+- **Subsequence 是可以不连续的子串**
+- **Substring(Subarray)必须是连续的子串**
+
+  > 假设有 S1 = “abcdeffg” S2 = "abcfg"
+  > 子串：“abc”
+  > 子序列：“abcfg”
+
+1. Longest Common Substring/Subarray，最长公共子串
+
+   - [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/):
+     [java](/solution_java/0718_Maximum_Length_of_Repeated_Subarray.java)
+
+2. Longest Common Subsequence，最长公共子序列
+
+3. Longest Increasing Subsequence，最长上升子序列
+
+   - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/):
+     [java](/solution_java/0300_Longest_Increasing_Subsequence.java)
+   - [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/):
+     [java](/solution_java/0673_Number_of_Longest_Increasing_Subsequence.java)
+   - [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/):
+     [java](/solution_java/0674_Longest_Continuous_Increasing_Subsequence.java)
 
 ### 参考：
 
