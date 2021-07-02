@@ -78,7 +78,7 @@
 - [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/):
   [java](/solution_java/0063_Unique_Paths_II.java)
 
-## 7. Optimal Solution，最优解问题
+## 7. Optimal Solution，最优解问题 (最大值/最小值/最大利润/最小 cost/etc)
 
 ### 7.1 数组
 
@@ -87,6 +87,8 @@
   **这道题等同于**
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/):
   [java](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock)
+- [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/):
+  [java](/solution_java/0152_Maximum_Product_Subarray.java)
 
 ## 8. Subsequence/Substring，子序列/子字符串
 
