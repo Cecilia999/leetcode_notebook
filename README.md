@@ -50,8 +50,12 @@
 | JZ10 | [矩形覆盖](https://www.nowcoder.com/practice/72a5a919508a4251859fb2cfb987a0e6?tpId=13&&tqId=11163&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/矩形覆盖.md)                                                | easy       |
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                                                                             | [java](/solution_java/0300_Longest_Increasing_Subsequence.java)            | medium     |
 | 0673 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)                                                         | [java](/solution_java/0673_Number_of_Longest_Increasing_Subsequence.java)  | medium     |
+| 0368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)                                                                                         | [java](/solution_java/0368_Largest_Divisible_Subset.java)                  | medium     |
 | 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)                                                       | [java](/solution_java/0674_Longest_Continuous_Increasing_Subsequence.java) | easy       |
 | 0718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)                                                                   | [java](/solution_java/0718_Maximum_Length_of_Repeated_Subarray.java)       | medium     |
+| 0198 | [House Robber](https://leetcode.com/problems/house-robber/)                                                                                                                 | [java](/solution_java/0198_House_Robber.java)                              | medium     |
+| 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                                                                                                           | [java](/solution_java/0213_House_Robber_II.java)                           | medium     |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                                     | [java](/solution_java/1143_Longest_Common_Subsequence.java)                | medium     |
 
 ### 3. [Two Pointer](two_pointer.md)
 

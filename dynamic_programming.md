@@ -25,6 +25,11 @@
 
 3. house robber
 
+- [198. House Robber](https://leetcode.com/problems/house-robber/):
+  [java](/solution_java/0198_House_Robber.java)
+- [213. House Robber II](https://leetcode.com/problems/house-robber-ii/):
+  [java](/solution_java/0213_House_Robber_II.java)
+
 ## 3. Memory Search 记忆化搜索
 
 - [139. Word Break](https://leetcode.com/problems/word-break/):
@@ -110,6 +115,9 @@
 
 2. Longest Common Subsequence，最长公共子序列
 
+   - [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/):
+     [java](/solution_java/1143_Longest_Common_Subsequence.java)
+
 3. Longest Increasing Subsequence，最长上升子序列
 
    - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/):
@@ -118,6 +126,8 @@
      [java](/solution_java/0673_Number_of_Longest_Increasing_Subsequence.java)
    - [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/):
      [java](/solution_java/0674_Longest_Continuous_Increasing_Subsequence.java)
+   - [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/):
+     [java](/solution_java/0368_Largest_Divisible_Subset.java)
 
 ### 参考：
 
