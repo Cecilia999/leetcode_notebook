@@ -132,15 +132,20 @@
 
 ### 10. [Tree](tree.md)
 
-| \#   | Title                                                                                         | Solution                                                       | Difficulty |
-| ---- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ---------- |
-| 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [java](/solution_java/0094_Binary_Tree_Inorder_Traversal.java) | easy       |
-| 0095 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [java](/solution_java/0095_Unique_Binary_Search_Trees_II)      | medium     |
-| 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)       | [java](/solution_java/0096_Unique_Binary_Search_Trees.java)    | medium     |
-| 0100 | [Same Tree](https://leetcode.com/problems/same-tree/)                                         | [java](/solution_java/0100_Same_Tree.java)                     | easy       |
-| 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)             | [java](/solution_java/0572_Subtree_of_Another_Tree.java)       | easy       |
-| 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)     | [java](/solution_java/0098_Validate_Binary_Search_Tree.java)   | medium     |
-| 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [java](/solution_java/0230_Kth_Smallest_Element_in_a_BST.java) | medium     |
+| \#   | Title                                                                                                                                                   | Solution                                                                                    | Difficulty |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---------- |
+| 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                           | [java](/solution_java/0094_Binary_Tree_Inorder_Traversal.java)                              | easy       |
+| 0095 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)                                                           | [java](/solution_java/0095_Unique_Binary_Search_Trees_II)                                   | medium     |
+| 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)                                                                 | [java](/solution_java/0096_Unique_Binary_Search_Trees.java)                                 | medium     |
+| 0100 | [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                                   | [java](/solution_java/0100_Same_Tree.java)                                                  | easy       |
+| 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)                                                                       | [java](/solution_java/0572_Subtree_of_Another_Tree.java)                                    | easy       |
+| 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                                               | [java](/solution_java/0098_Validate_Binary_Search_Tree.java)                                | medium     |
+| 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)                                                           | [java](/solution_java/0230_Kth_Smallest_Element_in_a_BST.java)                              | medium     |
+| 0099 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)                                                                 | [java](/solution_java/0099_Recover_Binary_Search_Tree.java)                                 | medium     |
+| 0105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)   | [java](/solution_java/0105_Construct_Binary_Tree_from_and_Inorder_Traversal.java)           | medium     |
+| 0106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [java](/solution_java/0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java) | medium     |
+| 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)                                                   | [java](/solution_java/0102_Binary_Tree_Level_Order_Traversal.java)                          | medium     |
+| 0103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)                                     | [java](/solution_java/0103_Binary_Tree_Zigzag_Level_Order_Traversal.java)                   | medium     |
 
 ### 11. [Sort](sort.md)
 
