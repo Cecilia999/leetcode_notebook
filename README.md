@@ -139,6 +139,8 @@
 | 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)       | [java](/solution_java/0096_Unique_Binary_Search_Trees.java)    | medium     |
 | 0100 | [Same Tree](https://leetcode.com/problems/same-tree/)                                         | [java](/solution_java/0100_Same_Tree.java)                     | easy       |
 | 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)             | [java](/solution_java/0572_Subtree_of_Another_Tree.java)       | easy       |
+| 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)     | [java](/solution_java/0098_Validate_Binary_Search_Tree.java)   | medium     |
+| 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [java](/solution_java/0230_Kth_Smallest_Element_in_a_BST.java) | medium     |
 
 ### 11. [Sort](sort.md)
 

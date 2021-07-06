@@ -13,6 +13,32 @@
  *     }
  * }
  */
+
+ //方法1 inorder traversal for bst using stack
+ class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<Integer>();
+        
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        TreeNode pre = null;
+        
+        while(root!=null || !stack.isEmpty()){
+            while(root!=null){
+                stack.push(root);
+                root = root.left;
+            }
+            
+            root = stack.pop();
+            list.add(root.val);
+            root = root.right;
+        }
+        
+        
+        return list;
+    }
+}
+
+//方法2 using recursion
 class Solution {
   public List<Integer> inorderTraversal(TreeNode root) {
       List<Integer> list = new ArrayList<Integer>();
