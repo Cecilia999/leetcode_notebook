@@ -177,10 +177,13 @@
 
 ### 14. [Stack](stack.md)
 
-| \#   | Title                                                                                                                                                                               | Solution                                                      | Difficulty |
-| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ---------- |
-| 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/powx-n/)                                                                                                               | [java](/solution_java/0232_Implement_Queue_using_Stacks.java) | easy       |
-| jz5  | [用两个栈实现队列](https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?tpId=13&&tqId=11158&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ5_用两个栈实现队列.java)                     | 简单       |
+| \#   | Title                                                                                                                                                                               | Solution                                                          | Difficulty |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------- |
+| 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/powx-n/)                                                                                                               | [java](/solution_java/0232_Implement_Queue_using_Stacks.java)     | easy       |
+| jz5  | [用两个栈实现队列](https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?tpId=13&&tqId=11158&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ5_用两个栈实现队列.java)                         | 简单       |
+| 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                                                                               | [java](/solution_java/0020_Valid_Parentheses.java)                | easy       |
+| 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                                                                                 | [java](/solution_java/0150_Evaluate_Reverse_Polish_Notation.java) | medium     |
+| 0155 | [Min Stack](https://leetcode.com/problems/min-stack/)                                                                                                                               | [java](/solution_java/0155_Min_Stack.java)                        | easy       |
 
 ### Math
 
