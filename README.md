@@ -175,7 +175,14 @@
 | 0201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)       | [java](/solution_java/0201_Bitwise_AND_of_Numbers_Range.java)    | medium     |
 | 0318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [java](/solution_java/0318_Maximum_Product_of_Word_Lengths.java) | medium     |
 
-# Math
+### 14. [Stack](stack.md)
+
+| \#   | Title                                                                                                                                                                               | Solution                                                      | Difficulty |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ---------- |
+| 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/powx-n/)                                                                                                               | [java](/solution_java/0232_Implement_Queue_using_Stacks.java) | easy       |
+| jz5  | [用两个栈实现队列](https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?tpId=13&&tqId=11158&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ5_用两个栈实现队列.java)                     | 简单       |
+
+### Math
 
 | \#   | Title                                              | Solution                                 | Difficulty |
 | ---- | -------------------------------------------------- | ---------------------------------------- | ---------- |
