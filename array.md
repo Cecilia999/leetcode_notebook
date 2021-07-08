@@ -21,8 +21,8 @@
 3. two pointer
 
    - [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/):
-     [java](/solution_java/0905_Sort_Array_By_Parity.java)
-     **如果要维持顺序的话就直接创建一个新的 array 判断奇偶再放入数组**
+     [java](/solution_java/0905_Sort_Array_By_Parity.java)  
+     **如果要维持顺序的话就直接创建一个新的 array 判断奇偶再放入数组**  
      [调整数组顺序使奇数位于偶数前面](https://www.nowcoder.com/practice/ef1f53ef31ca408cada5093c8780f44b?tpId=13&&tqId=11166&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
      [java](/牛客网/JZ13_调整数组顺序使奇数位于偶数前面.java)
 
