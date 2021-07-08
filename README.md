@@ -1,6 +1,6 @@
 # leetcode_notebook
 
-### 【big o cheatsheet](bigo_cheatsheet.md)
+### [big o cheatsheet](bigo_cheatsheet.md)
 
 ### 1. [Backtracking](backtracking.md)
 
