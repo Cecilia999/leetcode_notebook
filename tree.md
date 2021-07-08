@@ -7,6 +7,11 @@
 - [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/):  
   [java](/solution_java/0572_Subtree_of_Another_Tree.java)
 
+  递归遍历来计算一个 binary tree 的层数
+
+- [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/):
+  [java](/solution_java/0104_Maximum_Depth_of_Binary_Tree.java)
+
 ## inorder travaersal (中根遍历)
 
 主要的思路就是 maintain pre node, 比较 pre.val 和 root.val
@@ -15,7 +20,7 @@
 
 逻辑是先 iterative 到 left subtree 中最左的那个 node，然后由 left->root->right inorder 的顺序对 BST 进行遍历
 
-    ```
+    ```java
     public <T> isValidBST(TreeNode root) {
     if (root == null) return true;
     Stack<TreeNode> stack = new Stack<>();
@@ -59,6 +64,8 @@
   [java](/solution_java/0102_Binary_Tree_Level_Order_Traversal.java)
 - [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/):
   [java](/solution_java/0103_Binary_Tree_Zigzag_Level_Order_Traversal.java)
+
+计算二叉树层数看 [104 题](/solution_java/0104_Maximum_Depth_of_Binary_Tree.java)
 
 ## 给出 preorder/inorder/postorder 中的两种，construct binary tree 构造二叉树
 
