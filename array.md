@@ -7,7 +7,16 @@
    - [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/): 判断 jump 到 last index 所需的最小 jump 次数是多少，greedy algorithm  
      [ java](/solution_java/0045_Jump_Game_II.java)
 
-2. hash map 哈希表
+2. hash table (hashmap + hashset)
+
+   - [1. Two Sum](https://leetcode.com/problems/two-sum/):
+     [java](/solution_java/001_Two_Sum.java)
+   - [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/):
+     [java](/solution_java/0128_Longest_Consecutive_Sequence.java)
+   - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/):
+     [java](/solution_java/0217_Contains_Duplicate.java)
+   - [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/):
+     [java](/solution_java/0219_Contains_Duplicate_II.java)
 
 3. two pointer
 
