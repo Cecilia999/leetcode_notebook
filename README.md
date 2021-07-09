@@ -191,6 +191,7 @@
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                                                                               | [java](/solution_java/0020_Valid_Parentheses.java)                | easy       |
 | 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                                                                                 | [java](/solution_java/0150_Evaluate_Reverse_Polish_Notation.java) | medium     |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/)                                                                                                                               | [java](/solution_java/0155_Min_Stack.java)                        | easy       |
+| 0946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)                                                                                                 | [java](/solution_java/0946_Validate_Stack_Sequences.java)         | medium     |
 
 ### Math
 

@@ -7,7 +7,7 @@
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/):
   [java](/solution_java/0020_Valid_Parentheses.java)
 
-### 栈的基本 pop 和 push 操作。
+### 栈的基本 pop 和 push 等操作。
 
 第 71 题，第 150 题，第 155 题，第 224 题，第 225 题，第 232 题，第 946 题，第 1047 题。
 
@@ -23,6 +23,8 @@
 
 - [155. Min Stack](https://leetcode.com/problems/min-stack/):
   [java](/solution_java/0155_Min_Stack.java)
+- [946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/):
+  [java](/solution_java/0946_Validate_Stack_Sequences.java)
 
 ### 利用栈进行编码问题。
 
