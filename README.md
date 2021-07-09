@@ -146,6 +146,7 @@
 | 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)                                                   | [java](/solution_java/0102_Binary_Tree_Level_Order_Traversal.java)                          | medium     |
 | 0103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)                                     | [java](/solution_java/0103_Binary_Tree_Zigzag_Level_Order_Traversal.java)                   | medium     |
 | 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                                                             | [java](/solution_java/0104_Maximum_Depth_of_Binary_Tree.java)                               | easy       |
+| 0112 | [Path Sum](https://leetcode.com/problems/path-sum/)                                                                                                     | [java](/solution_java/0112_Path_Sum.java)                                                   | easy       |
 
 ### 11. [Sort](sort.md)
 

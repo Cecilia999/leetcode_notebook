@@ -6,9 +6,11 @@
   [java](/solution_java/0100_Same_Tree.java)
 - [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/):  
   [java](/solution_java/0572_Subtree_of_Another_Tree.java)  
-  一样的题  
+  **一样的题**  
   [JZ17. 树的子结构](https://www.nowcoder.com/practice/6e196c44c7004d15b1610b9afca8bd88?tpId=13&&tqId=11170&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):  
   [java](/牛客网/JZ17_树的子结构.java)
+- [112. Path Sum](https://leetcode.com/problems/path-sum/):
+  [java](/solution_java/0112_Path_Sum.java)
 
   递归遍历来计算一个 binary tree 的层数
 
