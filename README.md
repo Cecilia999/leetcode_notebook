@@ -128,6 +128,7 @@
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                                                                                                                      | [java](/solution_java/0141_Linked_List_Cycle.java)                     | easy       |
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                                                                                                                | [java](/solution_java/0142_Linked_List_Cycle_II.java)                  | medium     |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                                      | [java](/solution_java/0876_Middle_of_the_Linked_List.java)             | easy       |
+| 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                                                              | [java](/solution_java/0138_Copy_List_with_Random_Pointer.md)           | medium     |
 
 ### 10. [Tree](tree.md)
 

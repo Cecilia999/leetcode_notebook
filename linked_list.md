@@ -52,3 +52,8 @@ _只需要一次遍历就可以得到答案。_
   [java](/solution_java/0142_Linked_List_Cycle_II.java)
 - [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/):
   [java](/solution_java/0160_Intersection_of_Two_Linked_Lists.java)
+
+### 6. hard copy 一个 linked list with random pointer
+
+- [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/):
+  [java](/solution_java/0138_Copy_List_with_Random_Pointer.md)
