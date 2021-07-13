@@ -7,6 +7,8 @@
 
 // 解题思路 #
 // inorder iterative traversal for BST using stack
+// 判断是不是 validate bst using inorder traversal 主要的思路就是 maintain pre node, 比较 pre.val 和 root.val
+// 因为inorder traversal正好是按照从小到大的顺序
 
 /**
  * Definition for a binary tree node.

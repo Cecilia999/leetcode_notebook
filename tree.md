@@ -12,54 +12,121 @@
 - [112. Path Sum](https://leetcode.com/problems/path-sum/):
   [java](/solution_java/0112_Path_Sum.java)
 
-  递归遍历来计算一个 binary tree 的层数
+  **递归遍历来计算一个 binary tree 的层数**
 
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/):
   [java](/solution_java/0104_Maximum_Depth_of_Binary_Tree.java)
 
-## inorder travaersal (中根遍历)
+  与树的镜像有关的一些递归
 
-主要的思路就是 maintain pre node, 比较 pre.val 和 root.val
+- [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/):
+  [java](/solution_java/0101_Symmetric_Tree.java)
+- [JZ18. 二叉树的镜像](https://www.nowcoder.com/practice/a9d0ecbacef9410ca97463e4a5c83be7?tpId=13&&tqId=11171&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
+  [java](/solution_java/JZ18_二叉树的镜像.java)
 
-### 1. iterative 模版 using stack
+## 前根 / 中根 / 后根 遍历
+
+![alt text](./images/前序中序后序traversal.jpg)
+
+### 1. preorder traversal (前序遍历)
+
+### 1.1 preorder traversal using stack
+
+逻辑是 traversal 到最左的根->左 leaf->右子树
+
+```java
+public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        if(root==null) return list;
+
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+
+        while(!stack.isEmpty()){
+            TreeNode curr = stack.pop();
+            list.add(curr.val);
+
+            if(curr.right!=null)
+                stack.push(curr.right);
+            if(curr.left!=null)
+                stack.push(curr.left);
+        }
+
+        return list;
+    }
+```
+
+- [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/):
+  [java](/solution_java/0144_Binary_Tree_Preorder_Traversal.java)
+
+### 2. inorder travaersal (中根遍历)
+
+### 2.1 iterative 模版 using stack
 
 逻辑是先 iterative 到 left subtree 中最左的那个 node，然后由 left->root->right inorder 的顺序对 BST 进行遍历
 
-    ```java
-    public <T> isValidBST(TreeNode root) {
-    if (root == null) return true;
-    Stack<TreeNode> stack = new Stack<>();
+```java
+public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<Integer>();
+        Stack<TreeNode> stack = new Stack<TreeNode>();
 
-    TreeNode pre = null;
-    while (root != null || !stack.isEmpty()) {
-        while (root != null) {
-            stack.push(root);
-            root = root.left;
+        while(root!=null || !stack.isEmpty()){
+            while(root!=null){
+                stack.push(root);
+                root = root.left;
+            }
+
+            root = stack.pop();
+            list.add(root.val); //add after all left children
+            root = root.right;
         }
-        root = stack.pop();
-        /*
 
-            一些判断条件
-
-        */
-        pre = root;
-        root = root.right;
+       return list;
     }
-    return ;
-    }
-    ```
+```
 
 - [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/):
   [java](/solution_java/0098_Validate_Binary_Search_Tree.java)
 - [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/):
   [java](/solution_java/0230_Kth_Smallest_Element_in_a_BST.java)
-- [98. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/):
+- [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/):
   [java](/solution_java/0094_Binary_Tree_Inorder_Traversal.java)
 
-### 2. recursion
+### 2.2 recursion
 
 - [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/):
   [java](/solution_java/0099_Recover_Binary_Search_Tree.java)
+
+### 3. postorder traversal (后序遍历)
+
+### 3.1 postorder traversal using stack
+
+逻辑是把 preorder 反过来
+
+```java
+public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        if(root == null) return list;
+
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+
+        while(!stack.isEmpty()){
+            TreeNode curr = stack.pop();
+            list.add(0,curr.val);
+
+            if(curr.left!=null)
+                stack.push(curr.left);
+            if(curr.right!=null)
+                stack.push(curr.right);
+        }
+
+        return list;
+}
+```
+
+- [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/):
+  [java](/solution_java/0145_Binary_Tree_Postorder_Traversal.java)
 
 ## level traversal 层层遍历
 
