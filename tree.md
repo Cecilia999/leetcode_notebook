@@ -145,4 +145,17 @@ public List<Integer> postorderTraversal(TreeNode root) {
   [java](/solution_java/0105_Construct_Binary_Tree_from_and_Inorder_Traversal.java)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [java](/solution_java/0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java)
 
+## convert ... to BST vs convert BST to ...
+
+### covert ... to BST using Binary Search
+
+- [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/):
+  [java](/solution_java/0108_Convert_Sorted_Array_to_Binary_Search_Tree.java)
+- [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/):
+  [java](/solution_java/0109_Convert_Sorted_List_to_Binary_Search_Tree.java)
+
+### convert BST to ...
+
+- [jz26. 二叉搜索树与双向链表](https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5?tpId=13&tqId=11179&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ26_二叉搜索树与双向链表.java)
+
 ## dfs
