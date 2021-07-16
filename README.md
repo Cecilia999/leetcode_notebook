@@ -1,6 +1,7 @@
 # leetcode_notebook
 
 - ### [big o cheatsheet](bigo_cheatsheet.md)
+- ### [常用数据结构和常用函数](data_structure.md)
 
 ### 1. [Backtracking](backtracking.md)
 
@@ -155,6 +156,7 @@
 | 0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)                                                                        | [java](/solution_java/0108_Convert_Sorted_Array_to_Binary_Search_Tree.java)                 | easy       |
 | 0109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)                                                                          | [java](/solution_java/0109_Convert_Sorted_List_to_Binary_Search_Tree.java)                  | medium     |
 | JZ26 | [二叉搜索树与双向链表](https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5?tpId=13&tqId=11179&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ26_二叉搜索树与双向链表.java)                                              | 中等       |
+| 0297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)                                                                                  | [java](/solution_java/0297_Serialize_and_Deserialize_Binary_Tree.java)                      | hard       |
 
 ### 11. [Sort](sort.md)
 

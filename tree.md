@@ -17,7 +17,7 @@
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/):
   [java](/solution_java/0104_Maximum_Depth_of_Binary_Tree.java)
 
-  与树的镜像有关的一些递归
+  **与树的镜像有关的一些递归:**
 
 - [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/):
   [java](/solution_java/0101_Symmetric_Tree.java)
@@ -157,5 +157,12 @@ public List<Integer> postorderTraversal(TreeNode root) {
 ### convert BST to ...
 
 - [jz26. 二叉搜索树与双向链表](https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5?tpId=13&tqId=11179&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ26_二叉搜索树与双向链表.java)
+
+## Serialize/Deserialize
+
+using preorder + recursion
+
+- [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/):
+  [java](/solution_java/0297_Serialize_and_Deserialize_Binary_Tree.java)
 
 ## dfs
