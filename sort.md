@@ -12,7 +12,7 @@
 快速排序采用分治+递归，每次将一个位置上的数据归位，此时该数左边的所有数据都比该数小，右边所有的数据都比该数大，然后递归将已归位的数据左右两边再次进行快排，从而实现所有数据的归位。  
 **完全倒序的情况下是最慢的 O(n^2)**
 
-1. find kth largest/ kth smallest
+#### 1. find kth largest/ kth smallest
 
 - [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/):  
   [java](/solution_java/0215_Kth_Largest_Element_in_an_Array.java)
@@ -25,6 +25,7 @@
 归并排序（MERGE-SORT）是利用归并的思想实现的排序方法，该算法采用经典的分治（divide-and-conquer）策略（分治法将问题分(divide)成一些小的问题然后递归求解，而治(conquer)的阶段则将分的阶段得到的各答案"修补"在一起，即分而治之)。
 
 ![alt text](/images/merge_sort1.jpg)
+![alt text](/images/merge_sort2.jpg)
 
 可以看到这种结构很像一棵完全二叉树，本文的归并排序我们采用递归去实现（也可采用迭代的方式去实现）。  
 分阶段可以理解为就是递归拆分子序列的过程，递归深度为 log2n。
@@ -90,6 +91,8 @@ public class mergeSort {
 }
 ```
 
+归并排序是稳定排序，它也是一种十分高效的排序，能利用完全二叉树特性的排序一般性能都不会太差。java 中 Arrays.sort()采用了一种名为 TimSort 的排序算法，就是归并排序的优化版本。从上文的图中可看出，每次合并操作的平均时间复杂度为 O(n)，而完全二叉树的深度为|log2n|。总的平均时间复杂度为 O(nlogn)。而且，归并排序的最好，最坏，平均时间复杂度均为 O(nlogn)。
+
 ### 3. Time Sort
 
 Arrays.sort()就是使用的 time sort
@@ -109,3 +112,4 @@ override array.sort()
 
 - 快速排序：https://www.cnblogs.com/anthonyhoo/p/12259543.html
 - 几种排序算法的总结与比较：https://www.jianshu.com/p/7df9d6206e72
+- 归并排序：https://www.cnblogs.com/chengxiao/p/6194356.html
