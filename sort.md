@@ -1,7 +1,7 @@
 # Sort
 
-![Alt text](/images/排序bigo.jpg)
 ![Alt text](/images/排序分类.jpg)
+![Alt text](/images/sort_algorithm_cheatsheet.jpg)
 
 - 冒泡排序：是相邻两个数比较然后如果 arr[j-1]>arr[j]就把 arr[j-1]往后移
 - 选择排序：是把对比整个 array 把最小的放在最前面，然后对比整个 array 把第二小的放在第二的位置
@@ -20,7 +20,81 @@
 - [最小的 K 个数](https://books.halfrost.com/leetcode/ChapterFour/0200~0299/0215.Kth-Largest-Element-in-an-Array/)  
   [java](/牛客网/最小的K个数.java)
 
-2. 把 int array concat 成最大的数/最小的数
+### 2. Merge Sort 归并排序
+
+归并排序（MERGE-SORT）是利用归并的思想实现的排序方法，该算法采用经典的分治（divide-and-conquer）策略（分治法将问题分(divide)成一些小的问题然后递归求解，而治(conquer)的阶段则将分的阶段得到的各答案"修补"在一起，即分而治之)。
+
+![alt text](/images/merge_sort1.jpg)
+
+可以看到这种结构很像一棵完全二叉树，本文的归并排序我们采用递归去实现（也可采用迭代的方式去实现）。  
+分阶段可以理解为就是递归拆分子序列的过程，递归深度为 log2n。
+治阶段，我们需要将两个已经有序的子序列合并成一个有序序列，比如上图中的最后一次合并，要将[4,5,7,8]和[1,2,3,6]两个已经有序的子序列，合并为最终序列[1,2,3,4,5,6,7,8], 需要用到辅助空间，辅助空间的 bigo 为 O(n)
+
+```java
+public class mergeSort {
+    public static void main(String[] args){
+//        Scanner sc = new Scanner(System.in);
+//        String input = sc.nextLine();
+        int[] arr = new int[]{9,8,7,6,5,4,3,2,1};
+        sort(arr);
+        for(int i=0; i<arr.length; i++){
+            System.out.println(arr[i]);
+        }
+    }
+
+    public static void sort(int[] arr){
+        //在排序前，先建好一个长度等于原数组长度的临时数组，避免递归中频繁开辟空间
+        int[] temp = new int[arr.length];
+        sort(arr, 0, arr.length-1, temp);
+    }
+
+    //递归
+    public static void sort(int[] arr, int left, int right, int[] temp){
+        if(left<right){ //left>=right的时候停止sort，即最小分治单位是两个数字
+            int mid = left + (right - left)/2;
+
+            sort(arr, left, mid, temp); //左边归并排序，使得左子序列有序
+            sort(arr, mid+1, right, temp); //右边归并排序，使得右子序列有序
+
+            merge(arr, left, mid, right, temp); //将两个有序子数组合并操作
+        }
+    }
+
+    //merge的逻辑是把left-mid 和mid+1-right两个部分，先比较大小，再按顺序放入temp，最后copy到arr
+    public static void merge(int[] arr, int left, int mid, int right, int[] temp){
+
+        int i=left, j=mid+1, k=0;
+        while(i<=mid && j<=right){
+            if(arr[i] <= arr[j]){
+                temp[k++] = arr[i++];
+            }
+            else{
+                temp[k++] = arr[j++];
+            }
+        }
+
+        while(i<=mid){//将左边剩余元素填充进temp中
+            temp[k++] = arr[i++];
+        }
+        while(j<=right){//将右序列剩余元素填充进temp中
+            temp[k++] = arr[j++];
+        }
+
+        //将temp中的元素全部拷贝到原数组中
+        //注意！！这里只copy left-right这一小段，不是copy整个arr！！！
+        k=0;
+        while(left<=right){
+            arr[left++] = temp[k++];
+        }
+    }
+}
+```
+
+### 3. Time Sort
+
+Arrays.sort()就是使用的 time sort
+
+1. 把 int array concat 成最大的数/最小的数
 
 **solution:**
 int array convert to string array

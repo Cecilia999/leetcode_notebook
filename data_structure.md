@@ -1,5 +1,20 @@
 # 常用数据结构
 
+## Scanner
+
+```java
+java.util.Scanner
+
+Scanner sc = new Scanner(System.in);
+
+int i = sc.nextInt(); //只读取数值，读取完后\n没有读取并且光标放在本行
+sc.nextDouble()//的用法同理nextInt()，注意：nextInt无法读取小数，否则会报错。
+//同理nextByte()nextFloat(),nextLong(),nextShot()，当某个方法读取的数字超过自身范围，则会报错。
+sc.nextLine() //可以扫描到一行内容(当前行，光标所在行的内容，包括空格、回车)并作为一个字符串而被获取到。
+sc.hasNextLine() //如果在此扫描器的输入中存在另一行，则返回 true。
+sc.hasNext() //判断扫描器中当前扫描位置后是否还存在下一段
+```
+
 ## String
 
 ```java
@@ -62,7 +77,7 @@ list.add(0);
 list.add(0, 1);
 list.get(0);
 list.size();
-list.remove(list.size() ‐ 1);
+list.remove(list.size() ‐ 1); //input is the position of the index to remove
 Arrays.asList(1, 2, 3) // return [1, 2, 3]
 Collections.sort(list);
 Collections.sort(list, Collections.reverseOrder());

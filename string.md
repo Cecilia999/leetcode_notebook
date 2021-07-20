@@ -5,10 +5,12 @@
 - [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/):  
   [java](/solution_java/0151_Reverse_Words_in_a_String.java)
 
-2. hash map
+2. hash map/table vs Queue/Deque
 
 - [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/):
   [java](/solution_java/0387_First_Unique_Character_in_a_String.java)
+- [字符流中第一个不重复的字符](https://www.nowcoder.com/practice/00de97733b8e4f97a3fb5c680ee10720?tpId=13&&tqId=11207&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
+  [java](/牛客网/JZ54_字符流中第一个不重复的字符.java)
 
 3. string.IndexOf()
 
