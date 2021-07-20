@@ -97,6 +97,8 @@ public class mergeSort {
 
 - [数组中的逆序对](https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?tpId=13&&tqId=11188&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/牛客网/JZ35_数组中的逆序对.java)
+- [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/):
+  [java](/solution_java/0493_Reverse_Pairs.java)
 
 ### 3. Time Sort
 
