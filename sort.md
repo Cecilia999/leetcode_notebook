@@ -12,7 +12,7 @@
 快速排序采用分治+递归，每次将一个位置上的数据归位，此时该数左边的所有数据都比该数小，右边所有的数据都比该数大，然后递归将已归位的数据左右两边再次进行快排，从而实现所有数据的归位。  
 **完全倒序的情况下是最慢的 O(n^2)**
 
-#### 1. find kth largest/ kth smallest
+#### 1.1 find kth largest/ kth smallest
 
 - [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/):  
   [java](/solution_java/0215_Kth_Largest_Element_in_an_Array.java)
@@ -93,11 +93,16 @@ public class mergeSort {
 
 归并排序是稳定排序，它也是一种十分高效的排序，能利用完全二叉树特性的排序一般性能都不会太差。java 中 Arrays.sort()采用了一种名为 TimSort 的排序算法，就是归并排序的优化版本。从上文的图中可看出，每次合并操作的平均时间复杂度为 O(n)，而完全二叉树的深度为|log2n|。总的平均时间复杂度为 O(nlogn)。而且，归并排序的最好，最坏，平均时间复杂度均为 O(nlogn)。
 
+#### 2.1 reverse pairs 逆序对
+
+- [数组中的逆序对](https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?tpId=13&&tqId=11188&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
+  [java](/牛客网/JZ35_数组中的逆序对.java)
+
 ### 3. Time Sort
 
 Arrays.sort()就是使用的 time sort
 
-1. 把 int array concat 成最大的数/最小的数
+#### 3.1 把 int array concat 成最大的数/最小的数
 
 **solution:**
 int array convert to string array

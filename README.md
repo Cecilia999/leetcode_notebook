@@ -167,6 +167,7 @@
 | jz29 | [最小的 K 个数](https://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf?tpId=13&&tqId=11182&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)      | [java](/牛客网/最小的K个数.java)                                 | 中等       |
 | 0179 | [Largest Number](https://leetcode.com/problems/largest-number/)                                                                                                                       | [java](/solution_java/0179_Largest_Number.java)                  | medium     |
 | jz32 | [把数组排成最小的数](https://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?tpId=13&&tqId=11185&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/把数组排成最小的数.java)                          | 较难       |
+| jz35 | [数组中的逆序对](https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?tpId=13&&tqId=11188&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)     | [java](/牛客网/JZ35_数组中的逆序对.java)                         | 中等       |
 
 ### 12. [Greedy](greedy.md)
 
