@@ -200,6 +200,7 @@
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/)                                                                                                                               | [java](/solution_java/0155_Min_Stack.java)                        | easy       |
 | 0946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)                                                                                                 | [java](/solution_java/0946_Validate_Stack_Sequences.java)         | medium     |
 | 0295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)                                                                                         | [java](/solution_java/0295_Find_Median_Data_Stream.java)          | hard       |
+| jz63 | [数据流中的中位数](https://www.nowcoder.com/practice/9be0172896bd43948f8a32fb954e1be1?tpId=13&&tqId=11216&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ63_数据流中的中位数.java)                        | 中等       |
 
 ### Math
 
