@@ -189,7 +189,7 @@
 | 0201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)       | [java](/solution_java/0201_Bitwise_AND_of_Numbers_Range.java)    | medium     |
 | 0318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [java](/solution_java/0318_Maximum_Product_of_Word_Lengths.java) | medium     |
 
-### 14. [Stack](stack.md)
+### 14. [Stack/Queue/Deque/Priority Que](栈与堆.md)
 
 | \#   | Title                                                                                                                                                                               | Solution                                                          | Difficulty |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------- |
@@ -199,6 +199,7 @@
 | 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                                                                                 | [java](/solution_java/0150_Evaluate_Reverse_Polish_Notation.java) | medium     |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/)                                                                                                                               | [java](/solution_java/0155_Min_Stack.java)                        | easy       |
 | 0946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)                                                                                                 | [java](/solution_java/0946_Validate_Stack_Sequences.java)         | medium     |
+| 0295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)                                                                                         | [java](/solution_java/0295_Find_Median_Data_Stream.java)          | hard       |
 
 ### Math
 

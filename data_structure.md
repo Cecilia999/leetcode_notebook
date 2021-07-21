@@ -201,11 +201,33 @@ set.size();
 ## PriorityQueue
 
 ```java
-pq.add(0);
-pq.remove();
-pq.peek();
+// min heap小顶堆
+PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+// max heap大顶堆
+PriorityQueue<Integer> pq = new PriorityQueue<Integer>(Collections.reverseOrder());
+
+pq.offer(0);
+pq.poll();
+pq.peek(); //返回第一个element
 pq.isEmpty();
 pq.size();
 while (!pq.isEmpty()) {
 }
 ```
+
+Priority Queue 是通过完全二叉树（complete binary tree）实现的小顶堆（任意一个非叶子节点的权值，都不大于其左右子节点的权值，也可以通过数组来作为 PriorityQueue 的底层实现)，是自动排序的。
+
+可以通过传入自定义的 Comparator 函数来实现大顶堆：
+
+```java
+private PriorityQueue<Integer> large = new PriorityQueue<>(new Comparator<Integer>() {
+    @Override
+    public int compare(Integer o1, Integer o2) {
+        return o2.compareTo(o1);
+    }
+});
+```
+
+![alt text](./images/priorityqueue通过数组实现.jpg)
+
+参考：https://www.cnblogs.com/Elliott-Su-Faith-change-our-life/p/7472265.html
