@@ -5,15 +5,15 @@
 待查找的数组有序或者部分有序
 要求时间复杂度低于 O(n)，或者直接要求时间复杂度为 O(log n)
 
-### 二分搜索的经典写法。需要注意的三点：
+## 二分搜索的经典写法。需要注意的三点：
 
-循环退出条件，注意是 low <= high，而不是 low < high。  
-mid 的取值，mid := low + (high-low)/2 --->>> because if lo and hi are very large, (lo + hi)/2 might potentially cause overflow.  
-low 和 high 的更新。low = mid + 1，high = mid - 1。
+1. 循环退出条件，注意是 low <= high，而不是 low < high。
+2. mid 的取值，mid := low + (high-low)/2 --->>> because if lo and hi are very large, (lo + hi)/2 might potentially cause overflow.
+3. low 和 high 的更新。low = mid + 1，high = mid - 1。
 
 **java**
 
-```
+```java
 public int binarySearchMatrix(int[] nums, int target){
   int low=0, high=0, len=nums.length;
 
@@ -33,7 +33,7 @@ public int binarySearchMatrix(int[] nums, int target){
 
 **go**
 
-```
+```go
 func binarySearchMatrix(nums []int, target int) int {
 	low, high := 0, len(nums)-1
 	for low <= high {
@@ -50,9 +50,9 @@ func binarySearchMatrix(nums []int, target int) int {
 }
 ```
 
-### 二分搜索的变种写法。有 4 个基本变种:
+## 二分搜索的变种写法。有 4 个基本变种:
 
-1. 查找第一个与 target 相等的元素，时间复杂度 O(logn)
+### 1. 查找第一个与 target 相等的元素，时间复杂度 O(logn)
 
 ```
 // 二分查找第一个与 target 相等的元素，时间复杂度 O(logn)
@@ -81,7 +81,7 @@ func searchFirstEqualElement(nums []int, target int) int {
 }
 ```
 
-2. 查找最后一个与 target 相等的元素，时间复杂度 O(logn)
+### 2. 查找最后一个与 target 相等的元素，时间复杂度 O(logn)
 
 ```
 // 二分查找最后一个与 target 相等的元素，时间复杂度 O(logn)
@@ -104,7 +104,7 @@ func searchLastEqualElement(nums []int, target int) int {
 }
 ```
 
-3. 查找第一个大于等于 target 的元素，时间复杂度 O(logn)
+### 3. 查找第一个大于等于 target 的元素，时间复杂度 O(logn)
 
 ```
 // 二分查找第一个大于等于 target 的元素，时间复杂度 O(logn)
@@ -127,7 +127,7 @@ func searchFirstGreaterElement(nums []int, target int) int {
 }
 ```
 
-4. 查找最后一个小于等于 target 的元素，时间复杂度 O(logn)
+### 4. 查找最后一个小于等于 target 的元素，时间复杂度 O(logn)
 
 ```
 // 二分查找最后一个小于等于 target 的元素，时间复杂度 O(logn)
@@ -148,9 +148,11 @@ func searchLastLessElement(nums []int, target int) int {
 }
 ```
 
+## 题目
+
 ### 1. 在基本有序的数组中用二分搜索
 
-1. 在山峰数组中找山峰, 旋转有序数组中找分界点
+### 1.1 在山峰数组中找山峰, 旋转有序数组中找分界点
 
 - [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/):  
   [java](/solution_java/0033_Search_in_Rotated_Sorted_Array.java)
@@ -163,7 +165,7 @@ func searchLastLessElement(nums []int, target int) int {
 - [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)：
   [java](/solution_java/0852_Peak_Index_in_a_Mountain_Array.java)
 
-2. 查找第一个与 target 相等的元素 / 查找最后一个与 target 相等的元素 / 查找第一个大于等于 target 的元素 / 查找最后一个小于等于 target 的元素
+### 1.2 查找第一个与 target 相等的元素 / 查找最后一个与 target 相等的元素 / 查找第一个大于等于 target 的元素 / 查找最后一个小于等于 target 的元素
 
 - [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/):  
   [java](/solution_java/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.java)
@@ -175,11 +177,12 @@ func searchLastLessElement(nums []int, target int) int {
 - [35 Search Insert Position](https://leetcode.com/problems/search-insert-position/):  
   [java](/solution_java/0035_Search_Insert_Position.java)
 
-3. 2d array 的 binary search
+### 1.3 2d array 的 binary search
 
-思路：把 2d array 当作 1d 来计算 row & col index  
-**m \_ n matrix convert to an array : matrix[x][y] => arr[x * n + y]  
-an array convert to m \* n matrix : arr[x] =>matrix[x / n][x % n];**
+思路：把 2d array 当作 1d 来计算 row & col index
+
+- \*_m \_ n matrix convert to an array : matrix[x][y] => arr[x _ n + y]
+- an array convert to m \* n matrix : arr[x] =>matrix[x / n][x % n];\*\*
 
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/):  
   [java](/solution_java/0074_Search_a_2D_Matrix.java)
