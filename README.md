@@ -60,6 +60,7 @@
 | 0198 | [House Robber](https://leetcode.com/problems/house-robber/)                                                                                                                       | [java](/solution_java/0198_House_Robber.java)                              | medium     |
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                                                                                                                 | [java](/solution_java/0213_House_Robber_II.java)                           | medium     |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                                           | [java](/solution_java/1143_Longest_Common_Subsequence.java)                | medium     |
+| 0343 | [Integer Break](https://leetcode.com/problems/integer-break/)                                                                                                                     | [java](/solution_java/0343_Integer_Break.java)                             | medium     |
 
 ### 3. [Two Pointer](two_pointer.md)
 
@@ -201,6 +202,8 @@
 | 0946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)                                                                                                 | [java](/solution_java/0946_Validate_Stack_Sequences.java)         | medium     |
 | 0295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)                                                                                         | [java](/solution_java/0295_Find_Median_Data_Stream.java)          | hard       |
 | jz63 | [数据流中的中位数](https://www.nowcoder.com/practice/9be0172896bd43948f8a32fb954e1be1?tpId=13&&tqId=11216&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ63_数据流中的中位数.java)                        | 中等       |
+| 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                                                                     | [java](/solution_java/0239_Sliding_Window_Maximum.java)           | hard       |
+| jz64 | [滑动窗口的最大值](https://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788?tpId=13&&tqId=11217&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ64_滑动窗口的最大值.java)                        | 较难       |
 
 ### Math
 

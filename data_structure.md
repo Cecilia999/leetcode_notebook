@@ -207,7 +207,8 @@ PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
 PriorityQueue<Integer> pq = new PriorityQueue<Integer>(Collections.reverseOrder());
 
 pq.offer(0);
-pq.poll();
+pq.poll();    //poll在priority queue为空时不会报错，会return false，remove会报错
+pq.remove(0); //但是remove可以传参，指定remove哪一个，poll只能获得peek()位置的值
 pq.peek(); //返回第一个element
 pq.isEmpty();
 pq.size();

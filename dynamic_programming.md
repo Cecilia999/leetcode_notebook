@@ -94,6 +94,8 @@
   [java](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock)
 - [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/):
   [java](/solution_java/0152_Maximum_Product_Subarray.java)
+- [Integer Break](https://leetcode.com/problems/integer-break/):
+  [java](/solution_java/0343_Integer_Break.java)
 
 ## 8. Subsequence/Substring，子序列/子字符串
 
