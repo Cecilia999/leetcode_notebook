@@ -85,6 +85,7 @@
 | 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)                                                                                                       | [java](/solution_java/0128_Longest_Consecutive_Sequence.java) | medium     |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                                                                                                                           | [java](/solution_java/0217_Contains_Duplicate.java)           | easy       |
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)                                                                                                                     | [java](/solution_java/0219_Contains_Duplicate_II.java)        | easy       |
+| JZ45 | [扑克牌顺子](https://www.nowcoder.com/practice/762836f4d43d43ca9deb273b3de8e1f4?tpId=13&&tqId=11198&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)                     | [java](/牛客网/JZ45_扑克牌顺子.java)                          | 简单       |
 
 ### 5. [String](string.md)
 

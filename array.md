@@ -17,6 +17,8 @@
      [java](/solution_java/0217_Contains_Duplicate.java)
    - [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/):
      [java](/solution_java/0219_Contains_Duplicate_II.java)
+   - [扑克牌顺子](https://www.nowcoder.com/practice/762836f4d43d43ca9deb273b3de8e1f4?tpId=13&&tqId=11198&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
+     [java](/牛客网/JZ45_扑克牌顺子.java)
 
 3. two pointer
 
