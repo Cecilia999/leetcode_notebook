@@ -12,10 +12,12 @@
 - [112. Path Sum](https://leetcode.com/problems/path-sum/):
   [java](/solution_java/0112_Path_Sum.java)
 
-  **递归遍历来计算一个 binary tree 的层数**
+  **与 binary tree 的层数有关的一些递归**
 
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/):
   [java](/solution_java/0104_Maximum_Depth_of_Binary_Tree.java)
+- [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/):
+  [java](/solution_java/https://leetcode.com/problems/balanced-binary-tree/.java)
 
   **与树的镜像有关的一些递归:**
 
