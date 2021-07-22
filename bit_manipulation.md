@@ -47,6 +47,8 @@
 
    - [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/):
      [java](/solution_java/0201_Bitwise_AND_of_Numbers_Range.java)
+   - [231. Power of Two](https://leetcode.com/problems/power-of-two/):
+     [java](/solution_java/0231_Power_of_Two.java)
 
 2. n & = -n 得到最低位(LSB)的 1
 
@@ -99,5 +101,3 @@
 
 - [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/):
   [java](/solution_java/0191_Number_of_1_Bits.java)
-- [231. Power of Two](https://leetcode.com/problems/power-of-two/):
-  [java](/solution_java/0231_Power_of_Two.java)

@@ -208,6 +208,7 @@
 
 ### Math
 
-| \#   | Title                                              | Solution                                 | Difficulty |
-| ---- | -------------------------------------------------- | ---------------------------------------- | ---------- |
-| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [java](</solution_java/0050_Pow().java>) | medium     |
+| \#   | Title                                                           | Solution                                        | Difficulty |
+| ---- | --------------------------------------------------------------- | ----------------------------------------------- | ---------- |
+| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/)              | [java](</solution_java/0050_Pow().java>)        | medium     |
+| 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [java](/solution_java/0326_Power_of_Three.java) | easy       |

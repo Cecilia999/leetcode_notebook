@@ -7,6 +7,8 @@
 // 两式相减得f（n）= 2 * f（n-1）
 //2 * 2 * f(n-2)=2 * 2 * 2 * f(n-3)=...=2^(n-1)*f(1)=2^(n-1)
 
+//另一种思路就是为了跳上n个台阶
+//每个台阶都有跳与不跳两种情况（除了最后一个台阶），最后一个台阶必须跳。所以共用2^(n-1)中情况
 public class Solution {
   public int jumpFloorII(int n) {
       int[] dp = new int[n+1];
