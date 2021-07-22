@@ -15,7 +15,7 @@
 
 ```java
 public int binarySearchMatrix(int[] nums, int target){
-  int low=0, high=0, len=nums.length;
+  int low=0, high=nums.length-1;
 
   while(low<=high){
     int mid = low + (high-low)/2;
@@ -186,6 +186,8 @@ func searchLastLessElement(nums []int, target int) int {
 
 - [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/):  
   [java](/solution_java/0074_Search_a_2D_Matrix.java)
+- [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/):
+  [java](/solution_java/0240_Search_a_2D_Matrix_II.java)
 
 ### 2. max-min 最大值最小化问题
 
