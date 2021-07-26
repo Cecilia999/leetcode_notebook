@@ -4,6 +4,7 @@
 
 //edge case: matrix只有一个或者一行
 //用res.size()<matrix size来manage edge case
+//size < m*n!!!!!!!!!!!!!
 
 class Solution {
   public List<Integer> spiralOrder(int[][] matrix) {
@@ -17,25 +18,25 @@ class Solution {
       
       while(rowBegin<=rowEnd && colBegin<=colEnd){
           //traverse right
-          for(int j=colBegin; j<=colEnd && list.size()<m*n; j++){
+          for(int j=colBegin; j<=colEnd && list.size()<m*n; j++){  //size < m*n!!!!!!!!!!!!!
               list.add(matrix[rowBegin][j]);
           }
           rowBegin++;
           
-          //traverse down
-          for(int i=rowBegin; i<=rowEnd && list.size()<m*n; i++){
+          //traverse down 
+          for(int i=rowBegin; i<=rowEnd && list.size()<m*n; i++){ //size < m*n!!!!!!!!!!!!!
               list.add(matrix[i][colEnd]);
           }
           colEnd--;
           
           //traverse left
-          for(int j=colEnd; j>=colBegin && list.size()<m*n; j--){
+          for(int j=colEnd; j>=colBegin && list.size()<m*n; j--){ //size < m*n!!!!!!!!!!!!!
               list.add(matrix[rowEnd][j]);
           }
           rowEnd--;
           
           //traverse up
-          for(int i=rowEnd; i>=rowBegin && list.size()<m*n; i--){
+          for(int i=rowEnd; i>=rowBegin && list.size()<m*n; i--){ //size < m*n!!!!!!!!!!!!!
               list.add(matrix[i][colBegin]);
           }
           colBegin++;

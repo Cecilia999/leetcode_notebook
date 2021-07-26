@@ -11,7 +11,7 @@ class Solution {
       
       while(rowBegin<=rowEnd && colBegin<=colEnd){
           //traverse right
-          for(int j=colBegin; j<=colEnd && size<n*n; j++){
+          for(int j=colBegin; j<=colEnd && size<n*n; j++){ //size < m*n!!!!!!!!!!!!!
               matrix[rowBegin][j] = num;
               num++;
               size++;
@@ -19,7 +19,7 @@ class Solution {
           rowBegin++;
           
           //traverse down
-          for(int i=rowBegin; i<=rowEnd && size<n*n; i++){
+          for(int i=rowBegin; i<=rowEnd && size<n*n; i++){ //size < m*n!!!!!!!!!!!!!
               matrix[i][colEnd] = num;
               num++;
               size++;
@@ -27,7 +27,7 @@ class Solution {
           colEnd--;
           
           //traverse left
-          for(int j=colEnd; j>=colBegin && size<n*n; j--){
+          for(int j=colEnd; j>=colBegin && size<n*n; j--){ //size < m*n!!!!!!!!!!!!!
               matrix[rowEnd][j] = num;
               num++;
               size++;
@@ -35,7 +35,7 @@ class Solution {
           rowEnd--;
           
           //traverse up
-          for(int i=rowEnd; i>=rowBegin && size<n*n; i--){
+          for(int i=rowEnd; i>=rowBegin && size<n*n; i--){ //size < m*n!!!!!!!!!!!!!
               matrix[i][colBegin] = num;
               num++;
               size++;

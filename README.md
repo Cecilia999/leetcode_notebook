@@ -212,6 +212,6 @@
 
 | \#   | Title                                                           | Solution                                        | Difficulty |
 | ---- | --------------------------------------------------------------- | ----------------------------------------------- | ---------- |
-| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/)              | [java](</solution_java/0050_Pow().java>)        | medium     |
+| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/)              | [java](/solution_java/0050_Power.java)          | medium     |
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/)     | [java](/solution_java/0231_Power_of_Two.java)   | easy       |
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [java](/solution_java/0326_Power_of_Three.java) | easy       |
