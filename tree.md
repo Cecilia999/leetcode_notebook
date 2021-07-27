@@ -133,13 +133,13 @@ public List<Integer> postorderTraversal(TreeNode root) {
 ## level traversal 层层遍历
 
 思路是用 depth 来 manage 当前的层数
+计算二叉树层数看 [104 题](/solution_java/0104_Maximum_Depth_of_Binary_Tree.java)
 
 - [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/):
   [java](/solution_java/0102_Binary_Tree_Level_Order_Traversal.java)
 - [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/):
   [java](/solution_java/0103_Binary_Tree_Zigzag_Level_Order_Traversal.java)
-
-计算二叉树层数看 [104 题](/solution_java/0104_Maximum_Depth_of_Binary_Tree.java)
+- [剑指 Offer*32-I*从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)[java](/力扣/剑指Offer_32-I_从上到下打印二叉树.java)
 
 ## 给出 preorder/inorder/postorder 中的两种，construct binary tree 构造二叉树
 
