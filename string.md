@@ -1,5 +1,7 @@
 # String
 
+## 1. 常见题型
+
 1. reverse string
 
 - [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/):  
@@ -17,7 +19,7 @@
 - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/):
   [java](/solution_java/0014_Longest_Common_Prefix.java)
 
-### sliding window 滑动窗口
+## 2. sliding window 滑动窗口
 
 滑动窗口的基本思路：
 
@@ -59,3 +61,5 @@ int findSubstring(string s){
   [java](/solution_java/0003_Longest_Substring_Without_Repeating_Characters.java)
 - [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/):
   [java](/solution_java/0076_Minimum_Window_Substring.java)
+
+## 3. dp
