@@ -110,7 +110,9 @@ stack.size();
 Queue<Integer> q = new LinkedList<Integer>();
 
 q.add(0);
-q.remove();
+q.offer();
+q.remove();//可以传参
+q.poll();//只能根据先入先出的顺序remove
 q.peek();
 q.isEmpty();
 q.size();
