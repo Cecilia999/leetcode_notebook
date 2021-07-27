@@ -1,6 +1,8 @@
 # Tree
 
-### recursion 递归
+## 1. recursion 递归
+
+### 1.1
 
 - [100. Same Tree](https://leetcode.com/problems/same-tree/):  
   [java](/solution_java/0100_Same_Tree.java)
@@ -12,27 +14,27 @@
 - [112. Path Sum](https://leetcode.com/problems/path-sum/):
   [java](/solution_java/0112_Path_Sum.java)
 
-  **与 binary tree 的层数有关的一些递归**
+### 1.2 与 binary tree 的层数有关的一些递归
 
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/):
   [java](/solution_java/0104_Maximum_Depth_of_Binary_Tree.java)
 - [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/):
   [java](/solution_java/https://leetcode.com/problems/balanced-binary-tree/.java)
 
-  **与树的镜像有关的一些递归:**
+### 1.3 与树的镜像有关的一些递归
 
 - [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/):
   [java](/solution_java/0101_Symmetric_Tree.java)
 - [JZ18. 二叉树的镜像](https://www.nowcoder.com/practice/a9d0ecbacef9410ca97463e4a5c83be7?tpId=13&&tqId=11171&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/solution_java/JZ18_二叉树的镜像.java)
 
-## 前根 / 中根 / 后根 遍历
+## 2. 前根 / 中根 / 后根 遍历
 
 ![alt text](./images/前序中序后序traversal.jpg)
 
-### 1. preorder traversal (前序遍历)
+### 2.1 preorder traversal (前序遍历)
 
-### 1.1 preorder traversal using stack
+### 2.1.1 preorder traversal using stack
 
 逻辑是 traversal 到最左的根->左 leaf->右子树
 
@@ -61,9 +63,9 @@ public List<Integer> preorderTraversal(TreeNode root) {
 - [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/):
   [java](/solution_java/0144_Binary_Tree_Preorder_Traversal.java)
 
-### 2. inorder travaersal (中根遍历)
+### 2.2 inorder travaersal (中根遍历)
 
-### 2.1 iterative 模版 using stack
+### 2.2.1 iterative 模版 using stack
 
 逻辑是先 iterative 到 left subtree 中最左的那个 node，然后由 left->root->right inorder 的顺序对 BST 进行遍历
 
@@ -94,14 +96,14 @@ public List<Integer> inorderTraversal(TreeNode root) {
 - [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/):
   [java](/solution_java/0094_Binary_Tree_Inorder_Traversal.java)
 
-### 2.2 recursion
+### 2.2.2 recursion
 
 - [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/):
   [java](/solution_java/0099_Recover_Binary_Search_Tree.java)
 
-### 3. postorder traversal (后序遍历)
+### 2.3 postorder traversal (后序遍历)
 
-### 3.1 postorder traversal using stack
+### 2.3.1 postorder traversal using stack
 
 逻辑是把 preorder 反过来
 
@@ -130,41 +132,42 @@ public List<Integer> postorderTraversal(TreeNode root) {
 - [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/):
   [java](/solution_java/0145_Binary_Tree_Postorder_Traversal.java)
 
-## level traversal 层层遍历
+## 3. level traversal 层层遍历
 
-思路是用 depth 来 manage 当前的层数
+思路是用 depth 来 manage 当前的层数  
 计算二叉树层数看 [104 题](/solution_java/0104_Maximum_Depth_of_Binary_Tree.java)
 
 - [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/):
   [java](/solution_java/0102_Binary_Tree_Level_Order_Traversal.java)
 - [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/):
   [java](/solution_java/0103_Binary_Tree_Zigzag_Level_Order_Traversal.java)
-- [剑指 Offer*32-I*从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)[java](/力扣/剑指Offer_32-I_从上到下打印二叉树.java)
+- [剑指 Offer*32-I*从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/):
+  [java](/力扣/剑指Offer_32-I_从上到下打印二叉树.java)
 
-## 给出 preorder/inorder/postorder 中的两种，construct binary tree 构造二叉树
+## 4. 给出 preorder/inorder/postorder 中的两种，construct binary tree 构造二叉树
 
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/):
   [java](/solution_java/0105_Construct_Binary_Tree_from_and_Inorder_Traversal.java)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [java](/solution_java/0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java)
 
-## convert ... to BST vs convert BST to ...
+## 5. convert ... to BST vs convert BST to ...
 
-### covert ... to BST using Binary Search
+### 5.1 convert ... to BST using Binary Search
 
 - [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/):
   [java](/solution_java/0108_Convert_Sorted_Array_to_Binary_Search_Tree.java)
 - [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/):
   [java](/solution_java/0109_Convert_Sorted_List_to_Binary_Search_Tree.java)
 
-### convert BST to ...
+### 5.2 convert BST to ...
 
 - [jz26. 二叉搜索树与双向链表](https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5?tpId=13&tqId=11179&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ26_二叉搜索树与双向链表.java)
 
-## Serialize/Deserialize
+## 6. Serialize/Deserialize
 
 using preorder + recursion
 
 - [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/):
   [java](/solution_java/0297_Serialize_and_Deserialize_Binary_Tree.java)
 
-## dfs
+## 7. dfs

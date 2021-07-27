@@ -57,3 +57,5 @@ _只需要一次遍历就可以得到答案。_
 
 - [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/):
   [java](/solution_java/0138_Copy_List_with_Random_Pointer.md)
+
+### 7. 计算两个 linked list 的值的和
