@@ -22,10 +22,12 @@
 - [扑克牌顺子](https://www.nowcoder.com/practice/762836f4d43d43ca9deb273b3de8e1f4?tpId=13&&tqId=11198&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/牛客网/JZ45_扑克牌顺子.java)
 
-  将数组视为哈希表
+### 2.1 将数组视为哈希表，原地哈希（哈希函数为：f(nums[i]) = nums[i] - 1）
 
-- [First Missing Positive](https://leetcode.com/problems/first-missing-positive/):
+- [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/):
   [java](/solution_java/0041_First_Missing_Positive.java)
+- [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/):
+  [java](/solution_java/0442_Find_All_Duplicates_in_an_Array.java)
 
 ### 3. two pointer
 
