@@ -87,6 +87,8 @@
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)                                                                                                                     | [java](/solution_java/0219_Contains_Duplicate_II.java)        | easy       |
 | JZ45 | [扑克牌顺子](https://www.nowcoder.com/practice/762836f4d43d43ca9deb273b3de8e1f4?tpId=13&&tqId=11198&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)                     | [java](/牛客网/JZ45_扑克牌顺子.java)                          | 简单       |
 | 0031 | [Next Permutation](https://leetcode.com/problems/next-permutation/)                                                                                                                               | [java](/solution_java/0031_Next_Permutation.java)             | medium     |
+| 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/)                                                                                                                                       | [java](/solution_java/0048_Rotate_Image.java)                 | medium     |
+| 0041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)                                                                                                                   | [java](/solution_java/0041_First_Missing_Positive.java)       | hard       |
 
 ### 5. [String](string.md)
 

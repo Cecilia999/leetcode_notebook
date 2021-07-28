@@ -22,6 +22,11 @@
 - [扑克牌顺子](https://www.nowcoder.com/practice/762836f4d43d43ca9deb273b3de8e1f4?tpId=13&&tqId=11198&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/牛客网/JZ45_扑克牌顺子.java)
 
+  将数组视为哈希表
+
+- [First Missing Positive](https://leetcode.com/problems/first-missing-positive/):
+  [java](/solution_java/0041_First_Missing_Positive.java)
+
 ### 3. two pointer
 
 - [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/):
@@ -42,3 +47,10 @@
   [java](/solution_java/0059_Spiral_Matrix_II.java)
   **一样的题**  
   [顺时针打印矩阵](https://www.nowcoder.com/practice/9b4c81a02cd34f76be2659fa0d54342a?tpId=13&&tqId=11172&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+### 2. 旋转矩阵/翻转矩阵
+
+- [48. Rotate Image](https://leetcode.com/problems/rotate-image/):
+  [java](/solution_java/0048_Rotate_Image.java)
+
+### 3. dfs
