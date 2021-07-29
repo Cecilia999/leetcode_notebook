@@ -28,6 +28,8 @@
   [java](/solution_java/0041_First_Missing_Positive.java)
 - [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/):
   [java](/solution_java/0442_Find_All_Duplicates_in_an_Array.java)
+- [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/):
+  [java](/solution_java/0448_Find_All_Numbers_Disappeared_in_an_Array.java)
 
 ### 3. two pointer
 
@@ -38,6 +40,8 @@
   [java](/牛客网/JZ13_调整数组顺序使奇数位于偶数前面.java)
 - [Next Permutation](https://leetcode.com/problems/next-permutation/):
   [java](/solution_java/0031_Next_Permutation.java)
+- [Sort Colors](https://leetcode.com/problems/sort-colors/):
+  [java](/solution_java/0075_Sort_Colors.java)
 
 ## 2d array -->> matrix
 
