@@ -79,6 +79,7 @@ list.get(0);
 list.size();
 list.remove(list.size() ‐ 1); //input is the position of the index to remove
 Arrays.asList(1, 2, 3) // return [1, 2, 3]
+
 Collections.sort(list);
 Collections.sort(list, Collections.reverseOrder());
 Collections.sort(list, new Comparator<Integer>() {
@@ -88,6 +89,13 @@ public int compare(Integer o1, Integer o2) {
     // return o2‐o1; 1‐>0
 }
 });
+
+//List.toArray()
+<T> T[] List.toArrat(T[] a)
+List<String> list = new ArrayList<String>();
+list.add("1");
+list.add("2");
+String[] s = list.toArray(new String[list.size()]);
 ```
 
 ## Stack

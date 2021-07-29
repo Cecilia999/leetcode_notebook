@@ -92,6 +92,8 @@
 | 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)                                                                                                 | [java](/solution_java/0442_Find_All_Duplicates_in_an_Array.java)          | medium     |
 | 0448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)                                                                               | [java](/solution_java/0448_Find_All_Numbers_Disappeared_in_an_Array.java) | easy       |
 | 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors/)                                                                                                                                         | [java](/solution_java/0075_Sort_Colors.java)                              | medium     |
+| 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                                                                                                                                 | [java](/solution_java/0056_Merge_Intervals.java)                          | medium     |
+| 0435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)                                                                                                             | [java](/solution_java/0435_Non-overlapping_Intervals.java)                | medium     |
 
 ### 5. [String](string.md)
 
