@@ -174,6 +174,7 @@
 | 0297            | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)                                                                                  | [java](/solution_java/0297_Serialize_and_Deserialize_Binary_Tree.java)                      | hard       |
 | 0110            | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                                                                                                                    | [java](/solution_java/https://leetcode.com/problems/balanced-binary-tree/.java)             | easy       |
 | 0114            | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                                                                        | [java](/solution_java/0114_Flatten_Binary_Tree_to_Linked_List.java)                         | medium     |
+| 0124            | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                                                                                                    | [java](/solution_java/0124_Binary_Tree_Maximum_Path_Sum.java)                               | hard       |
 
 ### 11. [Sort](sort.md)
 
