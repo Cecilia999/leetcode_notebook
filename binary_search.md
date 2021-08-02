@@ -54,7 +54,7 @@ func binarySearchMatrix(nums []int, target int) int {
 
 ### 1. 查找第一个与 target 相等的元素，时间复杂度 O(logn)
 
-```
+```go
 // 二分查找第一个与 target 相等的元素，时间复杂度 O(logn)
 func searchFirstEqualElement(nums []int, target int) int {
 	low, high := 0, len(nums)-1
@@ -83,7 +83,7 @@ func searchFirstEqualElement(nums []int, target int) int {
 
 ### 2. 查找最后一个与 target 相等的元素，时间复杂度 O(logn)
 
-```
+```go
 // 二分查找最后一个与 target 相等的元素，时间复杂度 O(logn)
 func searchLastEqualElement(nums []int, target int) int {
 	low, high := 0, len(nums)-1
@@ -106,7 +106,7 @@ func searchLastEqualElement(nums []int, target int) int {
 
 ### 3. 查找第一个大于等于 target 的元素，时间复杂度 O(logn)
 
-```
+```go
 // 二分查找第一个大于等于 target 的元素，时间复杂度 O(logn)
 func searchFirstGreaterElement(nums []int, target int) int {
 	low, high := 0, len(nums)-1
@@ -129,7 +129,7 @@ func searchFirstGreaterElement(nums []int, target int) int {
 
 ### 4. 查找最后一个小于等于 target 的元素，时间复杂度 O(logn)
 
-```
+```go
 // 二分查找最后一个小于等于 target 的元素，时间复杂度 O(logn)
 func searchLastLessElement(nums []int, target int) int {
 	low, high := 0, len(nums)-1

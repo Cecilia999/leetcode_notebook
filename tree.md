@@ -62,10 +62,11 @@ public List<Integer> preorderTraversal(TreeNode root) {
 
 - [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/):
   [java](/solution_java/0144_Binary_Tree_Preorder_Traversal.java)
+- [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [java](/solution_java/0114_Flatten_Binary_Tree_to_Linked_List.java)
 
 ### 2.2 inorder travaersal (中根遍历)
 
-### 2.2.1 iterative 模版 using stack
+### 2.2.1 iterative using stack
 
 逻辑是先 iterative 到 left subtree 中最左的那个 node，然后由 left->root->right inorder 的顺序对 BST 进行遍历
 

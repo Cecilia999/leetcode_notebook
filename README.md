@@ -173,6 +173,7 @@
 | JZ26            | [二叉搜索树与双向链表](https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5?tpId=13&tqId=11179&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ26_二叉搜索树与双向链表.java)                                              | 中等       |
 | 0297            | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)                                                                                  | [java](/solution_java/0297_Serialize_and_Deserialize_Binary_Tree.java)                      | hard       |
 | 0110            | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                                                                                                                    | [java](/solution_java/https://leetcode.com/problems/balanced-binary-tree/.java)             | easy       |
+| 0114            | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                                                                        | [java](/solution_java/0114_Flatten_Binary_Tree_to_Linked_List.java)                         | medium     |
 
 ### 11. [Sort](sort.md)
 
