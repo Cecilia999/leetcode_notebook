@@ -13,6 +13,8 @@
   [java](/solution_java/0387_First_Unique_Character_in_a_String.java)
 - [字符流中第一个不重复的字符](https://www.nowcoder.com/practice/00de97733b8e4f97a3fb5c680ee10720?tpId=13&&tqId=11207&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/牛客网/JZ54_字符流中第一个不重复的字符.java)
+- [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/):
+  [java](/solution_java/0049_Group_Anagrams.java)
 
 3. string.IndexOf()
 

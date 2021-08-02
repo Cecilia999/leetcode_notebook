@@ -180,6 +180,8 @@ if (map.containsValue(1)) {
 }
 for (Character d : map.keySet()) {
  }
+
+ //return a collection view containing all the values of the map.
 for (Integer i : map.values()) {
 }
 map.isEmpty();

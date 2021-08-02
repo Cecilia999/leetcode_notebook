@@ -38,9 +38,9 @@
   **如果要维持顺序的话就直接创建一个新的 array 判断奇偶再放入数组**  
   [调整数组顺序使奇数位于偶数前面](https://www.nowcoder.com/practice/ef1f53ef31ca408cada5093c8780f44b?tpId=13&&tqId=11166&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/牛客网/JZ13_调整数组顺序使奇数位于偶数前面.java)
-- [Next Permutation](https://leetcode.com/problems/next-permutation/):
+- [31. Next Permutation](https://leetcode.com/problems/next-permutation/):
   [java](/solution_java/0031_Next_Permutation.java)
-- [Sort Colors](https://leetcode.com/problems/sort-colors/):
+- [75. Sort Colors](https://leetcode.com/problems/sort-colors/):
   [java](/solution_java/0075_Sort_Colors.java)
 
 ## 2d array -->> matrix
@@ -65,3 +65,7 @@
   [java](/solution_java/0056_Merge_Intervals.java)
 - [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/):
   [java](/solution_java/0435_Non-overlapping_Intervals.java)
+
+### 4. dfs
+
+- [200. Number of Islands](https://leetcode.com/problems/number-of-islands/): [java](/solution_java/0200_Number_of_Islands.java)
