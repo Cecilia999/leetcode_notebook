@@ -14,6 +14,11 @@
 - [92 Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/):  
   [java](/solution_java/0092_Reverse_Linked_List_II.java)
 
+reverse linked list + two pointer
+
+- [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/):
+  [java](/solution_java/0234_Palindrome_Linked_List.java)
+
 ### 2. 链表寻找中间节点/链表寻找倒数第 n 个节点
 
 _只需要一次遍历就可以得到答案。_

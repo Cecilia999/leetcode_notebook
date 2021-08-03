@@ -144,6 +144,7 @@
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                                      | [java](/solution_java/0876_Middle_of_the_Linked_List.java)             | easy       |
 | 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                                                              | [java](/solution_java/0138_Copy_List_with_Random_Pointer.md)           | medium     |
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                                                                                          | [java](/solution_java/0002_Add_Two_Numbers.java)                       | medium     |
+| 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                                                            | [java](/solution_java/0234_Palindrome_Linked_List.java)                | easy       |
 
 ### 10. [Tree](tree.md)
 
