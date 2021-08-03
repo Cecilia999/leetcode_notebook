@@ -2,7 +2,7 @@
 
 ## 1. recursion 递归
 
-### 1.1
+### 1.1 树与子树的一些递归
 
 - [100. Same Tree](https://leetcode.com/problems/same-tree/):  
   [java](/solution_java/0100_Same_Tree.java)
@@ -11,15 +11,13 @@
   **一样的题**  
   [JZ17. 树的子结构](https://www.nowcoder.com/practice/6e196c44c7004d15b1610b9afca8bd88?tpId=13&&tqId=11170&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):  
   [java](/牛客网/JZ17_树的子结构.java)
-- [112. Path Sum](https://leetcode.com/problems/path-sum/):
-  [java](/solution_java/0112_Path_Sum.java)
 
 ### 1.2 与 binary tree 的层数有关的一些递归
 
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/):
   [java](/solution_java/0104_Maximum_Depth_of_Binary_Tree.java)
 - [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/):
-  [java](/solution_java/https://leetcode.com/problems/balanced-binary-tree/.java)
+  [java](/solution_java/0110_Balanced_Binary_Tree.java)
 
 ### 1.3 与树的镜像有关的一些递归
 
@@ -27,6 +25,13 @@
   [java](/solution_java/0101_Symmetric_Tree.java)
 - [JZ18. 二叉树的镜像](https://www.nowcoder.com/practice/a9d0ecbacef9410ca97463e4a5c83be7?tpId=13&&tqId=11171&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/solution_java/JZ18_二叉树的镜像.java)
+- [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/):
+  [java](/solution_java/0226_Invert_Binary_Tree.java)
+
+### 1.4 与树的路径有关的一些递归
+
+- [112. Path Sum](https://leetcode.com/problems/path-sum/):
+  [java](/solution_java/0112_Path_Sum.java)
 
 ## 2. 前根 / 中根 / 后根 遍历
 
