@@ -175,6 +175,7 @@
 | 0110            | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                                                                                                                    | [java](/solution_java/https://leetcode.com/problems/balanced-binary-tree/.java)             | easy       |
 | 0114            | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                                                                        | [java](/solution_java/0114_Flatten_Binary_Tree_to_Linked_List.java)                         | medium     |
 | 0124            | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                                                                                                    | [java](/solution_java/0124_Binary_Tree_Maximum_Path_Sum.java)                               | hard       |
+| 0199            | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)                                                                                                      | [java](/solution_java/0199_Binary_Tree_Right_Side_View.java)                                | medium     |
 
 ### 11. [Sort](sort.md)
 
@@ -186,6 +187,7 @@
 | jz32 | [把数组排成最小的数](https://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?tpId=13&&tqId=11185&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/把数组排成最小的数.java)                          | 较难       |
 | jz35 | [数组中的逆序对](https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?tpId=13&&tqId=11188&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)     | [java](/牛客网/JZ35_数组中的逆序对.java)                         | 中等       |
 | 0493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)                                                                                                                         | [java](/solution_java/0493_Reverse_Pairs.java)                   | hard       |
+| 0148 | [Sort List](https://leetcode.com/problems/sort-list/)                                                                                                                                 | [java](/solution_java/0148_Sort_List.java)                       | medium     |
 
 ### 12. [Greedy](greedy.md)
 

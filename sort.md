@@ -93,13 +93,18 @@ public class mergeSort {
 
 归并排序是稳定排序，它也是一种十分高效的排序，能利用完全二叉树特性的排序一般性能都不会太差。java 中 Arrays.sort()采用了一种名为 TimSort 的排序算法，就是归并排序的优化版本。从上文的图中可看出，每次合并操作的平均时间复杂度为 O(n)，而完全二叉树的深度为|log2n|。总的平均时间复杂度为 O(nlogn)。而且，归并排序的最好，最坏，平均时间复杂度均为 O(nlogn)。
 
-#### 2.1 reverse pairs 逆序对
+#### 2.1 数组的 merge sort
 
 - [数组中的逆序对](https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?tpId=13&&tqId=11188&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/牛客网/JZ35_数组中的逆序对.java)
 - [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/):
   [java](/solution_java/0493_Reverse_Pairs.java)  
    参考：https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22
+
+#### 2.2 linked list 链表的 merge sort
+
+- [Sort List](https://leetcode.com/problems/sort-list/):
+  [java](/solution_java/0148_Sort_List.java)
 
 ### 3. Time Sort
 

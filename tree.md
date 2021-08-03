@@ -173,5 +173,7 @@ using preorder + recursion
 
 ## 7. dfs
 
-- [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/):
+- [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/):
   [java](/solution_java/0124_Binary_Tree_Maximum_Path_Sum.java)
+- [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/):
+  [java](/solution_java/0199_Binary_Tree_Right_Side_View.java)
