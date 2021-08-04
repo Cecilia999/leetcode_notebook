@@ -95,6 +95,7 @@
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                                                                                                                                 | [java](/solution_java/0056_Merge_Intervals.java)                          | medium     |
 | 0435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)                                                                                                             | [java](/solution_java/0435_Non-overlapping_Intervals.java)                | medium     |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)                                                                                                       | [java](/solution_java/0238_Product_of_Array_Except_Self.java)             | medium     |
+| 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                                                                                                                         | [java](/solution_java/0283_Move_Zeroes.java)                              | easy       |
 
 ### 5. [String](string.md)
 

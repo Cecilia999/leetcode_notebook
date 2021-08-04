@@ -42,6 +42,8 @@
   [java](/solution_java/0031_Next_Permutation.java)
 - [75. Sort Colors](https://leetcode.com/problems/sort-colors/):
   [java](/solution_java/0075_Sort_Colors.java)
+- [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/):  
+  [java](/solution_java/0283_Move_Zeroes.java)
 
 ### 4. math
 
