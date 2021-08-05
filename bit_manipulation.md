@@ -101,3 +101,4 @@
 
 - [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/):
   [java](/solution_java/0191_Number_of_1_Bits.java)
+- [剑指 Offer56. 数组中数字出现的次数 II](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/) | [java](/力扣/剑指Offer56-II_数组中数字出现的次数II.java)
