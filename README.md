@@ -182,6 +182,7 @@
 | 0199            | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)                                                                                                      | [java](/solution_java/0199_Binary_Tree_Right_Side_View.java)                                | medium     |
 | 0226            | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                                                                                                                        | [java](/solution_java/0226_Invert_Binary_Tree.java)                                         | easy       |
 | 0236            | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                                                                              | [java](/solution_java/0236_Lowest_Common_Ancestor_of_a_Binary_Tree.java)                    | medium     |
+| 0543            | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)                                                                                                              | [java](/solution_java/0543_Diameter_of_Binary_Tree.java)                                    | easy       |
 
 ### 11. [Sort](sort.md)
 

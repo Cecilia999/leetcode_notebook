@@ -180,6 +180,8 @@ using preorder + recursion
 
 - [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/):
   [java](/solution_java/0124_Binary_Tree_Maximum_Path_Sum.java)
+- [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/):
+  [java](/solution_java/0543_Diameter_of_Binary_Tree.java)
 - [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/):
   [java](/solution_java/0199_Binary_Tree_Right_Side_View.java)
 - [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/):
