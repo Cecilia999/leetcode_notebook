@@ -131,6 +131,11 @@
    - [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/):
      [java](/solution_java/0368_Largest_Divisible_Subset.java)
 
+## 9. probability 概率问题
+
+- [剑指 Offer 60. n 个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/):
+  [java](/力扣/剑指Offer60_n个骰子的点数.java)
+
 ### 参考：
 
 https://blog.csdn.net/richenyunqi/article/details/105699183
