@@ -213,6 +213,7 @@
 | 0201               | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)                 | [java](/solution_java/0201_Bitwise_AND_of_Numbers_Range.java)    | medium     |
 | 0318               | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)           | [java](/solution_java/0318_Maximum_Product_of_Word_Lengths.java) | medium     |
 | 剑指 Offer 56 - II | [数组中数字出现的次数 II](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/) | [java](/力扣/剑指Offer56-II_数组中数字出现的次数II.java)         | 中等       |
+| 0338               | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                               | [java](/solution_java/0338_Counting_Bits.java)                   | easy       |
 
 ### 14. [Stack/Queue/Deque/Priority Que](栈与堆.md)
 
