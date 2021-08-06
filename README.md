@@ -235,8 +235,9 @@
 
 ### Math
 
-| \#   | Title                                                           | Solution                                        | Difficulty |
-| ---- | --------------------------------------------------------------- | ----------------------------------------------- | ---------- |
-| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/)              | [java](/solution_java/0050_Power.java)          | medium     |
-| 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/)     | [java](/solution_java/0231_Power_of_Two.java)   | easy       |
-| 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [java](/solution_java/0326_Power_of_Three.java) | easy       |
+| \#           | Title                                                           | Solution                                        | Difficulty |
+| ------------ | --------------------------------------------------------------- | ----------------------------------------------- | ---------- |
+| 0050         | [Pow(x, n)](https://leetcode.com/problems/powx-n/)              | [java](/solution_java/0050_Power.java)          | medium     |
+| 0231         | [Power of Two](https://leetcode.com/problems/power-of-two/)     | [java](/solution_java/0231_Power_of_Two.java)   | easy       |
+| 0326         | [Power of Three](https://leetcode.com/problems/power-of-three/) | [java](/solution_java/0326_Power_of_Three.java) | easy       |
+| 剑指 Offer64 | [求 1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)    | [java](/力扣/剑指Offer64_求1+2+…+n.java)        | 中等       |

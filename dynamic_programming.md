@@ -91,7 +91,7 @@
   [java](/solution_java/0053_Maximum_Subarray.java)
   **这道题等同于**
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/):
-  [java](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock)
+  [java](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock.java)
 - [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/):
   [java](/solution_java/0152_Maximum_Product_Subarray.java)
 - [Integer Break](https://leetcode.com/problems/integer-break/):
