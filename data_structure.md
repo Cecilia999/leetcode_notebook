@@ -77,7 +77,8 @@ list.add(0);
 list.add(0, 1);
 list.get(0);
 list.size();
-list.remove(list.size() ‐ 1); //input is the position of the index to remove
+list.remove(list.size() ‐ 1); //remove by the index of the item in the list
+list.remove(new Integer(1)); //remove the item in the list
 Arrays.asList(1, 2, 3) // return [1, 2, 3]
 
 Collections.sort(list);
