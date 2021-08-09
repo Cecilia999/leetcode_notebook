@@ -145,6 +145,8 @@
 
 - [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/):
   [java](/solution_java/0010_Regular_Expression_Matching.md)
+- [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/):
+  [java](/solution_java/0044_Wildcard_Matching.java)
 
 ### 参考：
 
