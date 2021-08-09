@@ -141,6 +141,11 @@
 - [圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/):
   [java](/力扣/剑指Offer62_圆圈中最后剩下的数字.md)
 
+## 11. regular expression matching 正则表达匹配
+
+- [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/):
+  [java](/solution_java/0010_Regular_Expression_Matching.md)
+
 ### 参考：
 
 https://blog.csdn.net/richenyunqi/article/details/105699183
