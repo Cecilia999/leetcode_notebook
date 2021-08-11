@@ -15,42 +15,59 @@
 // 输出：0
 // 解释：endWord "cog" 不在字典中，所以无法进行转换。
 
-//解题思路 queue + bfs
+//解题思路 hashset + 双向bfs
 
+//双向bfs
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        //用一个queue实现bfs
-        Queue<String> queue = new LinkedList<String>();
-        //必须要用hashset来存wordlist，arraylist的remove和contains会超时
-        HashSet<String> set = new HashSet<String>(wordList);
+        //将wordList放入哈希表里, contains & remove都是o(1)
+        HashSet<String> wordSet = new HashSet<String>(wordList);
+        if(!wordSet.contains(endWord)) return 0;
+        if(wordSet.contains(beginWord)) wordSet.remove(beginWord);
         
-        queue.add(beginWord);
-        int steps = 1;
-        while(!queue.isEmpty()){    
-            //必须要bfs每一层保存一次queue size，否则queue一直在增大
-            int curQueueSize = queue.size();
-            for(int i=0; i<curQueueSize; i++){
-                String s = queue.poll();
-
-                if(s.equals(endWord))
-                    return steps;
-                
-                for(int j=0; j<s.length(); j++){
-                    for(char ch='a'; ch<='z'; ch++){
-                        StringBuilder sb = new StringBuilder(s);
-                        sb.setCharAt(j, ch);
-                        String word = sb.toString();
+        //用beginset & endset实现双向bfs
+        HashSet<String> beginset = new HashSet<String>();
+        HashSet<String> endset = new HashSet<String>();
+        
+        beginset.add(beginWord);
+        endset.add(endWord);
+        int step = 1;
+        
+        while( !beginset.isEmpty() && !endset.isEmpty() ){
+            //let beginset be the smaller set
+            if(beginset.size() > endset.size()){
+                HashSet<String> temp = beginset;
+                beginset = endset;
+                endset = temp;
+            }
+            
+            HashSet<String> nextLevelVisited = new HashSet<String>(); 
+            
+            for(String word : beginset){
+                for(int i=0; i<word.length(); i++){
+                    for(char c='a'; c<='z'; c++){
+                        StringBuilder sb = new StringBuilder(word);
+                        sb.setCharAt(i, c);
+                        String s = sb.toString();
                         
-                        if(set.contains(word)){
-                            queue.add(word);
-                            set.remove(new String(word));
+                        if(endset.contains(s)){
+                            return step+1;
+                        }
+                        
+                        //check if s is in wordlist
+                        if(wordSet.contains(s)){
+                            nextLevelVisited.add(s);
+                            wordSet.remove(new String(s));
                         }
                     }
                 }
             }
-            steps++;
+
+            beginset = nextLevelVisited;
+            step++;
         }
         
         return 0;
     }
 }
+
