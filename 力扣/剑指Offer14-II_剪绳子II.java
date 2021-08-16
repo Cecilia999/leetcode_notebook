@@ -32,6 +32,6 @@ class Solution {
             n -= 3;
         }
 
-        return (int) (res * n % 1000000007);    //！
+        return (int) (res * n % 1000000007);    //！！convert long to int要在括号内
     }
 }
