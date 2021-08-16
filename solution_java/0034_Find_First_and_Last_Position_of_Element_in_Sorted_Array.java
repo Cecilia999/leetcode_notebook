@@ -14,14 +14,14 @@ class Solution {
     private int findFristTarget(int[] nums, int target){
         int low=0, high=nums.length-1;
         
-        while(low<=high){
+        while(low<=high){  //!!
             int mid = low + (high-low)/2;
             
             if(nums[mid]==target){
                 if(mid==0 || nums[mid-1]<target){
                     return mid;
                 }
-                high = mid-1;
+                high = mid-1; //!!!容易忽略的条件导致死循环
             }
             
             else if(nums[mid]>target)
@@ -36,14 +36,14 @@ class Solution {
     private int findLastTarget(int[] nums, int target){
         int low=0, high=nums.length-1;
         
-        while(low<=high){
+        while(low<=high){ //!!
             int mid = low + (high-low)/2;
             
             if(nums[mid]==target){
                if(mid==nums.length-1 || nums[mid+1]>target){
                     return mid;
                 }
-                low = mid+1;
+                low = mid+1; //!!!容易忽略的条件导致死循环
             }
             
             else if(nums[mid]>target)
