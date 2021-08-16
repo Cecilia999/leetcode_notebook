@@ -129,6 +129,7 @@
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                                                   | [java](/solution_java/0035_Search_Insert_Position.java)                                  | easy       |
 | 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                           | [java](/solution_java/0074_Search_a_2D_Matrix.java)                                      | medium     |
 | 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                                                     | [java](/solution_java/0240_Search_a_2D_Matrix_II.java)                                   | medium     |
+| 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)                                                                         | [java](/solution_java/0875_Koko_Eating_Bananas.java)                                     | medium     |
 
 ### 9. [Linked List](linked_list.md)
 

@@ -191,6 +191,8 @@ func searchLastLessElement(nums []int, target int) int {
 
 ### 2. max-min 最大值最小化问题
 
-**参考：**
+- [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/):
+  [java](/solution_java/0875_Koko_Eating_Bananas.java)
+  **参考：**
 
 https://segmentfault.com/a/1190000039377221
