@@ -62,6 +62,9 @@
    1.n = 101110, then 1 = 000001 and n & 1 = 000000
    2.n = 101111, then 1 = 000001 and n & 1 = 000001
 
+   - [137. Single Number II](https://leetcode.com/problems/single-number-ii/):
+     [java](/solution_java/137_Single_NumberII.java)
+
 4. n & ~n = 0 ==>> 如果 x & y = 0 说明 x 和 y 完全不相同
 
    这个特性可以用于两个 string 比较有没有相同的字母

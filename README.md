@@ -212,6 +212,7 @@
 | 0191               | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                                         | [java](/solution_java/0191_Number_of_1_Bits.java)                | easy       |
 | 0231               | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                 | [java](/solution_java/0231_Power_of_Two.java)                    | easy       |
 | 0136               | [Single Number](https://leetcode.com/problems/single-number/)                                               | [java](/solution_java/0136_Single_Number.java)                   | easy       |
+| 0137               | [Single Number II](https://leetcode.com/problems/single-number-ii/)                                         | [java](/solution_java/137_Single_NumberII.java)                  | medium     |
 | 0268               | [Missing Number](https://leetcode.com/problems/missing-number/)                                             | [java](/solution_java/0268_Missing_Number.java)                  | easy       |
 | 0389               | [Find the Difference](https://leetcode.com/problems/find-the-difference/)                                   | [java](/solution_java/0389_Find_the_Difference.java)             | easy       |
 | 0260               | [Single Number III](https://leetcode.com/problems/single-number-iii/)                                       | [java](/solution_java/0260_Single_Number_III.java)               | medium     |
