@@ -247,6 +247,7 @@
 
 ### Breadth-First Search & Depth-First Search
 
-| \#   | Title                                                     | Solution                                     | Difficulty |
-| ---- | --------------------------------------------------------- | -------------------------------------------- | ---------- |
-| 0127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [java](/solution_java/0127_Word_Ladder.java) | hard       |
+| \#   | Title                                                         | Solution                                       | Difficulty |
+| ---- | ------------------------------------------------------------- | ---------------------------------------------- | ---------- |
+| 0127 | [Word Ladder](https://leetcode.com/problems/word-ladder/)     | [java](/solution_java/0127_Word_Ladder.java)   | hard       |
+| 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | [java](/solution_java/0752_Open_the_Lock.java) | medium     |
