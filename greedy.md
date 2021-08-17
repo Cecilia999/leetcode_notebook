@@ -6,3 +6,5 @@
   [java](/solution_java/0455_Assign_Cookies.java)
 - [135. Candy](https://leetcode.com/problems/candy/):
   [java](/solution_java/0135_Candy.java)
+- [763. Partition Labels](https://leetcode.com/problems/partition-labels/):
+  [java](/solution_java/0763_Partition_Labels.java)
