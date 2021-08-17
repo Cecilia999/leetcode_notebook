@@ -191,8 +191,42 @@ func searchLastLessElement(nums []int, target int) int {
 
 ### 2. max-min 最大值最小化问题
 
+```java
+class Solution {
+    public int binarySearchMaxMin(int[] nums, int m) {
+        //1. 找到lowerBound 和 upperBound
+        int low = , high=;
+        for(int i=1; i<nums.length; i++){
+            low = ;
+            high = ;
+        }
+
+        //2. binary search
+        while(low <= high){
+            int mid = low + (high-low)/2;
+
+            if(somefunction(nums, mid) > m) //和m比较判断是mid太小还是太大
+                low = mid + 1;
+            else
+                high = mid -1;
+        }
+
+        return low;
+    }
+
+    private int somefunction(int[] nums, int sum){
+
+    }
+}
+```
+
+410、 875、1011、1482、1552、1631
+
 - [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/):
   [java](/solution_java/0875_Koko_Eating_Bananas.java)
+- [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/):
+  [java](/solution_java/0410_Split_Array_Largest_Sum.java)
+
   **参考：**
 
 https://segmentfault.com/a/1190000039377221
