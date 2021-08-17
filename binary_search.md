@@ -194,11 +194,11 @@ func searchLastLessElement(nums []int, target int) int {
 ```java
 class Solution {
     public int binarySearchMaxMin(int[] nums, int m) {
-        //1. 找到lowerBound 和 upperBound
-        int low = , high=;
+        //1. 处理input的数组找到lowerBound 和 upperBound
+        int low = nums[0], high = nums[0];
         for(int i=1; i<nums.length; i++){
-            low = ;
-            high = ;
+            low = Math.max(low, nums[i]);
+            high += nums[i];
         }
 
         //2. binary search
@@ -214,8 +214,17 @@ class Solution {
         return low;
     }
 
-    private int somefunction(int[] nums, int sum){
+    private int somefunction(int[] nums, int capacity){
+        int count=1, total=0; //count至少是1
+        for(int i=0; i<nums.length; i++){
+            total += nums[i];
+            if(total>capacity){
+                total = nums[i];
+                count++;
+            }
+        }
 
+        return count;
     }
 }
 ```
@@ -226,7 +235,9 @@ class Solution {
   [java](/solution_java/0875_Koko_Eating_Bananas.java)
 - [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/):
   [java](/solution_java/0410_Split_Array_Largest_Sum.java)
+- [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/):
+  [java](/solution_java/1011_Capacity_To_Ship_Packages_Within_D_Days.java)
 
-  **参考：**
+**参考：**
 
 https://segmentfault.com/a/1190000039377221

@@ -1,3 +1,6 @@
 # greedy
 
 贪心算法（又称贪婪算法）是指，在对问题求解时，总是做出在当前看来是最好的选择。也就是说，不从整体最优上加以考虑，他所做出的仅是在某种意义上的局部最优解。贪心算法不是对所有问题都能得到整体最优解，但对范围相当广泛的许多问题他能产生整体最优解或者是整体最优解的近似解。
+
+- [455. Assign Cookies](https://leetcode.com/problems/assign-cookies/):
+  [java](/solution_java/0455_Assign_Cookies.java)

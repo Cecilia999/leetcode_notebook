@@ -131,6 +131,7 @@
 | 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                                                     | [java](/solution_java/0240_Search_a_2D_Matrix_II.java)                                   | medium     |
 | 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)                                                                         | [java](/solution_java/0875_Koko_Eating_Bananas.java)                                     | medium     |
 | 0410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)                                                                 | [java](/solution_java/0410_Split_Array_Largest_Sum.java)                                 | hard       |
+| 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)                                 | [java](/solution_java/1011_Capacity_To_Ship_Packages_Within_D_Days.java)                 | medium     |
 
 ### 9. [Linked List](linked_list.md)
 
@@ -255,3 +256,9 @@
 | ---- | ------------------------------------------------------------- | ---------------------------------------------- | ---------- |
 | 0127 | [Word Ladder](https://leetcode.com/problems/word-ladder/)     | [java](/solution_java/0127_Word_Ladder.java)   | hard       |
 | 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | [java](/solution_java/0752_Open_the_Lock.java) | medium     |
+
+### greedy
+
+| \#   | Title                                                           | Solution                                        | Difficulty |
+| ---- | --------------------------------------------------------------- | ----------------------------------------------- | ---------- |
+| 0455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | [java](/solution_java/0455_Assign_Cookies.java) | easy       |
