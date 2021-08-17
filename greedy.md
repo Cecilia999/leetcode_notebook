@@ -4,3 +4,5 @@
 
 - [455. Assign Cookies](https://leetcode.com/problems/assign-cookies/):
   [java](/solution_java/0455_Assign_Cookies.java)
+- [135. Candy](https://leetcode.com/problems/candy/):
+  [java](/solution_java/0135_Candy.java)
