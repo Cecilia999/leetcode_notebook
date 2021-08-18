@@ -8,3 +8,5 @@
   [java](/solution_java/0135_Candy.java)
 - [763. Partition Labels](https://leetcode.com/problems/partition-labels/):
   [java](/solution_java/0763_Partition_Labels.java)
+- [134. Gas Station](https://leetcode.com/problems/gas-station/):
+  [java](/solution_java/0134_Gas_Station.java)
