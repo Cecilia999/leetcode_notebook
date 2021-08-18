@@ -97,6 +97,23 @@
 - [Integer Break](https://leetcode.com/problems/integer-break/):
   [java](/solution_java/0343_Integer_Break.java)
 
+### 7.2 股票问题系列
+
+买卖一次
+
+- [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/):
+  [java](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock.java)
+
+可以多次买卖：
+
+- [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/):
+  [java](/solution_java/0122_Best_Time_to_Buy_and_Sell_Stock_II.java)
+
+最多买卖两次
+
+**参考：**
+股票问题系列通解：https://leetcode-cn.com/circle/article/qiAgHn/
+
 ## 8. Subsequence/Substring，子序列/子字符串
 
 ### 8.1. Longest Subsequence/Substring(Subarray)，最长子序列/子字符串
