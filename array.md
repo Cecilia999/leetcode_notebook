@@ -54,8 +54,6 @@
 
 - [134. Gas Station](https://leetcode.com/problems/gas-station/):
   [java](/solution_java/0134_Gas_Station.java)
-- [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/):
-  [java](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock.java)
 
 ## 2d array -->> matrix
 
