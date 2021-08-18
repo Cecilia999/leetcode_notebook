@@ -50,6 +50,13 @@
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/):
   [java](/solution_java/0238_Product_of_Array_Except_Self.java)
 
+### 5. 折线图(贪心)
+
+- [134. Gas Station](https://leetcode.com/problems/gas-station/):
+  [java](/solution_java/0134_Gas_Station.java)
+- [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/):
+  [java](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock.java)
+
 ## 2d array -->> matrix
 
 ### 1. spiral matrix 螺旋矩阵
