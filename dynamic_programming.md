@@ -102,7 +102,7 @@
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/):
   [DP](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock.java)
 - [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/):
-  [贪心+DP](/solution_java/0122_Best_Time_to_Buy_and_Sell_Stock_II.java)
+  [贪心+DP](/solution_java/股票问题系列.md)
 - [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/):
   [DP](/solution_java/股票问题系列.md)
 - [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/):

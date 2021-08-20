@@ -245,7 +245,7 @@
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                                                                     | [java](/solution_java/0239_Sliding_Window_Maximum.java)           | hard       |
 | jz64 | [滑动窗口的最大值](https://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788?tpId=13&&tqId=11217&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ64_滑动窗口的最大值.java)                        | 较难       |
 
-### Math
+### 15. Math
 
 | \#              | Title                                                                | Solution                                        | Difficulty |
 | --------------- | -------------------------------------------------------------------- | ----------------------------------------------- | ---------- |
@@ -255,14 +255,14 @@
 | 剑指 Offer64    | [求 1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)         | [java](/力扣/剑指Offer64_求1+2+…+n.java)        | 中等       |
 | 剑指 Offer14-ii | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/) | [java](/力扣/剑指Offer14-II_剪绳子II.java)      | 中等       |
 
-### Breadth-First Search & Depth-First Search
+### 16. Breadth-First Search & Depth-First Search
 
 | \#   | Title                                                         | Solution                                       | Difficulty |
 | ---- | ------------------------------------------------------------- | ---------------------------------------------- | ---------- |
 | 0127 | [Word Ladder](https://leetcode.com/problems/word-ladder/)     | [java](/solution_java/0127_Word_Ladder.java)   | hard       |
 | 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | [java](/solution_java/0752_Open_the_Lock.java) | medium     |
 
-### greedy
+### 17. [Greedy](greedy.md)
 
 | \#   | Title                                                                                                   | Solution                                                            | Difficulty |
 | ---- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------- |
