@@ -97,7 +97,7 @@
 - [Integer Break](https://leetcode.com/problems/integer-break/):
   [java](/solution_java/0343_Integer_Break.java)
 
-### 7.2 股票问题系列
+### [7.2 股票问题系列](/solution_java/股票问题系列.md)
 
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/):
   [DP](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock.java)
