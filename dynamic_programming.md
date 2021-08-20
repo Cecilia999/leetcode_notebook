@@ -99,17 +99,18 @@
 
 ### 7.2 股票问题系列
 
-买卖一次
-
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/):
-  [java](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock.java)
-
-可以多次买卖：
-
+  [DP](/solution_java/0121_Best_Time_to_Buy_and_Sell_Stock.java)
 - [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/):
-  [java](/solution_java/0122_Best_Time_to_Buy_and_Sell_Stock_II.java)
-
-最多买卖两次
+  [贪心+DP](/solution_java/0122_Best_Time_to_Buy_and_Sell_Stock_II.java)
+- [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/):
+  [DP](/solution_java/股票问题系列.md)
+- [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/):
+  [DP](/solution_java/股票问题系列.md)
+- [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/):
+  [DP](/solution_java/股票问题系列.md)
+- [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/):
+  [DP](/solution_java/股票问题系列.md)
 
 **参考：**
 股票问题系列通解：https://leetcode-cn.com/circle/article/qiAgHn/
