@@ -245,6 +245,7 @@
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                                                                     | [java](/solution_java/0239_Sliding_Window_Maximum.java)           | hard       |
 | jz64 | [滑动窗口的最大值](https://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788?tpId=13&&tqId=11217&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ64_滑动窗口的最大值.java)                        | 较难       |
 | 0084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)                                                                                     | [java](/solution_java/0084_Largest_Rectangle_in_Histogram.md)     | medium     |
+| 0496 | [Next Greater Element I](https://leetcode-cn.com/problems/next-greater-element-i/)                                                                                                  | [java](/solution_java/0496_Next_Greater_Element_I.java)           | easy       |
 
 ### 15. Math
 
