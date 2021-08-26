@@ -138,6 +138,7 @@
 | 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)                                                                         | [java](/solution_java/0875_Koko_Eating_Bananas.java)                                     | medium     |
 | 0410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)                                                                 | [java](/solution_java/0410_Split_Array_Largest_Sum.java)                                 | hard       |
 | 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)                                 | [java](/solution_java/1011_Capacity_To_Ship_Packages_Within_D_Days.java)                 | medium     |
+| 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)                                                                                                   | [java](<solution_java/0069_Sqrt.java)                                                    | easy       |
 
 ### 9. [Linked List](linked_list.md)
 
