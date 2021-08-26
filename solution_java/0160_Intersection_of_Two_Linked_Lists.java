@@ -30,6 +30,7 @@ public class Solution {
       ListNode p1=headA, p2=headB;
       
       while(p1!=p2){
+          //p1, p2 会在同时==null然后退出循环
           p1= p1==null? headB : p1.next;
           p2= p2==null? headA : p2.next;
       }
