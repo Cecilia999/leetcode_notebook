@@ -119,6 +119,8 @@
 | 0014 | [ Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                                                                                | [java](/solution_java/0014_Longest_Common_Prefix.java)                          | easy       |
 | jz54 | [字符流中第一个不重复的字符](https://www.nowcoder.com/practice/00de97733b8e4f97a3fb5c680ee10720?tpId=13&&tqId=11207&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ54_字符流中第一个不重复的字符.java)                            | 中等       |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                                                                                               | [java](/solution_java/0049_Group_Anagrams.java)                                 | medium     |
+| 0647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)                                                                                                               | [java](/solution_java/0647_Palindromic_Substrings.java)                         | medium     |
+| 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)                                                                                                 | [java](/solution_java/0005_Longest_Palindromic_Substring.java)                  | medium     |
 
 ### 8. [Binary Search](binary_search.md)
 

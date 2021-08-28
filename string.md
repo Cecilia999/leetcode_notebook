@@ -21,6 +21,13 @@
 - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/):
   [java](/solution_java/0014_Longest_Common_Prefix.java)
 
+4. **palindrome - 中心拓展**
+
+- [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/):
+  [java](/solution_java/0647_Palindromic_Substrings.java)
+- [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/):
+  [java](/solution_java/0005_Longest_Palindromic_Substring.java)
+
 ## 2. sliding window 滑动窗口
 
 滑动窗口的基本思路：
@@ -63,5 +70,3 @@ int findSubstring(string s){
   [java](/solution_java/0003_Longest_Substring_Without_Repeating_Characters.java)
 - [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/):
   [java](/solution_java/0076_Minimum_Window_Substring.java)
-
-## 3. dp
