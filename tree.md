@@ -135,7 +135,7 @@ public List<Integer> postorderTraversal(TreeNode root) {
 }
 ```
 
-- [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/):
+- [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/):
   [java](/solution_java/0145_Binary_Tree_Postorder_Traversal.java)
 
 ## 3. level traversal 层层遍历

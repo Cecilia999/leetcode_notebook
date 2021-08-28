@@ -249,6 +249,7 @@
 | 0084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)                                                                                     | [java](/solution_java/0084_Largest_Rectangle_in_Histogram.md)     | medium     |
 | 0496 | [Next Greater Element I](https://leetcode-cn.com/problems/next-greater-element-i/)                                                                                                  | [java](/solution_java/0496_Next_Greater_Element_I.java)           | easy       |
 | 0503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)                                                                                                   | [java](/solution_java/0503_Next_Greater_Element_II.java)          | medium     |
+| 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                                                                                                             | [java](/solution_java/0739_Daily_Temperatures.java)               | medium     |
 
 ### 15. Math
 
