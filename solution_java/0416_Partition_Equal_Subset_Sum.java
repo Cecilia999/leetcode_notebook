@@ -17,14 +17,7 @@ class Solution {
       
       //row: 0~nums[i]
       //col: 0~sum
-      boolean[][] dp = new boolean[n+1][sum+1];
-      
-      //先把所有的initialize成false，java会default false
-      // for(int i=0; i<dp.length; i++){
-      //     //Arrays.fill each dp[i]
-      //     Arrays.fill(dp[i], false);
-      // }
-      
+      boolean[][] dp = new boolean[n+1][sum+1];     
       dp[0][0] = true;
       
       //对于nums=0, 任意大小的背包都不会被填满,java会default false,可省略

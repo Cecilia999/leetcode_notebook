@@ -32,6 +32,8 @@
      [java](/solution_java/090_Subsets_II.java)
    - [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/):  
      [java](/solution_java/131_Palindrome_Partitioning.java)
+   - [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/):
+     [java](/solution_java/0698_Partition_to_K_Equal_Sum_Subsets.java)
 
 ### recursion 递归
 
