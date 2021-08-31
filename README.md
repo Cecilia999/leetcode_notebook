@@ -266,10 +266,11 @@
 
 ### 16. Breadth-First Search & Depth-First Search
 
-| \#   | Title                                                         | Solution                                       | Difficulty |
-| ---- | ------------------------------------------------------------- | ---------------------------------------------- | ---------- |
-| 0127 | [Word Ladder](https://leetcode.com/problems/word-ladder/)     | [java](/solution_java/0127_Word_Ladder.java)   | hard       |
-| 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | [java](/solution_java/0752_Open_the_Lock.java) | medium     |
+| \#   | Title                                                         | Solution                                        | Difficulty |
+| ---- | ------------------------------------------------------------- | ----------------------------------------------- | ---------- |
+| 0127 | [Word Ladder](https://leetcode.com/problems/word-ladder/)     | [java](/solution_java/0127_Word_Ladder.java)    | hard       |
+| 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | [java](/solution_java/0752_Open_the_Lock.java)  | medium     |
+| 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/)         | [java](/solution_java/0542_01_Matrix.java.java) | medium     |
 
 ### 17. [Greedy](greedy.md)
 

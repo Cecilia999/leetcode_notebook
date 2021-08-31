@@ -75,3 +75,58 @@ class Solution {
         return -1;
     }
 }
+
+//如果和127统一格式
+class Solution {
+    public int openLock(String[] deadends, String target) {
+        if(target.equals("0000")) return 0;
+        Set<String> deadSet = new HashSet<String>(Arrays.asList(deadends));
+        if(deadSet.contains(target) || deadSet.contains("0000")) return -1;
+        
+        Set<String> beginSet = new HashSet<String>();
+        Set<String> endSet = new HashSet<String>();
+        
+        beginSet.add("0000");
+        endSet.add(target);
+        int step = 0;
+        
+        while(!beginSet.isEmpty() && !endSet.isEmpty()){
+            //let beginSet become the smaller set
+            if(beginSet.size()>endSet.size()){
+                Set<String> temp = beginSet;
+                beginSet = endSet;
+                endSet = temp;
+            }
+            
+            Set<String> nextlevel = new HashSet<String>();
+            for(String digits : beginSet){
+                for(int i=0; i<digits.length(); i++){
+                    StringBuilder sb = new StringBuilder(digits);
+                    char c = digits.charAt(i);
+                    char up = (char)(c=='9'? '0' : c+1);
+                    char down = (char)(c=='0'? '9' : c-1);
+
+                    sb.setCharAt(i, up);
+                    String upStr = sb.toString();
+                    sb.setCharAt(i, down);
+                    String downStr = sb.toString();
+                    if(endSet.contains(upStr) || endSet.contains(downStr))
+                        return step+1;
+                    
+                    if(!deadSet.contains(upStr)){
+                        nextlevel.add(upStr);
+                        deadSet.add(upStr);
+                    }
+                    if(!deadSet.contains(downStr)){
+                        nextlevel.add(downStr);
+                        deadSet.add(downStr);
+                    }
+                }
+            }
+            beginSet = nextlevel;
+            step++;
+        }
+        
+        return -1;
+    }
+}
