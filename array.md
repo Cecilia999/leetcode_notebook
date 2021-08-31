@@ -60,6 +60,26 @@
 - [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci/):
   [java](/力扣/面试题10.01_合并排序的数组.java)
 
+### 7. 前缀和 prefix sum (using hashmap)
+
+前缀和技巧：
+
+1. 前缀和：nums 的第 **0** 项到 **当前项** 的和。
+   用数组 prefixSum 表示，prefixSum[x]：第 0 项到 第 x 项 的和。
+   prefixSum[x] = nums[0] + nums[1] + ... + nums[x]
+
+2. nums 的某项 = 两个相邻前缀和的差：
+   nums[x] = prefixSum[x] - prefixSum[x-1]
+
+3. nums 的 第 i 到 j 项 的和，有：  
+   nums[i] +...+ nums[j] = prefixSum[j] − prefixSum[i−1]
+
+4. 当 i 为 0，此时 i-1 为 -1，我们故意让 prefixSum[-1] 为 0，使得通式在 i=0 时也成立：
+   nums[0] +...+ nums[j] = prefixSum[j]
+
+- [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/):
+  [java](/solution_java/0560_Subarray_Sum_Equals_K.java)
+
 ## 2d array -->> matrix
 
 ### 1. spiral matrix 螺旋矩阵

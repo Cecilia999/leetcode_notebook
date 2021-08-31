@@ -107,6 +107,7 @@
 | 0238         | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)                                                                                                       | [java](/solution_java/0238_Product_of_Array_Except_Self.java)             | medium     |
 | 0283         | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                                                                                                                         | [java](/solution_java/0283_Move_Zeroes.java)                              | easy       |
 | 面试题 10.01 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci/)                                                                                                                             | [java](/力扣/面试题10.01_合并排序的数组.java)                             | easy       |
+| 0560         | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                                                                                                                     | [java](/solution_java/0560_Subarray_Sum_Equals_K.java)                    | medium     |
 
 ### 5. [String](string.md)
 
