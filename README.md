@@ -108,6 +108,8 @@
 | 0283         | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                                                                                                                         | [java](/solution_java/0283_Move_Zeroes.java)                              | easy       |
 | 面试题 10.01 | [合并排序的数组](https://leetcode-cn.com/problems/sorted-merge-lcci/)                                                                                                                             | [java](/力扣/面试题10.01_合并排序的数组.java)                             | easy       |
 | 0560         | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                                                                                                                     | [java](/solution_java/0560_Subarray_Sum_Equals_K.java)                    | medium     |
+| 0303         | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)                                                                                                           | [java](/solution_java/0303_Range_Sum_Query-Immutable.java)                | easy       |
+| 0304         | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)                                                                                                     | [java](/solution_java/0304_Range_Sum_Query_2D-Immutable.java)             | medium     |
 
 ### 5. [String](string.md)
 

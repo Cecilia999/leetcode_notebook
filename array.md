@@ -62,7 +62,7 @@
 
 ### 7. 前缀和 prefix sum (using hashmap)
 
-前缀和技巧：
+### 7.1 一维前缀和：
 
 1. 前缀和：nums 的第 **0** 项到 **当前项** 的和。
    用数组 prefixSum 表示，prefixSum[x]：第 0 项到 第 x 项 的和。
@@ -79,6 +79,16 @@
 
 - [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/):
   [java](/solution_java/0560_Subarray_Sum_Equals_K.java)
+- [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/):
+  [java](/solution_java/0303_Range_Sum_Query-Immutable.java)
+
+### 7.2 二维 matrix 前缀和
+
+![alt text](./images/304-1.jpg)
+![alt text](./images/304-2.jpg)
+
+- [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/):
+  [java](/solution_java/0304_Range_Sum_Query_2D-Immutable.java)
 
 ## 2d array -->> matrix
 

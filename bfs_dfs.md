@@ -1,5 +1,13 @@
 # BFS & DFS
 
+matrix search with BFS & DFS 的小 tips 是用
+
+```java
+private static int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+```
+
+来实现 bfs/dfs
+
 ## BFS
 
 ### 1. 双向 bfs using hashset
@@ -9,7 +17,7 @@
 - [752. Open the Lock](https://leetcode.com/problems/open-the-lock/):
   [java](/solution_java/0752_Open_the_Lock.java)
 
-### 2. 单向 bfs + queue
+### 2. 单向 bfs matrix search + queue
 
 - [542. 01 Matrix](https://leetcode.com/problems/01-matrix/):
   [java](/solution_java/0542_01_Matrix.java)
