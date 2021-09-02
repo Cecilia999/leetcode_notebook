@@ -71,6 +71,7 @@
 | 剑指 Offer62 | [圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)                                                                        | [java](/力扣/剑指Offer62_圆圈中最后剩下的数字.md)                          | 简单       |
 | 0010         | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                                                                         | [java](/solution_java/0010_Regular_Expression_Matching.md)                 | hard       |
 | 0044         | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)                                                                                                             | [java](/solution_java/0044_Wildcard_Matching.java)                         | hard       |
+| 0279         | [Perfect Squares](https://leetcode.com/problems/perfect-squares/)                                                                                                                 | [java](/solution_java/0279_Perfect_Squares.java)                           | medium     |
 
 ### 3. [Two Pointer](two_pointer.md)
 

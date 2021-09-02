@@ -41,7 +41,7 @@
 
 01 背包：416. 分割等和子集 474. 一和零 494. 目标和 879. 盈利计划 1049. 最后一块石头的重量 II
 
-- 4.1 Equal Subset Sum Partition，相等子集划分问题
+- 4.1 分割等和子集
 
   - [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/): [Solution](/solution_java/0416_Partition_Equal_Subset_Sum.java)
 
@@ -55,7 +55,7 @@
   - [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/):
     [Solution](/solution_java/1049_Last_Stone_Weight_II.java)
 
-- 4.4 其他
+- 4.4 其他 zs
 
   - [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/):
     [java](/solution_java/474_Ones_and_Zeroes.java)
@@ -70,6 +70,8 @@
     [java](/solution_java/0322_Coin_Change.java)
   - [518. Coin Change 2](https://leetcode.com/problems/coin-change-2/):
     [java](/solution_java/0518_Coin_Change_2.java)
+  - [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/):
+    [java](/solution_java/0279_Perfect_Squares.java)
 
 ## 6.counting dp 计数 dp
 
