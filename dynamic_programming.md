@@ -39,6 +39,8 @@
 
 ## 4. 0/1 Knapsack (0/1 背包)
 
+01 背包：416. 分割等和子集 474. 一和零 494. 目标和 879. 盈利计划 1049. 最后一块石头的重量 II
+
 - 4.1 Equal Subset Sum Partition，相等子集划分问题
 
   - [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/): [Solution](/solution_java/0416_Partition_Equal_Subset_Sum.java)
@@ -59,6 +61,8 @@
     [java](/solution_java/474_Ones_and_Zeroes.java)
 
 ## 5. Unbounded Knapsack，无限背包 （repetition of items are allowed）
+
+完全背包：1449. 数位成本和为目标值的最大数字 322. 零钱兑换 518. 零钱兑换 II 279. 完全平方数
 
 - 5.1 Coin Change 换硬币问题
 

@@ -1,3 +1,19 @@
+// 题目大意
+// 给你一个 只包含正整数 的 非空 数组 nums 。请你判断是否可以将这个数组分割成两个子集，使得两个子集的元素和相等。
+
+// 示例 1：
+// 输入：nums = [1,5,11,5]
+// 输出：true
+// 解释：数组可以分割成 [1, 5, 5] 和 [11] 。
+// 示例 2：
+// 输入：nums = [1,2,3,5]
+// 输出：false
+// 解释：数组不能分割成两个元素和相等的子集。
+
+// 提示：
+// 1 <= nums.length <= 200
+// 1 <= nums[i] <= 100
+
 //思路：
 //这一题是典型的完全背包的题型。在 n 个物品中选出一定物品，完全填满 sum/2 的背包。
 //F(n,C) 代表将 n 个物品填满容量为 C 的背包，
@@ -46,35 +62,33 @@ class Solution {
 
 //优化到1d array
 //1d-array的重点是：j要倒着遍历！！！！！！！！！！！！！！
-// for(int j=sum; j>=num; j--){            
-//     dp[j] = ( dp[j] || dp[j-num]);
+// for(int i=sum; i>=num; i--){            
+//     dp[i] = ( dp[i] || dp[i-num]);
 // }
 
-//dp[j]表示j size的背包能不能被装满
+//dp[i]表示i size的背包能不能被装满
 
 class Solution {
-  public boolean canPartition(int[] nums) {
-      int sum=0, n=nums.length;
-      for(int i=0; i<n; i++){
-          sum += nums[i];
-      }
-      
-      if(sum%2!=0) return false;
-      sum /= 2;
-      
-      boolean[] dp = new boolean[sum+1]; 
-      Arrays.fill(dp, false);
-      dp[0] = true;
-      
-      //只对每个nums中的num loop
-      for( int num: nums){
-          //j>=nums[i-1] 时间优化，不满足这个条件也不会更新dp
-          for(int j=sum; j>=num; j--){ 
-              //如果不装： dp[j] = dp[j] 即相当于2darray中的dp[i][j] = dp[i-1][j], 不update即即成之前的
-              //如果装：  dp[j] = dp[j-num]
-              dp[j] = ( dp[j] || dp[j-num]);
-          }
-      }
-      return dp[sum];
+    public boolean canPartition(int[] nums) {
+        int sum = 0;
+        for(int i=0; i<nums.length; i++)
+            sum += nums[i];
+        
+        //如果sum不能被正好分成两份
+        if(sum%2!=0) return false;
+        
+        sum /= 2;     
+        boolean[] dp = new boolean[sum+1];
+        dp[0] = true;
+        
+        //对于每个背包size，判断能否被填满
+        for(int num : nums){
+            //要从大到小计算，因为如果是从小到大的话dp[i-num]会被覆盖
+            for(int i=sum; i>=num; i--){
+                  dp[i] = dp[i] || dp[i-num];
+            }      
+        }
+        
+        return dp[sum];
+    }
   }
-}
