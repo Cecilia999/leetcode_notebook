@@ -186,3 +186,12 @@ using preorder + recursion
   [java](/solution_java/0199_Binary_Tree_Right_Side_View.java)
 - [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/):
   [java](/solution_java/0236_Lowest_Common_Ancestor_of_a_Binary_Tree.java)
+
+### 7.1 pathSum
+
+- [112. Path Sum](https://leetcode.com/problems/path-sum/):
+  [java](/solution_java/0112_Path_Sum.java)
+- [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/):
+  [java](/solution_java/0113_Path_Sum_II.java)
+- [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/):
+  [java](/solution_java/0437_Path_Sum_III.java)

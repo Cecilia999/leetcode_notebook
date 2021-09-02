@@ -30,7 +30,7 @@ private static int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}
 
 ## DFS
 
-### matrix dfs 搜索一串单词/一条路径
+### 1. matrix dfs 搜索一串单词/一条路径
 
 - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/):
   [java](/solution_java/0200_Number_of_Islands.java)
