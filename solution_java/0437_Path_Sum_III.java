@@ -32,6 +32,42 @@
  *     }
  * }
  */
+
+ //法1:前缀和
+class Solution {
+    public int pathSum(TreeNode root, int targetSum) {
+        // key是前缀和, value是大小为key的前缀和出现的次数
+        HashMap<Integer, Integer> preSum = new HashMap<Integer, Integer>();
+        // 前缀和为0的一条路径
+        preSum.put(0, 1);
+        return recursionPathSum(root, preSum, 0, targetSum);
+    }
+    
+    private int recursionPathSum(TreeNode root, HashMap<Integer, Integer> preSum, int curSum, int target){
+        int res = 0;
+        
+        //stop recursion
+        if(root==null)
+            return res;      
+        curSum += root.val;
+        
+        //找到已经遍历过的当前路径下前缀和==curSum-target的节点数量
+        //可能不止一个，可能一个都没有
+        res += preSum.getOrDefault(curSum - target, 0);
+        //把当前路径的前缀和放进hashmap
+        preSum.put(curSum, preSum.getOrDefault(curSum, 0) + 1);
+        
+        res += recursionPathSum(root.left, preSum, curSum, target);
+        res += recursionPathSum(root.right, preSum, curSum, target);
+        
+        //回到本层，去除当前节点的前缀和数量
+        preSum.put(curSum, preSum.get(curSum) - 1);
+        return res;
+    }
+    
+}
+
+//法2:dfs
 class Solution {
     private static int count = 0;
     public int pathSum(TreeNode root, int targetSum) {

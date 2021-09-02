@@ -195,3 +195,25 @@ using preorder + recursion
   [java](/solution_java/0113_Path_Sum_II.java)
 - [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/):
   [java](/solution_java/0437_Path_Sum_III.java)
+
+## 前缀和 prefix sum using HashMap
+
+二叉树的前缀和
+
+```java
+// key是前缀和, value是大小为key的前缀和出现的次数
+Map<Integer, Integer> prefixSumCount = new HashMap<>();
+
+// 当前路径上的和
+currSum += node.val;
+// currSum-target相当于找路径的起点，起点的sum+target=currSum，当前点到起点的距离就是target
+res += prefixSumCount.getOrDefault(currSum - target, 0);
+// 更新路径上当前节点前缀和的个数
+prefixSumCount.put(currSum, prefixSumCount.getOrDefault(currSum, 0) + 1);
+
+// 遍历完本层下面的路径，要回到本层，恢复状态，去除当前节点的前缀和数量
+prefixSumCount.put(currSum, preSum.get(currSum) - 1);
+```
+
+- [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/):
+  [java](/solution_java/0437_Path_Sum_III.java)
