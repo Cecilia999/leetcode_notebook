@@ -270,7 +270,7 @@
 | 剑指 Offer64    | [求 1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)         | [java](/力扣/剑指Offer64_求1+2+…+n.java)        | 中等       |
 | 剑指 Offer14-ii | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/) | [java](/力扣/剑指Offer14-II_剪绳子II.java)      | 中等       |
 
-### 16. Breadth-First Search & Depth-First Search
+### 16. [Breadth-First Search & Depth-First Search](bfs_dfs.md)
 
 | \#   | Title                                                                                       | Solution                                                      | Difficulty |
 | ---- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ---------- |

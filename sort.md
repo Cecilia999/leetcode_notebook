@@ -7,20 +7,25 @@
 - 选择排序：是把对比整个 array 把最小的放在最前面，然后对比整个 array 把第二小的放在第二的位置
 - 插入排序：是如果 j-1 位置的值比 target 值要大，就把当前位置=j-1 位置的值，j--。只要 j>0 且满足这个条件就一直 loop，逻辑是把 target 值放到他合适的位置
 
-### 1. quick sort 快速排序
+## 1. quick sort 快速排序
 
 快速排序采用分治+递归，每次将一个位置上的数据归位，此时该数左边的所有数据都比该数小，右边所有的数据都比该数大，然后递归将已归位的数据左右两边再次进行快排，从而实现所有数据的归位。  
 **完全倒序的情况下是最慢的 O(n^2)**
 
-#### 1.1 find kth largest/ kth smallest
+### 1.1 find kth largest/ kth smallest
 
 - [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/):  
   [java](/solution_java/0215_Kth_Largest_Element_in_an_Array.java)
 
-- [最小的 K 个数](https://books.halfrost.com/leetcode/ChapterFour/0200~0299/0215.Kth-Largest-Element-in-an-Array/)  
+- [215. 最小的 K 个数](https://books.halfrost.com/leetcode/ChapterFour/0200~0299/0215.Kth-Largest-Element-in-an-Array/)  
   [java](/牛客网/最小的K个数.java)
 
-### 2. Merge Sort 归并排序
+### 1.2 多路快排
+
+- [75. Sort Colors](https://leetcode.com/problems/sort-colors/):
+  [java](/solution_java/0075_Sort_Colors.java)
+
+## 2. Merge Sort 归并排序
 
 归并排序（MERGE-SORT）是利用归并的思想实现的排序方法，该算法采用经典的分治（divide-and-conquer）策略（分治法将问题分(divide)成一些小的问题然后递归求解，而治(conquer)的阶段则将分的阶段得到的各答案"修补"在一起，即分而治之)。
 
@@ -93,7 +98,7 @@ public class mergeSort {
 
 归并排序是稳定排序，它也是一种十分高效的排序，能利用完全二叉树特性的排序一般性能都不会太差。java 中 Arrays.sort()采用了一种名为 TimSort 的排序算法，就是归并排序的优化版本。从上文的图中可看出，每次合并操作的平均时间复杂度为 O(n)，而完全二叉树的深度为|log2n|。总的平均时间复杂度为 O(nlogn)。而且，归并排序的最好，最坏，平均时间复杂度均为 O(nlogn)。
 
-#### 2.1 数组的 merge sort
+### 2.1 数组的 merge sort
 
 - [数组中的逆序对](https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?tpId=13&&tqId=11188&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/牛客网/JZ35_数组中的逆序对.java)
@@ -101,16 +106,16 @@ public class mergeSort {
   [java](/solution_java/0493_Reverse_Pairs.java)  
    参考：https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22
 
-#### 2.2 linked list 链表的 merge sort
+### 2.2 linked list 链表的 merge sort
 
 - [Sort List](https://leetcode.com/problems/sort-list/):
   [java](/solution_java/0148_Sort_List.java)
 
-### 3. Time Sort
+## 3. Time Sort
 
 Arrays.sort()就是使用的 time sort
 
-#### 3.1 把 int array concat 成最大的数/最小的数
+### 3.1 把 int array concat 成最大的数/最小的数
 
 **solution:**
 int array convert to string array
@@ -121,7 +126,7 @@ override array.sort()
 - [jz32. 把数组排成最小的数](https://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?tpId=13&&tqId=11185&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/牛客网/把数组排成最小的数.java)
 
-### 4. 优先队列
+## 4. 优先队列
 
 定义优先队列
 
@@ -138,7 +143,7 @@ PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(11,new Comparator<In
 
 - [253. Meeting Room](/solution_java/0253_meeting_room.java)
 
-### 参考
+## 参考
 
 - 快速排序：https://www.cnblogs.com/anthonyhoo/p/12259543.html
 - 几种排序算法的总结与比较：https://www.jianshu.com/p/7df9d6206e72
