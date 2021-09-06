@@ -215,6 +215,15 @@ PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
 // max heap大顶堆
 PriorityQueue<Integer> pq = new PriorityQueue<Integer>(Collections.reverseOrder());
 
+PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>(); //小顶堆，默认容量为11
+PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(11,new Comparator<Integer>(){ //大顶堆，容量11
+    @Override
+    public int compare(Integer i1,Integer i2){
+        return i2-i1;
+    }
+});
+
+
 pq.offer(0);
 pq.poll();    //poll在priority queue为空时不会报错，会return false，remove会报错
 pq.remove(0); //但是remove可以传参，指定remove哪一个，poll只能获得peek()位置的值

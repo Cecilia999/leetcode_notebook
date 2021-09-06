@@ -121,6 +121,23 @@ override array.sort()
 - [jz32. 把数组排成最小的数](https://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?tpId=13&&tqId=11185&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/牛客网/把数组排成最小的数.java)
 
+### 4. 优先队列
+
+定义优先队列
+
+```java
+PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>(); //小顶堆，默认容量为11
+PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(11,new Comparator<Integer>(){ //大顶堆，容量11
+    @Override
+    public int compare(Integer i1,Integer i2){
+        return i2-i1;
+    }
+});
+
+```
+
+- [253. Meeting Room](/solution_java/0253_meeting_room.java)
+
 ### 参考
 
 - 快速排序：https://www.cnblogs.com/anthonyhoo/p/12259543.html
