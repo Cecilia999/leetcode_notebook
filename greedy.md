@@ -17,3 +17,10 @@
   [java](/solution_java/0134_Gas_Station.java)
 - [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/):
   [java](/solution_java/0122_Best_Time_to_Buy_and_Sell_Stock_II.java)
+
+## 1. 贪心 + 单调栈
+
+- [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/):
+  [java](/solution_java/0402_Remove_K_Digits.java)
+- [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/):
+  [java](/solution_java/0316_Remove_Duplicate_Letters.java)

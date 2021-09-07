@@ -127,7 +127,7 @@ q.size();
 如果超出 queue 的 size `q.offer()`不会 return error 而是返回 false 是一个 boolean func
 `q.remove()`现在用`q.poll()`代替
 
-## Deque(Double-ended queue) 用 linkedlist 实现
+## Deque(双端队列 Double-ended queue) 用 linkedlist 实现
 
 ```java
 Deque<Interger> deque = new LinkedList<Interger>();

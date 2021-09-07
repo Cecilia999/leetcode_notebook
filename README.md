@@ -288,3 +288,5 @@
 | 0763 | [Partition Labels](https://leetcode.com/problems/partition-labels/)                                     | [java](/solution_java/0763_Partition_Labels.java)                   | medium     |
 | 0134 | [Gas Station](https://leetcode.com/problems/gas-station/)                                               | [java](/solution_java/0134_Gas_Station.java)                        | medium     |
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [java](/solution_java/0122_Best_Time_to_Buy_and_Sell_Stock_II.java) | easy       |
+| 0402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)                                       | [java](/solution_java/0402_Remove_K_Digits.java)                    | medium     |
+| 0316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)                     | [java](/solution_java/0316_Remove_Duplicate_Letters.java)           | medium     |
