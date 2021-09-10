@@ -240,7 +240,7 @@
 | 剑指 Offer 56 - II | [数组中数字出现的次数 II](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/) | [java](/力扣/剑指Offer56-II_数组中数字出现的次数II.java)         | 中等       |
 | 0338               | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                               | [java](/solution_java/0338_Counting_Bits.java)                   | easy       |
 
-### 14. [Stack/Queue/Deque/Priority Que](栈与堆.md)
+### 14. [Stack/Queue/Deque/Priority Que](栈_堆_队列.md)
 
 | \#   | Title                                                                                                                                                                               | Solution                                                          | Difficulty |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------- |
@@ -252,6 +252,7 @@
 | jz59 | [剑指 Offer59-II\_队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof)                                                                                        | [java](/力扣/剑指Offer59-II_队列的最大值.java)                    | 简单       |
 | 0946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)                                                                                                 | [java](/solution_java/0946_Validate_Stack_Sequences.java)         | medium     |
 | 0295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)                                                                                         | [java](/solution_java/0295_Find_Median_Data_Stream.java)          | hard       |
+| 0480 | [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)                                                                                                  | [java](/solution_java/0480_Sliding_Window_Median.java)            | hard       |
 | jz63 | [数据流中的中位数](https://www.nowcoder.com/practice/9be0172896bd43948f8a32fb954e1be1?tpId=13&&tqId=11216&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ63_数据流中的中位数.java)                        | 中等       |
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                                                                     | [java](/solution_java/0239_Sliding_Window_Maximum.java)           | hard       |
 | jz64 | [滑动窗口的最大值](https://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788?tpId=13&&tqId=11217&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ64_滑动窗口的最大值.java)                        | 较难       |

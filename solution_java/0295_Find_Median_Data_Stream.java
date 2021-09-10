@@ -5,19 +5,20 @@
 
 //解题思路
 //使用一个大顶堆和一个小顶堆
-//data stream 应该按大小顺序 一半在小顶堆，一半大顶堆
+//data stream 应该按大小顺序 大的一半在小顶堆，小的一半大顶堆
+//所以大顶堆的peek()<小顶堆.peek()
 
 //addNum时
 //data stream size == even 代表之前data stream size是even
 //插入数字到large
-//如果该数字比large所有的数字都要小，那么该数字会在large.peek()
+//如果该数字比large所有的数字都要大，那么该数字会在large.peek()
 //poll large.peek() 并且放入small
 //findMedian() return small.peek()
 
 //addNum时
 //data stream size == odd 代表之前data stream size是odd
 //插入数字到small
-//如果该数字比large所有的数字都要大，那么该数字会在small.peek()
+//如果该数字比small所有的数字都要小，那么该数字会在small.peek()
 //poll small.peek() 并且放入large
 //findMedian() return large.peek() + small.peek() / 2.0
 

@@ -226,7 +226,7 @@ PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(11,new Comparator<In
 
 pq.offer(0);
 pq.poll();    //poll在priority queue为空时不会报错，会return false，remove会报错
-pq.remove(0); //但是remove可以传参，指定remove哪一个，poll只能获得peek()位置的值
+pq.remove(nums[i]); //remove可以传参，指定remove哪一个，poll只能获得peek()位置的值,return true/false
 pq.peek(); //返回第一个element
 pq.isEmpty();
 pq.size();
