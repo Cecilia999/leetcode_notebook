@@ -270,15 +270,17 @@
 | 0503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)                                                                                                   | [java](/solution_java/0503_Next_Greater_Element_II.java)          | medium     |
 | 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                                                                                                             | [java](/solution_java/0739_Daily_Temperatures.java)               | medium     |
 
-### 15. Math
+### 15. [Math](math.md)
 
-| \#              | Title                                                                | Solution                                        | Difficulty |
-| --------------- | -------------------------------------------------------------------- | ----------------------------------------------- | ---------- |
-| 0050            | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                   | [java](/solution_java/0050_Power.java)          | medium     |
-| 0231            | [Power of Two](https://leetcode.com/problems/power-of-two/)          | [java](/solution_java/0231_Power_of_Two.java)   | easy       |
-| 0326            | [Power of Three](https://leetcode.com/problems/power-of-three/)      | [java](/solution_java/0326_Power_of_Three.java) | easy       |
-| 剑指 Offer64    | [求 1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)         | [java](/力扣/剑指Offer64_求1+2+…+n.java)        | 中等       |
-| 剑指 Offer14-ii | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/) | [java](/力扣/剑指Offer14-II_剪绳子II.java)      | 中等       |
+| \#              | Title                                                                                                 | Solution                                                           | Difficulty |
+| --------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ---------- |
+| 0050            | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                                                    | [java](/solution_java/0050_Power.java)                             | medium     |
+| 0231            | [Power of Two](https://leetcode.com/problems/power-of-two/)                                           | [java](/solution_java/0231_Power_of_Two.java)                      | easy       |
+| 0326            | [Power of Three](https://leetcode.com/problems/power-of-three/)                                       | [java](/solution_java/0326_Power_of_Three.java)                    | easy       |
+| 剑指 Offer64    | [求 1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)                                          | [java](/力扣/剑指Offer64_求1+2+…+n.java)                           | 中等       |
+| 剑指 Offer14-ii | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)                                  | [java](/力扣/剑指Offer14-II_剪绳子II.java)                         | 中等       |
+| 面试题 08-14    | [布尔运算](https://leetcode-cn.com/problems/boolean-evaluation-lcci/)                                 | [java](/力扣/面试题08-14_布尔运算.java)                            | medium     |
+| 0241            | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [java](/solution_java/0241_Different_Ways_to_Add_Parentheses.java) | medium     |
 
 ### 16. [Breadth-First Search & Depth-First Search](bfs_dfs.md)
 
