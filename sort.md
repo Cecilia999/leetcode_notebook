@@ -143,6 +143,11 @@ PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(11,new Comparator<In
 
 - [253. Meeting Room](/solution_java/0253_meeting_room.java)
 
+## 5. 煎饼排序
+
+- [969. Pancake Sorting](https://leetcode.com/problems/pancake-sorting/):
+  [java](/solution_java/0969_Pancake_Sorting.java)
+
 ## 参考
 
 - 快速排序：https://www.cnblogs.com/anthonyhoo/p/12259543.html

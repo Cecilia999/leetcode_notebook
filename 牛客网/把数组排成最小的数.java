@@ -21,9 +21,15 @@ public class Solution {
         });
         
         StringBuilder sb = new StringBuilder();
-        for(int i=0; i<nums.length;i++){
+        boolean leadingZero = true;     //用例中有leading zero的edge case
+        for (int i = 0; i < snum.length; i++) {
+            if(!snum[i].equals("0"))
+                leadingZero=false;
             sb.append(snum[i]);
         }
+        
+        if(leadingZero)
+            return "0";
         return sb.toString();
     }
 }

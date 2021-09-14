@@ -217,12 +217,20 @@
 | jz35 | [数组中的逆序对](https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?tpId=13&&tqId=11188&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)     | [java](/牛客网/JZ35_数组中的逆序对.java)                         | 中等       |
 | 0493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)                                                                                                                         | [java](/solution_java/0493_Reverse_Pairs.java)                   | hard       |
 | 0148 | [Sort List](https://leetcode.com/problems/sort-list/)                                                                                                                                 | [java](/solution_java/0148_Sort_List.java)                       | medium     |
+| 0969 | [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)                                                                                                                     | [java](/solution_java/0969_Pancake_Sorting.java)                 | medium     |
 
 ### 12. [Greedy](greedy.md)
 
-| \#   | Title                                                       | Solution                                      | Difficulty |
-| ---- | ----------------------------------------------------------- | --------------------------------------------- | ---------- |
-| 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [java](/solution_java/0045_Jump_Game_II.java) | medium     |
+| \#   | Title                                                                                                   | Solution                                                            | Difficulty |
+| ---- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------- |
+| 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                             | [java](/solution_java/0045_Jump_Game_II.java)                       | medium     |
+| 0455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/)                                         | [java](/solution_java/0455_Assign_Cookies.java)                     | easy       |
+| 0135 | [Candy](https://leetcode.com/problems/candy/)                                                           | [java](/solution_java/0135_Candy.java)                              | hard       |
+| 0763 | [Partition Labels](https://leetcode.com/problems/partition-labels/)                                     | [java](/solution_java/0763_Partition_Labels.java)                   | medium     |
+| 0134 | [Gas Station](https://leetcode.com/problems/gas-station/)                                               | [java](/solution_java/0134_Gas_Station.java)                        | medium     |
+| 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [java](/solution_java/0122_Best_Time_to_Buy_and_Sell_Stock_II.java) | easy       |
+| 0402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)                                       | [java](/solution_java/0402_Remove_K_Digits.java)                    | medium     |
+| 0316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)                     | [java](/solution_java/0316_Remove_Duplicate_Letters.java)           | medium     |
 
 ### 13. [bit manipulation](bit_manipulation.md)
 
@@ -279,15 +287,3 @@
 | 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/)                               | [java](/solution_java/0752_Open_the_Lock.java)                | medium     |
 | 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/)                                       | [java](/solution_java/0542_01_Matrix.java)                    | medium     |
 | 1162 | [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/) | [java](/solution_java/1162_As_Far_from_Land_as_Possible.java) | medium     |
-
-### 17. [Greedy](greedy.md)
-
-| \#   | Title                                                                                                   | Solution                                                            | Difficulty |
-| ---- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------- |
-| 0455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/)                                         | [java](/solution_java/0455_Assign_Cookies.java)                     | easy       |
-| 0135 | [Candy](https://leetcode.com/problems/candy/)                                                           | [java](/solution_java/0135_Candy.java)                              | hard       |
-| 0763 | [Partition Labels](https://leetcode.com/problems/partition-labels/)                                     | [java](/solution_java/0763_Partition_Labels.java)                   | medium     |
-| 0134 | [Gas Station](https://leetcode.com/problems/gas-station/)                                               | [java](/solution_java/0134_Gas_Station.java)                        | medium     |
-| 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [java](/solution_java/0122_Best_Time_to_Buy_and_Sell_Stock_II.java) | easy       |
-| 0402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)                                       | [java](/solution_java/0402_Remove_K_Digits.java)                    | medium     |
-| 0316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)                     | [java](/solution_java/0316_Remove_Duplicate_Letters.java)           | medium     |

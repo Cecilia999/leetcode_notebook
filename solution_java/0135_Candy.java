@@ -33,7 +33,7 @@ class Solution {
         int candys = left[ratings.length-1];
         
         //右规则，如果右边孩子的评分小于左边的孩子，左边的孩子比右边的孩子多一个candy
-        //取左右的最大值
+        //取左右的最大值！！！！
         
         for(int i=ratings.length-2; i>=0; i--){
             if(ratings[i]>ratings[i+1])

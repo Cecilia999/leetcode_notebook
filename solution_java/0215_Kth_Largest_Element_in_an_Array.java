@@ -28,7 +28,7 @@ class Solution {
         while(nums[l]<=nums[pivot] && l<r) 
             l++;
         
-        //swap l & r
+        //找到nums[r]<nums[pivot]和nums[l]>nums[pivot] 交换 l & r
         int temp = nums[r];
         nums[r] = nums[l];
         nums[l] = temp;
@@ -39,7 +39,7 @@ class Solution {
       nums[pivot] = nums[l];
       nums[l] = temp;
       
-      
+      //l是第l大的数
       if(l==k)
           return nums[l];
       else if(l<k)
