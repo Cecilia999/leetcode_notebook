@@ -175,3 +175,8 @@
 ### 参考：
 
 https://blog.csdn.net/richenyunqi/article/details/105699183
+
+## 12. 区间 dp
+
+- [面试题 08-14 布尔运算](https://leetcode-cn.com/problems/boolean-evaluation-lcci/):
+  [java](/力扣/面试题08-14_布尔运算.java)

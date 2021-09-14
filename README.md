@@ -72,6 +72,7 @@
 | 0010         | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                                                                         | [java](/solution_java/0010_Regular_Expression_Matching.md)                 | hard       |
 | 0044         | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)                                                                                                             | [java](/solution_java/0044_Wildcard_Matching.java)                         | hard       |
 | 0279         | [Perfect Squares](https://leetcode.com/problems/perfect-squares/)                                                                                                                 | [java](/solution_java/0279_Perfect_Squares.java)                           | medium     |
+| 面试题 08-14 | [布尔运算](https://leetcode-cn.com/problems/boolean-evaluation-lcci/)                                                                                                             | [java](/力扣/面试题08-14_布尔运算.java)                                    | medium     |
 
 ### 3. [Two Pointer](two_pointer.md)
 
