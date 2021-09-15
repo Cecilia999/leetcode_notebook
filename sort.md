@@ -7,10 +7,56 @@
 - 选择排序：是把对比整个 array 把最小的放在最前面，然后对比整个 array 把第二小的放在第二的位置
 - 插入排序：是如果 j-1 位置的值比 target 值要大，就把当前位置=j-1 位置的值，j--。只要 j>0 且满足这个条件就一直 loop，逻辑是把 target 值放到他合适的位置
 
+**参考**
+
+- https://leetcode.com/problems/sort-an-array/discuss/492042/7-Sorting-Algorithms-(quick-sort-top-downbottom-up-merge-sort-heap-sort-etc.)
+- https://leetcode-cn.com/problems/sort-an-array/solution/fu-xi-ji-chu-pai-xu-suan-fa-java-by-liweiwei1419/
+
 ## 1. quick sort 快速排序
 
 快速排序采用分治+递归，每次将一个位置上的数据归位，此时该数左边的所有数据都比该数小，右边所有的数据都比该数大，然后递归将已归位的数据左右两边再次进行快排，从而实现所有数据的归位。  
 **完全倒序的情况下是最慢的 O(n^2)**
+
+```java
+class Solution {
+    public int[] sortArray(int[] nums) {
+        quickSort(nums, 0, nums.length-1);
+        return nums;
+    }
+
+    private void quickSort(int[] nums, int start, int end){
+        if(start>=end)
+            return;
+
+        int pivot = start, l=start, r=end;
+
+        while(l<r){
+
+            while(nums[r]>=nums[pivot] && l<r)
+                r--;
+            while(nums[l]<=nums[pivot] && l<r)
+                l++;
+
+            //把nums[r]和nums[l]互换位置
+            if(l<r){
+                int t = nums[r];
+                nums[r] = nums[l];
+                nums[l] = t;
+            }
+
+        }
+
+        //把nums[l]和pivot互换位置
+        int temp = nums[pivot];
+        nums[pivot] = nums[l];
+        nums[l] = temp;
+
+        quickSort(nums, start, l-1);
+        quickSort(nums, l+1, end);
+    }
+
+}
+```
 
 ### 1.1 find kth largest/ kth smallest
 

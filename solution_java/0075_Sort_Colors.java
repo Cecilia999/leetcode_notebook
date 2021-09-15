@@ -21,7 +21,7 @@ class Solution {
                 nums[i] = nums[p0];
                 nums[p0] = temp;
                 
-                //edge case, 如果nums[p0]位置的数字==1
+                //edge case, 如果nums[p0]位置的数字==1，否则nums[i]就直接跳过了
                 if(nums[i]==1){
                     temp = nums[i];
                     nums[i] = nums[p1];
