@@ -154,7 +154,7 @@ public class mergeSort {
 
 ### 2.2 linked list 链表的 merge sort
 
-- [Sort List](https://leetcode.com/problems/sort-list/):
+- [148. Sort List](https://leetcode.com/problems/sort-list/):
   [java](/solution_java/0148_Sort_List.java)
 
 ## 3. Time Sort
@@ -188,6 +188,8 @@ PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(11,new Comparator<In
 ```
 
 - [253. Meeting Room](/solution_java/0253_meeting_room.java)
+- [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/):
+  [java](/solution_java/0692_Top_K_Frequent_Words.java)
 
 ## 5. 煎饼排序
 
