@@ -26,7 +26,7 @@ public class Solution {
         ListNode walker = head, runner =head;
         
         //如果有一个linked list有cycle，will never reach null
-        while(runner.next!=null && runner.next.next!=null){
+        while(runner!=null && runner.next!=null){
             walker = walker.next;
             runner = runner.next.next;
             if(walker==runner) //要先increment 不然walker==runner==head

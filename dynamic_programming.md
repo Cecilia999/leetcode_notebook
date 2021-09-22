@@ -81,6 +81,8 @@
 
 - [91. Decode Ways](https://leetcode.com/problems/decode-ways/)：
   [java](/solution_java/0091_Decode_Ways.java)
+- [72. Edit Distance](https://leetcode.com/problems/edit-distance/):
+  [java](/solution_java/0072_Edit_Distance.java)
 
 ### 6.2 二维 array 的计数 dp
 

@@ -73,6 +73,7 @@
 | 0044         | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)                                                                                                             | [java](/solution_java/0044_Wildcard_Matching.java)                         | hard       |
 | 0279         | [Perfect Squares](https://leetcode.com/problems/perfect-squares/)                                                                                                                 | [java](/solution_java/0279_Perfect_Squares.java)                           | medium     |
 | 面试题 08-14 | [布尔运算](https://leetcode-cn.com/problems/boolean-evaluation-lcci/)                                                                                                             | [java](/力扣/面试题08-14_布尔运算.java)                                    | medium     |
+| 0072         | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                                                                     | [java](/solution_java/0072_Edit_Distance.java)                             | hard ｜    |
 
 ### 3. [Two Pointer](two_pointer.md)
 
@@ -206,6 +207,7 @@
 | 0226            | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                                                                                                                        | [java](/solution_java/0226_Invert_Binary_Tree.java)                                         | easy       |
 | 0236            | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                                                                              | [java](/solution_java/0236_Lowest_Common_Ancestor_of_a_Binary_Tree.java)                    | medium     |
 | 0543            | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)                                                                                                              | [java](/solution_java/0543_Diameter_of_Binary_Tree.java)                                    | easy       |
+| 面试题 04-06    | [面试题 04.06. 后继者](https://leetcode-cn.com/problems/successor-lcci/)                                                                                                                       | [java](/力扣/面试题04-06_后继者.java)                                                       | medium     |
 
 ### 11. [Sort](sort.md)
 
@@ -253,24 +255,25 @@
 
 ### 14. [Stack/Queue/Deque/Priority Que](栈_堆_队列.md)
 
-| \#   | Title                                                                                                                                                                               | Solution                                                          | Difficulty |
-| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------- |
-| 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/powx-n/)                                                                                                               | [java](/solution_java/0232_Implement_Queue_using_Stacks.java)     | easy       |
-| jz5  | [用两个栈实现队列](https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?tpId=13&&tqId=11158&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ5_用两个栈实现队列.java)                         | 简单       |
-| 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                                                                               | [java](/solution_java/0020_Valid_Parentheses.java)                | easy       |
-| 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                                                                                 | [java](/solution_java/0150_Evaluate_Reverse_Polish_Notation.java) | medium     |
-| 0155 | [Min Stack](https://leetcode.com/problems/min-stack/)                                                                                                                               | [java](/solution_java/0155_Min_Stack.java)                        | easy       |
-| jz59 | [剑指 Offer59-II\_队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof)                                                                                        | [java](/力扣/剑指Offer59-II_队列的最大值.java)                    | 简单       |
-| 0946 | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)                                                                                                 | [java](/solution_java/0946_Validate_Stack_Sequences.java)         | medium     |
-| 0295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)                                                                                         | [java](/solution_java/0295_Find_Median_Data_Stream.java)          | hard       |
-| 0480 | [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)                                                                                                  | [java](/solution_java/0480_Sliding_Window_Median.java)            | hard       |
-| jz63 | [数据流中的中位数](https://www.nowcoder.com/practice/9be0172896bd43948f8a32fb954e1be1?tpId=13&&tqId=11216&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ63_数据流中的中位数.java)                        | 中等       |
-| 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                                                                     | [java](/solution_java/0239_Sliding_Window_Maximum.java)           | hard       |
-| jz64 | [滑动窗口的最大值](https://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788?tpId=13&&tqId=11217&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ64_滑动窗口的最大值.java)                        | 较难       |
-| 0084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)                                                                                     | [java](/solution_java/0084_Largest_Rectangle_in_Histogram.md)     | medium     |
-| 0496 | [Next Greater Element I](https://leetcode-cn.com/problems/next-greater-element-i/)                                                                                                  | [java](/solution_java/0496_Next_Greater_Element_I.java)           | easy       |
-| 0503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)                                                                                                   | [java](/solution_java/0503_Next_Greater_Element_II.java)          | medium     |
-| 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                                                                                                             | [java](/solution_java/0739_Daily_Temperatures.java)               | medium     |
+| \#           | Title                                                                                                                                                                               | Solution                                                          | Difficulty |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------- |
+| 0232         | [Implement Queue using Stacks](https://leetcode.com/problems/powx-n/)                                                                                                               | [java](/solution_java/0232_Implement_Queue_using_Stacks.java)     | easy       |
+| jz5          | [用两个栈实现队列](https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?tpId=13&&tqId=11158&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ5_用两个栈实现队列.java)                         | 简单       |
+| 0020         | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                                                                               | [java](/solution_java/0020_Valid_Parentheses.java)                | easy       |
+| 0150         | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                                                                                 | [java](/solution_java/0150_Evaluate_Reverse_Polish_Notation.java) | medium     |
+| 0155         | [Min Stack](https://leetcode.com/problems/min-stack/)                                                                                                                               | [java](/solution_java/0155_Min_Stack.java)                        | easy       |
+| jz59         | [剑指 Offer59-II\_队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof)                                                                                        | [java](/力扣/剑指Offer59-II_队列的最大值.java)                    | 简单       |
+| 0946         | [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)                                                                                                 | [java](/solution_java/0946_Validate_Stack_Sequences.java)         | medium     |
+| 0295         | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)                                                                                         | [java](/solution_java/0295_Find_Median_Data_Stream.java)          | hard       |
+| 0480         | [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)                                                                                                  | [java](/solution_java/0480_Sliding_Window_Median.java)            | hard       |
+| jz63         | [数据流中的中位数](https://www.nowcoder.com/practice/9be0172896bd43948f8a32fb954e1be1?tpId=13&&tqId=11216&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ63_数据流中的中位数.java)                        | 中等       |
+| 0239         | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                                                                     | [java](/solution_java/0239_Sliding_Window_Maximum.java)           | hard       |
+| jz64         | [滑动窗口的最大值](https://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788?tpId=13&&tqId=11217&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/JZ64_滑动窗口的最大值.java)                        | 较难       |
+| 0084         | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)                                                                                     | [java](/solution_java/0084_Largest_Rectangle_in_Histogram.md)     | medium     |
+| 0496         | [Next Greater Element I](https://leetcode-cn.com/problems/next-greater-element-i/)                                                                                                  | [java](/solution_java/0496_Next_Greater_Element_I.java)           | easy       |
+| 0503         | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)                                                                                                   | [java](/solution_java/0503_Next_Greater_Element_II.java)          | medium     |
+| 0739         | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                                                                                                             | [java](/solution_java/0739_Daily_Temperatures.java)               | medium     |
+| 面试题 03-01 | [面试题 03.01. 三合一](https://leetcode-cn.com/problems/three-in-one-lcci/)                                                                                                         | [java](/力扣/面试题03-01_三合一.java)                             | easy       |
 
 ### 15. [Math](math.md)
 
@@ -283,6 +286,7 @@
 | 剑指 Offer14-ii | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)                                  | [java](/力扣/剑指Offer14-II_剪绳子II.java)                         | 中等       |
 | 面试题 08-14    | [布尔运算](https://leetcode-cn.com/problems/boolean-evaluation-lcci/)                                 | [java](/力扣/面试题08-14_布尔运算.java)                            | medium     |
 | 0241            | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | [java](/solution_java/0241_Different_Ways_to_Add_Parentheses.java) | medium     |
+| 0227            | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)                             | [java](/solution_java/0227_Basic_Calculator_II.md)                 | medium     |
 
 ### 16. [Breadth-First Search & Depth-First Search](bfs_dfs.md)
 

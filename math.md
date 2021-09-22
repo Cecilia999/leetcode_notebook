@@ -6,3 +6,8 @@
   [java](/力扣/面试题08-14_布尔运算.java)
 - [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/):
   [java](/solution_java/0241_Different_Ways_to_Add_Parentheses.java)
+
+## 2. 基础计算器
+
+- [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/):
+  [java](/solution_java/0227_Basic_Calculator_II.md)

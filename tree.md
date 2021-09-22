@@ -101,6 +101,8 @@ public List<Integer> inorderTraversal(TreeNode root) {
   [java](/solution_java/0230_Kth_Smallest_Element_in_a_BST.java)
 - [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/):
   [java](/solution_java/0094_Binary_Tree_Inorder_Traversal.java)
+- [面试题 04.06. 后继者](https://leetcode-cn.com/problems/successor-lcci/):
+  [java](/力扣/面试题04-06_后继者.java)
 
 ### 2.2.2 recursion
 
