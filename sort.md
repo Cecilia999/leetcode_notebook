@@ -157,7 +157,7 @@ public class mergeSort {
 - [148. Sort List](https://leetcode.com/problems/sort-list/):
   [java](/solution_java/0148_Sort_List.java)
 
-## 3. Time Sort
+## 3. Override compare() in Arrays.sort()
 
 Arrays.sort()就是使用的 time sort
 
@@ -171,6 +171,8 @@ override array.sort()
   [java](/solution_java/0179_Largest_Number.java)
 - [jz32. 把数组排成最小的数](https://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?tpId=13&&tqId=11185&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/牛客网/把数组排成最小的数.java)
+- [937. Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/):
+  [java](/solution_java/0937_Reorder_Data_in_Log_Files.java)
 
 ## 4. 优先队列
 
