@@ -298,3 +298,9 @@
 | 1162  | [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)           | [java](/solution_java/1162_As_Far_from_Land_as_Possible.java) | medium     |
 | 0126  | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                       | [java](/solution_java/0126_Word_Ladder_II.java)               | hard       |
 | 01192 | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [java](/solution_java/1192_Critical_Connections_in_a_Network) | hard       |
+
+### 17. [Design question]
+
+| \#   | Title                                                 | Solution                                 | Difficulty |
+| ---- | ----------------------------------------------------- | ---------------------------------------- | ---------- |
+| 0146 | [LRU_Cache](https://leetcode.com/problems/lru-cache/) | [java](/solution_java/0146_LRU_Cache.md) | medium     |
