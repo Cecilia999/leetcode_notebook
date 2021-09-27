@@ -58,13 +58,43 @@ class Solution {
 }
 ```
 
+**第二种写法, find kth element/sort first k**
+
+```java
+public int[] sortArray(int[] nums, int k) {
+    int l = 0, r = nums.length - 1;
+    while (l <= r) {
+        int mid = helper(nums, l, r);
+        if (mid == k) break;
+        if (mid < K) {
+            l = mid + 1;
+        } else {
+            r = mid - 1;
+        }
+    }
+}
+
+private int helper(int[] nums, int l, int r) {
+    int pivot = nums[l];
+    while (l < r) {
+        while (l < r && nums[r]>=pivot) r--;
+        nums[l] = nums[r];
+        while (l < r && nums[l]<=pivot) l++;
+        nums[r] = nums[l];
+    }
+    nums[l] = pivot;
+    return l;
+}
+```
+
 ### 1.1 find kth largest/ kth smallest
 
 - [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/):  
   [java](/solution_java/0215_Kth_Largest_Element_in_an_Array.java)
-
 - [215. 最小的 K 个数](https://books.halfrost.com/leetcode/ChapterFour/0200~0299/0215.Kth-Largest-Element-in-an-Array/)  
   [java](/牛客网/最小的K个数.java)
+- [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/):
+  [java](/solution_java/0973_K_Closest_Points_to_Origin.md)
 
 ### 1.2 多路快排
 
@@ -159,20 +189,14 @@ public class mergeSort {
 
 ## 3. Override compare() in Arrays.sort()
 
-Arrays.sort()就是使用的 time sort
-
-### 3.1 把 int array concat 成最大的数/最小的数
-
-**solution:**
-int array convert to string array
-override array.sort()
-
 - [179. Largest Number](https://leetcode.com/problems/largest-number/):
   [java](/solution_java/0179_Largest_Number.java)
 - [jz32. 把数组排成最小的数](https://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?tpId=13&&tqId=11185&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/牛客网/把数组排成最小的数.java)
 - [937. Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/):
   [java](/solution_java/0937_Reorder_Data_in_Log_Files.java)
+- [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/):
+  [java](/solution_java/0973_K_Closest_Points_to_Origin.md)
 
 ## 4. 优先队列
 
@@ -192,6 +216,8 @@ PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(11,new Comparator<In
 - [253. Meeting Room](/solution_java/0253_meeting_room.java)
 - [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/):
   [java](/solution_java/0692_Top_K_Frequent_Words.java)
+- [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/):
+  [java](/solution_java/0973_K_Closest_Points_to_Origin.md)
 
 ## 5. 煎饼排序
 

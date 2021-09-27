@@ -222,6 +222,7 @@
 | 0969 | [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)                                                                                                                     | [java](/solution_java/0969_Pancake_Sorting.java)                 | medium     |
 | 0692 | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)                                                                                                      | [java](/solution_java/0692_Top_K_Frequent_Words.java)            | medium     |
 | 0937 | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)                                                                                                 | [java](/solution_java/0937_Reorder_Data_in_Log_Files.java)       | easy       |
+| 0973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)                                                                                               | [java](/solution_java/0973_K_Closest_Points_to_Origin.md)        | medium     |
 
 ### 12. [Greedy](greedy.md)
 
