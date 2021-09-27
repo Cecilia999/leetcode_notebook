@@ -41,3 +41,8 @@ private static int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}
 
 - [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/):
   [java](/solution_java/0126_Word_Ladder_II.java)
+
+## biconnections + dfs
+
+- [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/):
+  [java](/solution_java/1192_Critical_Connections_in_a_Network)
