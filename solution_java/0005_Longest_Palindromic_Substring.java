@@ -34,6 +34,7 @@ class Solution {
             i--;
             j++;
         }
+        //i和j多--和++了一次！！
         if(maxLen<j-i-1){
             low = i+1;
             maxLen = j-i-1;

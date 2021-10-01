@@ -127,6 +127,7 @@
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                                                                                               | [java](/solution_java/0049_Group_Anagrams.java)                                 | medium     |
 | 0647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)                                                                                                               | [java](/solution_java/0647_Palindromic_Substrings.java)                         | medium     |
 | 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)                                                                                                 | [java](/solution_java/0005_Longest_Palindromic_Substring.java)                  | medium     |
+| 819  | [819. Most Common Word](https://leetcode.com/problems/most-common-word/)                                                                                                                      | [java](/solution_java/0819_Most_Common_Word.java)                               | easy       |
 
 ### 8. [Binary Search](binary_search.md)
 
