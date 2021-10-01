@@ -22,6 +22,8 @@ private static int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}
 - [542. 01 Matrix](https://leetcode.com/problems/01-matrix/):
   [java](/solution_java/0542_01_Matrix.java)
 - [1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/) | [java](/solution_java/1162_As_Far_from_Land_as_Possible.java)
+- [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/):
+  [java](/solution_java/0994_Rotting_Oranges.java)
 
 ### 3. matrix bfs with 障碍物
 
