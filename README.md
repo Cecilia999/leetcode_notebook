@@ -112,6 +112,7 @@
 | 0560         | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                                                                                                                     | [java](/solution_java/0560_Subarray_Sum_Equals_K.java)                    | medium     |
 | 0303         | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)                                                                                                           | [java](/solution_java/0303_Range_Sum_Query-Immutable.java)                | easy       |
 | 0304         | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)                                                                                                     | [java](/solution_java/0304_Range_Sum_Query_2D-Immutable.java)             | medium     |
+| 0957         | [957. Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)                                                                                                        | [java](/solution_java/0957_Prison_Cells_After_N_Days.java)                | medium     |
 
 ### 5. [String](string.md)
 
