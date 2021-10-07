@@ -1,58 +1,76 @@
-//这个答案只能过22/32个用例
+//单词接龙，要找出所有路径
+//先bfs在dfs
 
 class Solution {
-    public static List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
-        Set<String> wordSet = new HashSet<String>(wordList);
+    public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
+        HashSet<String> dict = new HashSet<>(wordList);
+        dict.add(beginWord);
+        
+        HashMap<String, ArrayList<String>> neighbors = new HashMap<>();
+        HashMap<String, Integer> distance = new HashMap<>();
+        bfs(beginWord, endWord, dict, neighbors, distance);
+        
         List<List<String>> res = new ArrayList<List<String>>();
-        if(!wordSet.contains(endWord)) return res;
-        if(wordSet.contains(beginWord)) wordSet.remove(beginWord);
-        //记录单词是从哪些单词扩展来的
-        Map<String, ArrayList<String>> nodeNeighbors = new HashMap<>();
-
-        //BFS to find the shortest path as well as find all the possible path
+        dfs(beginWord, endWord, neighbors, distance, res, new ArrayList<String>());
+        return res;
+    }
+    
+    //BFS: find all node's distance from start to end
+    public void bfs(String start, String end, HashSet<String> dict, HashMap<String, ArrayList<String>> neighbors, HashMap<String, Integer> distance){
+        //先把dict的每个单词加入map
+        for(String s : dict){
+            neighbors.put(s, new ArrayList<String>());
+        }
+        
         Queue<String> queue = new LinkedList<>();
-        queue.offer(beginWord);
-        boolean findEnd = false;
+        queue.offer(start);
+        distance.put(start, 0);
 
         while(!queue.isEmpty()){
-            int queueSize = queue.size();
+            int size = queue.size();
+            boolean foundEnd = false;
+            for(int i=0; i<size; i++){
+                String word = queue.poll();
+                int wordDist = distance.get(word);
+                List<String> neighborWords = getNeighbors(word, dict);
 
-            for (int i = 0; i < queueSize; i++) {
-                String curWord = queue.poll();
-                if(!nodeNeighbors.containsKey(curWord))
-                    nodeNeighbors.put(curWord, new ArrayList<String>());
+                //check each word in neighborWords
+                //add neighborWords to neighbors map
+                //add distance 
+                //check if word==end
+                for(String neighbor : neighborWords){
+                    neighbors.get(word).add(neighbor);
+                    
+                    //没有visit过
+                    if(!distance.containsKey(neighbor)){  
+                        distance.put(neighbor, wordDist+1);
+                        if(neighbor.equals(end))
+                            foundEnd = true;
+                        else
+                            queue.offer(neighbor);
+                    }                        
+                }
+                
+                if(foundEnd)
+                    break;
+            }
+        }
+    }
+    
+    public List<String> getNeighbors(String word, HashSet<String> dict){
+        List<String> res = new ArrayList<>();
+        for(int i=0; i<word.length(); i++){
+            for(char c='a'; c<='z'; c++){
+                StringBuilder sb = new StringBuilder(word);
+                sb.setCharAt(i, c);
+                String newWord = sb.toString();
 
-                //把每个位置的每个字母都尝试一边
-                for (int j = 0; j < curWord.length(); j++) {
-                    for (char k = 'a'; k <= 'z'; k++) {
-                        StringBuilder sb = new StringBuilder(curWord);
-                        sb.setCharAt(j, k);
-                        String newWord = sb.toString();
-                                                
-                        //if newWord is in wordSet
-                        if(wordSet.contains(newWord)){
-                            nodeNeighbors.get(curWord).add(newWord);
-                            if(endWord.equals(newWord)){
-                                findEnd = true;             
-                            }
-                            else{
-                                wordSet.remove(newWord);  //已经visit过的不再重复visit
-                                queue.offer(newWord);
-                            }
-                            
-                        }
-                    }
+                if(dict.contains(newWord)){
+                    res.add(newWord);
                 }
             }
-
-            if(findEnd)
-                break;
         }
-
-        //DFS + backtrack to output all the shortest path
-        List<String> path = new ArrayList<String>();
-        path.add(beginWord);
-        dfs(beginWord, endWord, nodeNeighbors, path, res);
+        
         return res;
     }
 

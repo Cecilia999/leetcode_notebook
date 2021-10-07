@@ -14,6 +14,8 @@ private static int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}
 
 - [127. Word Ladder](https://leetcode.com/problems/word-ladder/):
   [java](/solution_java/0127_Word_Ladder.java)
+- [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/):
+  [java](/solution_java/0126_Word_Ladder_II.java)
 - [752. Open the Lock](https://leetcode.com/problems/open-the-lock/):
   [java](/solution_java/0752_Open_the_Lock.java)
 
