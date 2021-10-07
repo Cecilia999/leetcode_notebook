@@ -30,6 +30,11 @@
 - [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/):
   [java](/solution_java/0005_Longest_Palindromic_Substring.java)
 
+5. int to string
+
+- [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/):
+  [java](/solution_java/0273_Integer_to_English_Words.java)
+
 ## 2. sliding window 滑动窗口
 
 滑动窗口的基本思路：
