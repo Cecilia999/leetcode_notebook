@@ -34,6 +34,8 @@
 
 - [139. Word Break](https://leetcode.com/problems/word-break/):
   [java](/solution_java/0139_Word_Break.java)
+- [472. Concatenated Words](https://leetcode.com/problems/concatenated-words/):
+  [java](/solution_java/0472_Concatenated_Words.java)
 - [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/):
   [java](/solution_java/0329_Longest_Increasing_Path_in_a_Matrix.java)
 
