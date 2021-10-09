@@ -50,3 +50,8 @@ private static int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}
 
 - [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/):
   [java](/solution_java/1192_Critical_Connections_in_a_Network)
+
+## normal dfs
+
+- [140. Word Break II](https://leetcode.com/problems/word-break-ii/):
+  [java](/solution_java/0140_Word_Break_II.java)
