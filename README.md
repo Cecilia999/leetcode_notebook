@@ -307,9 +307,10 @@ c
 
 ### 17. [Tire / Prefix tree 字典树，前缀树](trie.md)
 
-| \#   | Title                                                                                          | Solution                                                        | Difficulty |
-| ---- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ---------- |
-| 0208 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [java](</solution_java/0208_Implement_Trie_(Prefix_Tree).java>) | medium     |
+| \#   | Title                                                                                          | Solution                                                    | Difficulty |
+| ---- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------- |
+| 0208 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [java](/solution_java/0208_Implement_Trie.java)             | medium     |
+| 0720 | [720. Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)   | [java](/solution_java/0720_Longest_Word_in_Dictionary.java) | medium     |
 
 ### 17. [Design question]
 

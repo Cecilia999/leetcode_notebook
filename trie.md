@@ -8,4 +8,6 @@ Definition：A trie (pronounced as "try") or prefix tree is a tree data structur
 ## implement a trie class - 实现 trie 结构
 
 - [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/):
-  [java](</solution_java/0208_Implement_Trie_(Prefix_Tree).java>)
+  [java](/solution_java/0208_Implement_Trie.java)
+- [720. Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/):
+  [java](/solution_java/0720_Longest_Word_in_Dictionary.java)
