@@ -296,16 +296,20 @@
 
 ### 16. [Breadth-First Search & Depth-First Search](bfs_dfs.md)
 
-| \#   | Title                                                                                                 | Solution                                                           | Difficulty |
-| ---- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ---------- |
-| 0127 | [Word Ladder](https://leetcode.com/problems/word-ladder/)                                             | [java](/solution_java/0127_Word_Ladder.java)                       | hard       |
-| 0126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                       | [java](/solution_java/0126_Word_Ladder_II.java)                    | hard       |
-| 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/)                                         | [java](/solution_java/0752_Open_the_Lock.java)                     | medium     |
-| 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/)                                                 | [java](/solution_java/0542_01_Matrix.java)                         | medium     |
-| 1162 | [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)           | [java](/solution_java/1162_As_Far_from_Land_as_Possible.java)      | medium     |
-| 0126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                       | [java](/solution_java/0126_Word_Ladder_II.java)                    | hard       |
-| 1192 | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [java](/solution_java/1192_Critical_Connections_in_a_Network.java) | hard       |
-| 0994 | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                | [java](/solution_java/0994_Rotting_Oranges.java)                   | medium     |
+c
+| 0126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | [java](/solution_java/0126_Word_Ladder_II.java) | hard |
+| 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | [java](/solution_java/0752_Open_the_Lock.java) | medium |
+| 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [java](/solution_java/0542_01_Matrix.java) | medium |
+| 1162 | [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/) | [java](/solution_java/1162_As_Far_from_Land_as_Possible.java) | medium |
+| 0126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | [java](/solution_java/0126_Word_Ladder_II.java) | hard |
+| 1192 | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [java](/solution_java/1192_Critical_Connections_in_a_Network.java) | hard |
+| 0994 | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [java](/solution_java/0994_Rotting_Oranges.java) | medium |
+
+### 17. [Tire / Prefix tree 字典树，前缀树](trie.md)
+
+| \#   | Title                                                                                          | Solution                                                        | Difficulty |
+| ---- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ---------- |
+| 0208 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [java](</solution_java/0208_Implement_Trie_(Prefix_Tree).java>) | medium     |
 
 ### 17. [Design question]
 
