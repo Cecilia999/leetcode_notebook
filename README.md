@@ -311,6 +311,7 @@ c
 | ---- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------- |
 | 0208 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [java](/solution_java/0208_Implement_Trie.java)             | medium     |
 | 0720 | [720. Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)   | [java](/solution_java/0720_Longest_Word_in_Dictionary.java) | medium     |
+| 0212 | [212. Word Search II](https://leetcode.com/problems/word-search-ii/)                           | [java](/solution_java/0212_Word_Search_II.java)             | hard       |
 
 ### 17. [Design question]
 
