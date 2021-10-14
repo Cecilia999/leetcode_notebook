@@ -18,7 +18,7 @@
 - [819. Most Common Word](https://leetcode.com/problems/most-common-word/):
   [java](/solution_java/0819_Most_Common_Word.java)
 
-3. string.IndexOf()
+3. String.IndexOf()
 
 - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/):
   [java](/solution_java/0014_Longest_Common_Prefix.java)
@@ -34,6 +34,11 @@
 
 - [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/):
   [java](/solution_java/0273_Integer_to_English_Words.java)
+
+6. String.split()
+
+- [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/):
+  [java](/solution_java/0165_Compare_Version_Numbers.java)
 
 ## 2. sliding window 滑动窗口
 

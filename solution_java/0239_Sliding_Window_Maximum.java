@@ -100,3 +100,24 @@ class Solution {
         return res;
     }
 }
+
+//2刷 Priority Queue TLE
+class Solution {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        PriorityQueue<Integer> maxheap = new PriorityQueue<Integer>(Collections.reverseOrder());
+        int[] max = new int[nums.length-k+1];
+        int index = 0;
+        
+        for(int i=0; i<nums.length;){
+            while(maxheap.size()<k && i<nums.length){
+                maxheap.offer(nums[i]);
+                i++;
+            }
+
+            max[index++] = maxheap.peek();
+            maxheap.remove(nums[i-k]);
+        }
+        
+        return max;
+    }
+}
