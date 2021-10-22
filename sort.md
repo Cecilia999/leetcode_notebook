@@ -224,6 +224,25 @@ PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(11,new Comparator<In
 - [969. Pancake Sorting](https://leetcode.com/problems/pancake-sorting/):
   [java](/solution_java/0969_Pancake_Sorting.java)
 
+## 6. Topological Sort
+
+1. 什么是拓扑排序
+   对一个**有向无环图(Directed Acyclic Graph 简称 DAG)** G 进行拓扑排序，是将 G 中所有顶点排成一个线性序列，使得图中任意一对顶点 u 和 v，若边(u,v)∈E(G)，则 u 在线性序列中出现在 v 之前。通常，这样的线性序列称为满足拓扑次序(Topological Order)的序列，简称拓扑序列。简单的说，由某个集合上的一个偏序得到该集合上的一个全序，这个操作称之为拓扑排序。 无向图和有环的有向图没有拓扑排序
+2. 拓扑排序的步骤：
+   1. 按照一定的顺序进行构造有向图，记录后个节点的入度；
+   2. 从图中选择一个入度为 0 的顶点, 输出该顶点;
+   3. 从图中删除该顶点及所有与该顶点相连的边
+   4. 重复上述两步，直至所有顶点输出。
+   5. 或者当前图中不存在入度为 0 的顶点为止。此时可说明图中有环。
+   6. 因此，也可以通过拓扑排序来判断一个图是否有环。
+
+![alt text](../image/topological_sort.jpg)
+
+- [207. Course Schedule](https://leetcode.com/problems/course-schedule/):
+  [java](/solution_java/0207_Course_Schedule.md)
+- [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/):
+  [java](/solution_java/0210_Course_Schedule_II.md)
+
 ## 参考
 
 - 快速排序：https://www.cnblogs.com/anthonyhoo/p/12259543.html
