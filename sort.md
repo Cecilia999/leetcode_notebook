@@ -245,6 +245,11 @@ PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(11,new Comparator<In
 - [269. Alien Dictionary](https://blog.csdn.net/littlehaes/article/details/104192778):
   [java](/solution_java/0269_Alien_Dictionary_II.md)
 
+## 7. hashset
+
+- [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/):
+  [java](/solution_java/1647_Minimum_Deletions_to_Make_Character_Frequencies_Unique.md)
+
 ## 参考
 
 - 快速排序：https://www.cnblogs.com/anthonyhoo/p/12259543.html
