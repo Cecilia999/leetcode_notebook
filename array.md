@@ -13,6 +13,8 @@
 
 - [1. Two Sum](https://leetcode.com/problems/two-sum/):
   [java](/solution_java/001_Two_Sum.java)
+- [15. 3Sum](https://leetcode.com/problems/3sum/):
+  [java](/solution_java/0015_3Sum.java)
 - [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/):
   [java](/solution_java/0128_Longest_Consecutive_Sequence.java)
 - [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/):
