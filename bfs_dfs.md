@@ -32,6 +32,11 @@ private static int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}
 - [机器人的运动范围](https://www.nowcoder.com/practice/6e5207314b5241fb83f2329e89fdecc8?tpId=13&&tqId=11219&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):
   [java](/牛客网/机器人的运动范围.java)
 
+### 4. priority queue + bfs
+
+- [675. Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/):
+  [java](/solution_java/0675_Cut_Off_Trees_for_Golf_Event.java)
+
 ## DFS
 
 ### 1. matrix dfs 搜索一串单词/一条路径
