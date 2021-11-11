@@ -299,17 +299,20 @@
 | 0241            | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)      | [java](/solution_java/0241_Different_Ways_to_Add_Parentheses.java) | medium     |
 | 0227            | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)                                  | [java](/solution_java/0227_Basic_Calculator_II.md)                 | medium     |
 | 剑指 Offer62    | [圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | [java](/力扣/剑指Offer62_圆圈中最后剩下的数字.md)                  | 简单       |
+| 1041            | [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)                          | [java](/solution_java/1041_Robot_Bounded_In_Circle.md)             | medium     |
 
 ### 16. [Breadth-First Search & Depth-First Search](bfs_dfs.md)
 
-| 0126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | [java](/solution_java/0126_Word_Ladder_II.java) | hard |
-| 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | [java](/solution_java/0752_Open_the_Lock.java) | medium |
-| 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [java](/solution_java/0542_01_Matrix.java) | medium |
-| 1162 | [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/) | [java](/solution_java/1162_As_Far_from_Land_as_Possible.java) | medium |
-| 0126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | [java](/solution_java/0126_Word_Ladder_II.java) | hard |
-| 1192 | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [java](/solution_java/1192_Critical_Connections_in_a_Network.java) | hard |
-| 0994 | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [java](/solution_java/0994_Rotting_Oranges.java) | medium |
-| 0675 | [675. Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/) | [java](/solution_java/0675_Cut_Off_Trees_for_Golf_Event.java) | hard |
+| \#   | Title                                                                                                 | Solution                                                           | Difficulty |
+| ---- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ---------- |
+| 0126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                       | [java](/solution_java/0126_Word_Ladder_II.java)                    | hard       |
+| 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/)                                         | [java](/solution_java/0752_Open_the_Lock.java)                     | medium     |
+| 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/)                                                 | [java](/solution_java/0542_01_Matrix.java)                         | medium     |
+| 1162 | [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)           | [java](/solution_java/1162_As_Far_from_Land_as_Possible.java)      | medium     |
+| 0126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                       | [java](/solution_java/0126_Word_Ladder_II.java)                    | hard       |
+| 1192 | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [java](/solution_java/1192_Critical_Connections_in_a_Network.java) | hard       |
+| 0994 | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                | [java](/solution_java/0994_Rotting_Oranges.java)                   | medium     |
+| 0675 | [675. Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/)      | [java](/solution_java/0675_Cut_Off_Trees_for_Golf_Event.java)      | hard       |
 
 ### 17. [Tire / Prefix tree 字典树，前缀树](trie.md)
 
