@@ -16,3 +16,8 @@
 
 - [剑指 Offer62. 圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/):
   [java](/力扣/剑指Offer62_圆圈中最后剩下的数字.md)
+
+## 4. 两个变量
+
+- [829. Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/):
+  [java](/solution_java/0829_Consecutive_Numbers_Sum.md)

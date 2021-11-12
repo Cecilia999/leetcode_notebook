@@ -78,9 +78,10 @@
 
 ### 3. [Two Pointer](two_pointer.md)
 
-| \#   | Title                                                                     | Solution                                             | Difficulty |
-| ---- | ------------------------------------------------------------------------- | ---------------------------------------------------- | ---------- |
-| 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [java](/solution_java/0042_Trapping_Rain_Water.java) | hard       |
+| \#   | Title                                                                                  | Solution                                               | Difficulty |
+| ---- | -------------------------------------------------------------------------------------- | ------------------------------------------------------ | ---------- |
+| 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)              | [java](/solution_java/0042_Trapping_Rain_Water.java)   | hard       |
+| 0696 | [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [java](/solution_java/0696_Count_Binary_Substrings.md) | easy       |
 
 ### 4. [Array](array.md)
 
@@ -300,6 +301,7 @@
 | 0227            | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)                                  | [java](/solution_java/0227_Basic_Calculator_II.md)                 | medium     |
 | 剑指 Offer62    | [圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | [java](/力扣/剑指Offer62_圆圈中最后剩下的数字.md)                  | 简单       |
 | 1041            | [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)                          | [java](/solution_java/1041_Robot_Bounded_In_Circle.md)             | medium     |
+| 0829            | [829. Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)                     | [java](/solution_java/0829_Consecutive_Numbers_Sum.md)             | hard       |
 
 ### 16. [Breadth-First Search & Depth-First Search](bfs_dfs.md)
 

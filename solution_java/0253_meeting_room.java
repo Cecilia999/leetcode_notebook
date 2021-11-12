@@ -18,7 +18,7 @@ import java.util.PriorityQueue;
 public class Test4 {
     public static int meetingRoom(int[][] timeInterval){
         Arrays.sort(timeInterval, (o1, o2)->{
-            if(o1[0]!=o2[0])
+            if(o1[0]==o2[0])
                 return o1[1]-o2[1];
             return o1[0]-o2[0];
         });
