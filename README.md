@@ -326,6 +326,7 @@
 
 ### 18. [Design question]
 
-| \#   | Title                                                 | Solution                                 | Difficulty |
-| ---- | ----------------------------------------------------- | ---------------------------------------- | ---------- |
-| 0146 | [LRU_Cache](https://leetcode.com/problems/lru-cache/) | [java](/solution_java/0146_LRU_Cache.md) | medium     |
+| \#   | Title                                                      | Solution                                 | Difficulty |
+| ---- | ---------------------------------------------------------- | ---------------------------------------- | ---------- |
+| 0146 | [146. LRU_Cache](https://leetcode.com/problems/lru-cache/) | [java](/solution_java/0146_LRU_Cache.md) | medium     |
+| 0460 | [460. LFU Cache](https://leetcode.com/problems/lfu-cache/) | [java](/solution_java/0460_LFU_Cache.md) | hard       |
