@@ -198,6 +198,11 @@ using preorder + recursion
 - [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/):
   [java](/solution_java/0437_Path_Sum_III.java)
 
+### 7.2 dfs + hashmap
+
+- [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/):
+  [java](/solution_java/0863_All_Nodes_Distance_K_in_Binary_Tree.md)
+
 ## 前缀和 prefix sum using HashMap
 
 二叉树的前缀和

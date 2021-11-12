@@ -215,6 +215,7 @@
 | 0236            | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                                                                              | [java](/solution_java/0236_Lowest_Common_Ancestor_of_a_Binary_Tree.java)                    | medium     |
 | 0543            | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)                                                                                                              | [java](/solution_java/0543_Diameter_of_Binary_Tree.java)                                    | easy       |
 | 面试题 04-06    | [面试题 04.06. 后继者](https://leetcode-cn.com/problems/successor-lcci/)                                                                                                                       | [java](/力扣/面试题04-06_后继者.java)                                                       | medium     |
+| 0863            | [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)                                                                                 | [java](/solution_java/0863_All_Nodes_Distance_K_in_Binary_Tree.md)                          | medium     |
 
 ### 11. [Sort](sort.md)
 
