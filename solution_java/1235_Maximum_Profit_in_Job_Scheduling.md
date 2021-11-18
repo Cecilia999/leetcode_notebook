@@ -44,7 +44,12 @@ Constraints:
 
 We choose the one giving more profits.
 
+3. Bottom-down DP
+   从 dp[n]开始计算 dp
+
 ## code
+
+1. Top-down DP(memorization)
 
 ```java
 class Solution {
@@ -83,6 +88,52 @@ class Solution {
         dp[cur] = Math.max(includeCur, excludeCur);
         return dp[cur];
     }
+
+    //find the next avaliable job index
+    public int findNext(int cur, int[][] jobs){
+        int next = cur + 1;
+        while(next<jobs.length){
+            if(jobs[next][0]>=jobs[cur][1])
+                return next;
+            next++;
+        }
+
+        //meaning no next avaliable job if we choose cur
+        return -1;
+    }
+}
+```
+
+2. Bottom-down DP
+
+```java
+class Solution {
+    //<job cur, profit of jobs[cur] + max profit of scheduling jobs starting from next available job index>
+
+    public int jobScheduling(int[] startTime, int[] endTime, int[] profit) {
+        int n = startTime.length;
+        int[][] jobs = new int[n][3];
+        for(int i=0; i<n; i++){
+            jobs[i] = new int[]{startTime[i], endTime[i], profit[i]};
+        }
+
+        //sort by startTime
+        Arrays.sort(jobs, (o1, o2)->{
+            if(o1[0]==o2[0])
+                return o1[1]-o2[1];
+            return o1[0]-o2[0];
+        });
+
+        int[] dp = new int[n];
+        dp[n-1] = jobs[n-1][2];
+        for(int cur=n-2; cur>=0; cur--){
+            int next = findNext(cur, jobs);
+            dp[cur] = Math.max(jobs[cur][2] + (next==-1? 0:dp[next]), dp[cur+1]);
+        }
+
+        return dp[0];
+    }
+
 
     //find the next avaliable job index
     public int findNext(int cur, int[][] jobs){
