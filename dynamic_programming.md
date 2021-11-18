@@ -183,3 +183,5 @@ https://blog.csdn.net/richenyunqi/article/details/105699183
 
 - [面试题 08-14 布尔运算](https://leetcode-cn.com/problems/boolean-evaluation-lcci/):
   [java](/力扣/面试题08-14_布尔运算.java)
+- [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/):
+  [java](/solution_java/1235_Maximum_Profit_in_Job_Scheduling.md)
