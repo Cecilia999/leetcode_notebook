@@ -17,6 +17,8 @@
   [java](/solution_java/0134_Gas_Station.java)
 - [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/):
   [java](/solution_java/0122_Best_Time_to_Buy_and_Sell_Stock_II.java)
+- [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/):
+  [java](/solution_java/0646_Maximum_Length_of_Pair_Chain.md)
 
 ## 1. 贪心 + 单调栈
 

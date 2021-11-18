@@ -249,6 +249,7 @@
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [java](/solution_java/0122_Best_Time_to_Buy_and_Sell_Stock_II.java) | easy       |
 | 0402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)                                       | [java](/solution_java/0402_Remove_K_Digits.java)                    | medium     |
 | 0316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)                     | [java](/solution_java/0316_Remove_Duplicate_Letters.java)           | medium     |
+| 0646 | [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)        | [java](/solution_java/0646_Maximum_Length_of_Pair_Chain.md)         | medium     |
 
 ### 13. [bit manipulation](bit_manipulation.md)
 
