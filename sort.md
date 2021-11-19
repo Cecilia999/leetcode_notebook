@@ -250,6 +250,18 @@ PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(11,new Comparator<In
 - [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/):
   [java](/solution_java/1647_Minimum_Deletions_to_Make_Character_Frequencies_Unique.md)
 
+## 8. linkedlist sort
+
+Collections.sort()
+
+```java
+Collections.sort(singlyLinkedList, new Comparator<String>() {
+    @Override public int compare(String s1, String s2) {
+        return s1.length() - s2.length();
+    }
+});
+```
+
 ## 参考
 
 - 快速排序：https://www.cnblogs.com/anthonyhoo/p/12259543.html
