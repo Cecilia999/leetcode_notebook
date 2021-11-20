@@ -26,3 +26,8 @@
   [java](/solution_java/0402_Remove_K_Digits.java)
 - [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/):
   [java](/solution_java/0316_Remove_Duplicate_Letters.java)
+
+## 2. greedy + arrays.sort
+
+- [1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) :
+  [java](/solution_java/1710_Maximum_Units_on_a_Truck.md)

@@ -251,6 +251,7 @@
 | 0402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)                                       | [java](/solution_java/0402_Remove_K_Digits.java)                    | medium     |
 | 0316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)                     | [java](/solution_java/0316_Remove_Duplicate_Letters.java)           | medium     |
 | 0646 | [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)        | [java](/solution_java/0646_Maximum_Length_of_Pair_Chain.md)         | medium     |
+| 1710 | [1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)               | [java](/solution_java/1710_Maximum_Units_on_a_Truck.md)             | easy       |
 
 ### 13. [bit manipulation](bit_manipulation.md)
 
