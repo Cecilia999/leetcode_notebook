@@ -237,6 +237,7 @@
 | 0210 | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                                                                                          | [java](/solution_java/0210_Course_Schedule_II.md)                                     | medium     |
 | 0269 | [269. Alien Dictionary](https://blog.csdn.net/littlehaes/article/details/104192778)                                                                                                   | [java](/solution_java/0269_Alien_Dictionary_II.md)                                    | hard       |
 | 1647 | [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)                                 | [java](/solution_java/1647_Minimum_Deletions_to_Make_Character_Frequencies_Unique.md) | medium     |
+| 1152 | [1152. Analyze User Website Visit Pattern](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)                                                     | [java](/solution_java/1152_Analyze_User_Website_Visit_Pattern.md)                     | medium     |
 
 ### 12. [Greedy](greedy.md)
 
