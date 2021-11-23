@@ -82,3 +82,8 @@ int findSubstring(string s){
   [java](/solution_java/0003_Longest_Substring_Without_Repeating_Characters.java)
 - [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/):
   [java](/solution_java/0076_Minimum_Window_Substring.java)
+
+## 2.1 sliding window + hashmap
+
+- [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/):
+  [java](/solution_java/0030_Substring_with_Concatenation_of_All_Words.md)

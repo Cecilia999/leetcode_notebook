@@ -136,6 +136,7 @@
 | 819  | [819. Most Common Word](https://leetcode.com/problems/most-common-word/)                                                                                                                      | [java](/solution_java/0819_Most_Common_Word.java)                               | easy       |
 | 273  | [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)                                                                                                      | [java](/solution_java/0273_Integer_to_English_Words.java)                       | hard       |
 | 165  | [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)                                                                                                        | [java](/solution_java/0165_Compare_Version_Numbers.java)                        | medium     |
+| 0030 | [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)                                                                     | [java](/solution_java/0030_Substring_with_Concatenation_of_All_Words.md)        | hard       |
 
 ### 8. [Binary Search](binary_search.md)
 
