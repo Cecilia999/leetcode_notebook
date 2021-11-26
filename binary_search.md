@@ -176,6 +176,8 @@ func searchLastLessElement(nums []int, target int) int {
 
 - [35 Search Insert Position](https://leetcode.com/problems/search-insert-position/):  
   [java](/solution_java/0035_Search_Insert_Position.java)
+- [528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/):
+  [java](/solution_java/0528_Random_Pick_with_Weight.md)
 
 ### 1.3 matrix 的 binary search
 
