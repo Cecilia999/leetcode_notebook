@@ -213,3 +213,91 @@ class LRUCache {
 
 }
 ```
+
+**doublelist node + doublelist template**
+
+```java
+class LRUCache {
+    class Node{
+        int key, value;
+        Node pre, next;
+        public Node(int key, int value){
+            this.key = key;
+            this.value = value;
+        }
+    }
+
+    class DoubleList{
+        private int size;
+        private Node head, tail;
+        public DoubleList(){
+            head = new Node(0, 0);
+            tail = new Node(0, 0);
+            head.next = tail;
+            tail.pre = head;
+            size = 0;
+        }
+
+        public void addFirst(Node node){
+            node.next = head.next;
+            node.pre = head;
+
+            node.next.pre = node;
+            node.pre.next = node;
+            size++;
+        }
+
+        public Node removeLast(){
+            Node lastNode = tail.pre;
+            remove(lastNode);
+            return lastNode;
+        }
+
+        public void remove(Node node){
+            Node nextNode = node.next;
+            Node preNode = node.pre;
+            preNode.next = nextNode;
+            nextNode.pre = preNode;
+            size--;
+        }
+    }
+
+    Map<Integer, Node> map;
+    int capacity;
+    DoubleList list;
+
+    public LRUCache(int capacity) {
+        map = new HashMap<>();
+        this.capacity = capacity;
+        list = new DoubleList();
+    }
+
+    public int get(int key) {
+        if(!map.containsKey(key))
+            return -1;
+
+        Node node = map.get(key);
+        put(node.key, node.value);
+        return map.get(key).value;
+    }
+
+    public void put(int key, int value) {
+        //如果map里已经有key，应该update
+        if(map.containsKey(key)){
+            Node oldNode = map.get(key);
+            list.remove(oldNode);
+            map.remove(key);
+        }
+
+        //if size==capacity, remove the least used node first
+        if(list.size==capacity){
+            Node lastNode = list.removeLast();
+            map.remove(lastNode.key);
+        }
+
+        Node node = new Node(key, value);
+        list.addFirst(node);
+        map.put(key, node);
+    }
+}
+```

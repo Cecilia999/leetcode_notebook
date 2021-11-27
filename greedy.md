@@ -20,7 +20,7 @@
 - [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/):
   [java](/solution_java/0646_Maximum_Length_of_Pair_Chain.md)
 
-## 1. 贪心 + 单调栈
+## 1. greedy + monotonic stack (贪心 + 单调栈)
 
 - [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/):
   [java](/solution_java/0402_Remove_K_Digits.java)
