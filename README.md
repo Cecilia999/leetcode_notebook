@@ -83,6 +83,7 @@
 | ---- | -------------------------------------------------------------------------------------- | ------------------------------------------------------ | ---------- |
 | 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)              | [java](/solution_java/0042_Trapping_Rain_Water.java)   | hard       |
 | 0696 | [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [java](/solution_java/0696_Count_Binary_Substrings.md) | easy       |
+| 0443 | [443. String Compression](https://leetcode.com/problems/string-compression/)           | [java](/solution_java/0443_String_Compression.md)      | medium     |
 
 ### 4. [Array](array.md)
 
@@ -158,6 +159,8 @@
 | 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)                                 | [java](/solution_java/1011_Capacity_To_Ship_Packages_Within_D_Days.java)                 | medium     |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)                                                                                                   | [java](<solution_java/0069_Sqrt.java)                                                    | easy       |
 | 0528 | [528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)                                                            | [java](/solution_java/0528_Random_Pick_with_Weight.md)                                   | medium     |
+| 0981 | [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)                                                      |                                                                                          | medium     |
+| 0362 | [362. Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)                                                                      |                                                                                          | medium     |
 
 ### 9. [Linked List](linked_list.md)
 

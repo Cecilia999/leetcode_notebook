@@ -178,6 +178,8 @@ func searchLastLessElement(nums []int, target int) int {
   [java](/solution_java/0035_Search_Insert_Position.java)
 - [528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/):
   [java](/solution_java/0528_Random_Pick_with_Weight.md)
+- [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
+- [362. Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)
 
 ### 1.3 matrix 的 binary search
 
@@ -243,3 +245,5 @@ class Solution {
 **参考：**
 
 https://segmentfault.com/a/1190000039377221
+
+### 1.4 找 duplicate number
