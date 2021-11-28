@@ -19,7 +19,7 @@ The book Java Generics and Collections has this information (pages: 188, 211, 22
 | ----------------------- | -------- | ---- | -------- | ------ | ---- | -------------- |
 | PriorityQueue           | O(log n) | O(1) | O(log n) | O(n)   | O(1) | Priority Heap  |
 | LinkedList              | O(1)     | O(1) | O(1)     | O(1)   | O(1) | Array          |
-| ArrayDequeue            | O(1)     | O(1) | O(1)     | O(n)   | O(1) | Linked List    |
+| Deque                   | O(1)     | O(1) | O(1)     | O(n)   | O(1) | Linked List    |
 | ConcurrentLinkedQueue   | O(1)     | O(1) | O(1)     | O(n)   | O(n) | Linked List    |
 | ArrayBlockingQueue      | O(1)     | O(1) | O(1)     | O(n)   | O(1) | Array          |
 | PriorirityBlockingQueue | O(log n) | O(1) | O(log n) | O(n)   | O(1) | Priority Heap  |
