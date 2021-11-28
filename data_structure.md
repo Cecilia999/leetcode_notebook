@@ -254,3 +254,12 @@ private PriorityQueue<Integer> large = new PriorityQueue<>(new Comparator<Intege
 ![alt text](./images/priorityqueue通过数组实现.jpg)
 
 参考：https://www.cnblogs.com/Elliott-Su-Faith-change-our-life/p/7472265.html
+
+## 常用的数据结构相互 convert 的 tips
+
+1. int to char
+
+```java
+int count = 4
+char n = (char)(count +'0')
+```

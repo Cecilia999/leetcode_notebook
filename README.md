@@ -327,6 +327,7 @@
 | 1192 | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [java](/solution_java/1192_Critical_Connections_in_a_Network.java) | hard       |
 | 0994 | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                | [java](/solution_java/0994_Rotting_Oranges.java)                   | medium     |
 | 0675 | [675. Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/)      | [java](/solution_java/0675_Cut_Off_Trees_for_Golf_Event.java)      | hard       |
+| 0529 | [529. Minesweeper](https://leetcode.com/problems/minesweeper/)                                        | [java](/solution_java/0529_Minesweeper.java)                       | medium     |
 
 ### 17. [Tire / Prefix tree 字典树，前缀树](trie.md)
 
@@ -339,7 +340,11 @@
 
 ### 18. [Design question]
 
-| \#   | Title                                                      | Solution                                 | Difficulty |
-| ---- | ---------------------------------------------------------- | ---------------------------------------- | ---------- |
-| 0146 | [146. LRU_Cache](https://leetcode.com/problems/lru-cache/) | [java](/solution_java/0146_LRU_Cache.md) | medium     |
-| 0460 | [460. LFU Cache](https://leetcode.com/problems/lfu-cache/) | [java](/solution_java/0460_LFU_Cache.md) | hard       |
+| \#   | Title                                                                 | Solution                                                      | Difficulty |
+| ---- | --------------------------------------------------------------------- | ------------------------------------------------------------- | ---------- |
+| 0146 | [146. LRU_Cache](https://leetcode.com/problems/lru-cache/)            | [java](/solution_java/0146_LRU_Cache.md)                      | medium     |
+| 0460 | [460. LFU Cache](https://leetcode.com/problems/lfu-cache/)            | [java](/solution_java/0460_LFU_Cache.md)                      | hard       |
+| 0706 | [706. Design HashMap](https://leetcode.com/problems/design-hashmap/)  | [java](/solution_java/0706_Design_HashMap.md)                 | easy       |
+| 0716 | [716. Max Stack](https://leetcode.com/problems/max-stack/)            | [java](/solution_java/0716_Max_Stack.md)                      | easy       |
+| 0155 | [Min Stack](https://leetcode.com/problems/min-stack/)                 | [java](/solution_java/0155_Min_Stack.java)                    | easy       |
+| 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/powx-n/) | [java](/solution_java/0232_Implement_Queue_using_Stacks.java) | easy       |

@@ -60,3 +60,5 @@ private static int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}
 
 - [140. Word Break II](https://leetcode.com/problems/word-break-ii/):
   [java](/solution_java/0140_Word_Break_II.java)
+- [529. Minesweeper](https://leetcode.com/problems/minesweeper/):
+  [java](/solution_java/0529_Minesweeper.java)
