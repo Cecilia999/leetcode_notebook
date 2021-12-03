@@ -298,6 +298,7 @@
 | 面试题 03-01 | [面试题 03.01. 三合一](https://leetcode-cn.com/problems/three-in-one-lcci/)                                                                                                         | [java](/力扣/面试题03-01_三合一.java)                             | easy       |
 | 0769         | [769. Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)                                                                                          | [java](/solution_java/0769_Max_Chunks_To_Make_Sorted.md)          | medium     |
 | 0716         | [716. Max Stack](https://leetcode.com/problems/max-stack/)                                                                                                                          | [java](/solution_java/0716_Max_Stack.md)                          | easy       |
+| 1249         | [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)                                                           |                                                                   | medium     |
 
 ### 15. [Math](math.md)
 
