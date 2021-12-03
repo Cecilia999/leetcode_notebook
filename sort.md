@@ -236,7 +236,7 @@ PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(11,new Comparator<In
    5. 循环
    6. 判断是否有环
 
-![alt text](../image/topological_sort.jpg)
+![alt text](/images/topological_sort.jpg)
 
 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/):
   [java](/solution_java/0207_Course_Schedule.md)
