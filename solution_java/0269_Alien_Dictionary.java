@@ -60,6 +60,16 @@ public class lc269_alien_dict {
         //相邻的两个单词进行比较，注意前一个单词的优先级>下一个单词
         for(int i=0; i<n-1; i++) {
             //细节:找出相邻两个字符串中第一个不同的字符
+            
+            String w1 = words[i];
+            String w2 = words[i+1];
+            
+            //edge case:  ["abc", "ab"]
+            //Because the prefix should always be at the front.   
+            if (w1.length() >w2.length() && w1.startsWith(w2)) {
+                return "";
+            }
+
             for (int j = 0; j < words[i].length() && j < words[i + 1].length(); j++) {
                 char ch1 = words[i].charAt(j);
                 char ch2 = words[i + 1].charAt(j);
