@@ -239,11 +239,11 @@ PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(11,new Comparator<In
 ![alt text](/images/topological_sort.jpg)
 
 - [207. Course Schedule](https://leetcode.com/problems/course-schedule/):
-  [java](/solution_java/0207_Course_Schedule.md)
+  [java](/solution_java/0207_Course_Schedule.java)
 - [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/):
-  [java](/solution_java/0210_Course_Schedule_II.md)
+  [java](/solution_java/0210_Course_Schedule_II.java)
 - [269. Alien Dictionary](https://blog.csdn.net/littlehaes/article/details/104192778):
-  [java](/solution_java/0269_Alien_Dictionary_II.md)
+  [java](/solution_java/0269_Alien_Dictionary_II.java)
 
 ## 7. hashset/hashmap
 
