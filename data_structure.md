@@ -62,7 +62,7 @@ for(inti=0;i<c.length;i++){
 }
 ```
 
-## List
+## List(ArrayList)
 
 ```java
 List<Integer> list = new ArrayList<Integer>();
@@ -72,11 +72,20 @@ List<List<Integer>> list2 = new ArrayList<List<Integer>>();
 list.add(0);
 list.add(0, 1);
 list.get(0);
+list.set(index, value);
 list.size();
-list.remove(list.size() ‐ 1); //remove by the index of the item in the list
-list.remove(new Integer(1)); //remove the item in the list
+
+//remove by the index of the item in the list, O(n)
+//remove the last item, O(1)
+list.remove(list.size() ‐ 1);
+
+//remove the item in the list, O(n)
+list.remove(new Integer(1));
+
+//convert array to arraylist
 Arrays.asList(1, 2, 3) // return [1, 2, 3]
 
+//sort arraylist
 Collections.sort(list);
 Collections.sort(list, Collections.reverseOrder());
 Collections.sort(list, new Comparator<Integer>() {
@@ -183,7 +192,7 @@ for (Integer i : map.values()) {
 }
 map.isEmpty();
 map.size();
-
+map.remove(key);
 //遍历
 //key
 for(String key : map.keySet()){

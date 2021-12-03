@@ -45,3 +45,42 @@ deque + pq
 
 - deque.remove time complexity is O(n)
 - pq.poll(): O(log n)
+
+## code
+
+```java
+class MaxStack {
+    Deque<Integer> stack;
+    PriorityQueue<Integer> orderStack;
+
+    public MaxStack() {
+        stack = new LinkedList();
+        orderStack = new PriorityQueue<>(Collections.reverseOrder());
+    }
+
+    public void push(int x) {
+        stack.addFirst(x);
+        orderStack.offer(x);
+    }
+
+    public int pop() {
+        int x = stack.pollFirst();
+        orderStack.remove(x);
+        return x;
+    }
+
+    public int top() {
+        return stack.peekFirst();
+    }
+
+    public int peekMax() {
+        return orderStack.peek();
+    }
+
+    public int popMax() {
+        int x = orderStack.poll();
+        stack.remove(x);
+        return x;
+    }
+}
+```
