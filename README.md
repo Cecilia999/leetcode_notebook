@@ -315,6 +315,7 @@
 | 剑指 Offer62    | [圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | [java](/力扣/剑指Offer62_圆圈中最后剩下的数字.md)                  | 简单       |
 | 1041            | [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)                          | [java](/solution_java/1041_Robot_Bounded_In_Circle.md)             | medium     |
 | 0829            | [829. Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)                     | [java](/solution_java/0829_Consecutive_Numbers_Sum.md)             | hard       |
+| 0007            | [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                       | [java](/solution_java/0007_Reverse_Integer.md)                     | medium     |
 
 ### 16. [Breadth-First Search & Depth-First Search](bfs_dfs.md)
 
