@@ -22,7 +22,11 @@
 - [829. Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/):
   [java](/solution_java/0829_Consecutive_Numbers_Sum.md)
 
-## % 和 /的运用 + MAX_VALUE 和 MIN_VALUE 的运用
+## 5. % 和 /的运用 + MAX_VALUE 和 MIN_VALUE 的运用
 
 - [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/):
   [java](/solution_java/0007_Reverse_Integer.md)
+
+## 6. java.math.BigInteger
+
+- [Extra_Long_Factoriols](/solution_java/Extra_Long_Factoriols.md)

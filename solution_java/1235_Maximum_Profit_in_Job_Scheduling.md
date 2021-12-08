@@ -49,7 +49,7 @@ We choose the one giving more profits.
 
 ## code
 
-1. Top-down DP(memorization)
+1. Top-down DP: recursion + memorization
 
 ```java
 class Solution {

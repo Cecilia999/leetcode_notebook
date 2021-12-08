@@ -78,6 +78,11 @@ int findSubstring(string s){
   }
 ```
 
+Now let's generalize the **characteristics of the problems that can be solved by two pinters**. The summary is simple:
+
+If a wider scope of the sliding window is valid, the narrower scope of that wider scope is valid mush hold.
+If a narrower scope of the sliding window is invalid, the wider scope of that narrower scope is invalid mush hold.
+
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/):
   [java](/solution_java/0003_Longest_Substring_Without_Repeating_Characters.java)
 - [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/):

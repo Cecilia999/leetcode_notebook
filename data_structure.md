@@ -272,3 +272,10 @@ private PriorityQueue<Integer> large = new PriorityQueue<>(new Comparator<Intege
 int count = 4
 char n = (char)(count +'0')
 ```
+
+2. set to list
+
+```java
+HashSet<Integer> set = new HashSet<>();
+List<Integer> list = new ArrayList<>(set);
+```
