@@ -65,7 +65,7 @@
    - [137. Single Number II](https://leetcode.com/problems/single-number-ii/):
      [java](/solution_java/137_Single_NumberII.java)
 
-4. n & ~n = 0 ==>> 如果 x & y = 0 说明 x 和 y 完全不相同
+4. n & ~n = 0 如果 x & y = 0 说明 x 和 y 完全不相同
 
    这个特性可以用于两个 string 比较有没有相同的字母
 
@@ -78,7 +78,7 @@
      x ^ x = 0
    - XOR is commutative 符合交换律，顺序不重要  
      a ^ b = b ^ a  
-     a ^ b = c => a ^ c = b => b ^ c = a (交换律)
+     a ^ b = c **=>** a ^ c = b **=>** b ^ c = a (交换律)
 
    - x ^ 11111……1111 = ~x  
      x ^ (~x) = 11111……1111

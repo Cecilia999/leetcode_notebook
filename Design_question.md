@@ -27,3 +27,7 @@
 - [155. Min Stack](https://leetcode.com/problems/min-stack/):
   [java](/solution_java/0155_Min_Stack.java)- - [232. Implement Queue using Stacks](https://leetcode.com/problems/powx-n/):
   [java](/solution_java/0232_Implement_Queue_using_Stacks.java)
+
+## hashtable + trie
+
+- [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [java](/solution_java/0588_Design_In-Memory_File_System.md)

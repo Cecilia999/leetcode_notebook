@@ -31,3 +31,8 @@
 
 - [1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) :
   [java](/solution_java/1710_Maximum_Units_on_a_Truck.md)
+
+## 3. greedy + priority queue + sort
+
+- [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/):
+  [java](/solution_java/1353_Maximum_Number_of_Events_That_Can_Be_Attended.md)

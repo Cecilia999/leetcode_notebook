@@ -53,6 +53,8 @@
 
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/):
   [java](/solution_java/0238_Product_of_Array_Except_Self.java)
+- [348. Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/):
+  [java](/solution_java/0348_Design_Tic-Tac-Toe.java)
 
 ### 5. 折线图(贪心)
 

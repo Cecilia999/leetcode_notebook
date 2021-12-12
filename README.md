@@ -119,6 +119,7 @@
 | 0303         | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)                                                                                                           | [java](/solution_java/0303_Range_Sum_Query-Immutable.java)                | easy       |
 | 0304         | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)                                                                                                     | [java](/solution_java/0304_Range_Sum_Query_2D-Immutable.java)             | medium     |
 | 0957         | [957. Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/)                                                                                                        | [java](/solution_java/0957_Prison_Cells_After_N_Days.java)                | medium     |
+| 0348         | [348. Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)                                                                                                                      | [java](/solution_java/0348_Design_Tic-Tac-Toe.java)                       | medium     |
 
 ### 5. [String](string.md)
 
@@ -246,18 +247,18 @@
 
 ### 12. [Greedy](greedy.md)
 
-| \#   | Title                                                                                                   | Solution                                                            | Difficulty |
-| ---- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------- |
-| 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                             | [java](/solution_java/0045_Jump_Game_II.java)                       | medium     |
-| 0455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/)                                         | [java](/solution_java/0455_Assign_Cookies.java)                     | easy       |
-| 0135 | [Candy](https://leetcode.com/problems/candy/)                                                           | [java](/solution_java/0135_Candy.java)                              | hard       |
-| 0763 | [Partition Labels](https://leetcode.com/problems/partition-labels/)                                     | [java](/solution_java/0763_Partition_Labels.java)                   | medium     |
-| 0134 | [Gas Station](https://leetcode.com/problems/gas-station/)                                               | [java](/solution_java/0134_Gas_Station.java)                        | medium     |
-| 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [java](/solution_java/0122_Best_Time_to_Buy_and_Sell_Stock_II.java) | easy       |
-| 0402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)                                       | [java](/solution_java/0402_Remove_K_Digits.java)                    | medium     |
-| 0316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)                     | [java](/solution_java/0316_Remove_Duplicate_Letters.java)           | medium     |
-| 0646 | [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)        | [java](/solution_java/0646_Maximum_Length_of_Pair_Chain.md)         | medium     |
-| 1710 | [1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)               | [java](/solution_java/1710_Maximum_Units_on_a_Truck.md)             | easy       |
+| \#   | Title                                                                                                                               | Solution                                                                     | Difficulty |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------- |
+| 0045 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                                                         | [java](/solution_java/0045_Jump_Game_II.java)                                | medium     |
+| 0455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/)                                                                     | [java](/solution_java/0455_Assign_Cookies.java)                              | easy       |
+| 0135 | [Candy](https://leetcode.com/problems/candy/)                                                                                       | [java](/solution_java/0135_Candy.java)                                       | hard       |
+| 0763 | [Partition Labels](https://leetcode.com/problems/partition-labels/)                                                                 | [java](/solution_java/0763_Partition_Labels.java)                            | medium     |
+| 0134 | [Gas Station](https://leetcode.com/problems/gas-station/)                                                                           | [java](/solution_java/0134_Gas_Station.java)                                 | medium     |
+| 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)                             | [java](/solution_java/0122_Best_Time_to_Buy_and_Sell_Stock_II.java)          | easy       |
+| 0402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)                                                                   | [java](/solution_java/0402_Remove_K_Digits.java)                             | medium     |
+| 0316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)                                                 | [java](/solution_java/0316_Remove_Duplicate_Letters.java)                    | medium     |
+| 0646 | [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)                                    | [java](/solution_java/0646_Maximum_Length_of_Pair_Chain.md)                  | medium     |
+| 1353 | [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/) | [java](/solution_java/1353_Maximum_Number_of_Events_That_Can_Be_Attended.md) | medium     |
 
 ### 13. [bit manipulation](bit_manipulation.md)
 
@@ -342,12 +343,13 @@
 
 ### 18. [Design question]
 
-| \#   | Title                                                                                          | Solution                                                      | Difficulty |
-| ---- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ---------- |
-| 0146 | [146. LRU_Cache](https://leetcode.com/problems/lru-cache/)                                     | [java](/solution_java/0146_LRU_Cache.md)                      | medium     |
-| 0460 | [460. LFU Cache](https://leetcode.com/problems/lfu-cache/)                                     | [java](/solution_java/0460_LFU_Cache.md)                      | hard       |
-| 0706 | [706. Design HashMap](https://leetcode.com/problems/design-hashmap/)                           | [java](/solution_java/0706_Design_HashMap.md)                 | easy       |
-| 0716 | [716. Max Stack](https://leetcode.com/problems/max-stack/)                                     | [java](/solution_java/0716_Max_Stack.md)                      | easy       |
-| 0155 | [155. Min Stack](https://leetcode.com/problems/min-stack/)                                     | [java](/solution_java/0155_Min_Stack.java)                    | easy       |
-| 0232 | [232. Implement Queue using Stacks](https://leetcode.com/problems/powx-n/)                     | [java](/solution_java/0232_Implement_Queue_using_Stacks.java) | easy       |
-| 0380 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [java](/solution_java/0380_Insert_Delete_GetRandom_O1.md)     | medium     |
+| \#   | Title                                                                                            | Solution                                                      | Difficulty |
+| ---- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- | ---------- |
+| 0146 | [146. LRU_Cache](https://leetcode.com/problems/lru-cache/)                                       | [java](/solution_java/0146_LRU_Cache.md)                      | medium     |
+| 0460 | [460. LFU Cache](https://leetcode.com/problems/lfu-cache/)                                       | [java](/solution_java/0460_LFU_Cache.md)                      | hard       |
+| 0706 | [706. Design HashMap](https://leetcode.com/problems/design-hashmap/)                             | [java](/solution_java/0706_Design_HashMap.md)                 | easy       |
+| 0716 | [716. Max Stack](https://leetcode.com/problems/max-stack/)                                       | [java](/solution_java/0716_Max_Stack.md)                      | easy       |
+| 0155 | [155. Min Stack](https://leetcode.com/problems/min-stack/)                                       | [java](/solution_java/0155_Min_Stack.java)                    | easy       |
+| 0232 | [232. Implement Queue using Stacks](https://leetcode.com/problems/powx-n/)                       | [java](/solution_java/0232_Implement_Queue_using_Stacks.java) | easy       |
+| 0380 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)   | [java](/solution_java/0380_Insert_Delete_GetRandom_O1.md)     | medium     |
+| 0588 | [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [java](/solution_java/0588_Design_In-Memory_File_System.md)   | medium     |
