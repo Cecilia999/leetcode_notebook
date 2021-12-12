@@ -317,6 +317,8 @@
 | 1041            | [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)                          | [java](/solution_java/1041_Robot_Bounded_In_Circle.md)             | medium     |
 | 0829            | [829. Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)                     | [java](/solution_java/0829_Consecutive_Numbers_Sum.md)             | hard       |
 | 0007            | [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                       | [java](/solution_java/0007_Reverse_Integer.md)                     | medium     |
+| 1390            | [1390. Four Divisors](https://leetcode.com/problems/four-divisors/)                                        | [java](/solution_java/1390_Four_Divisors.md)                       | medium     |
+| 1492            | [1492. The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)                            | [java](/solution_java/1492_The_kth_Factor_of_n.md)                 | medium     |
 
 ### 16. [Breadth-First Search & Depth-First Search](bfs_dfs.md)
 

@@ -30,3 +30,10 @@
 ## 6. java.math.BigInteger
 
 - [Extra_Long_Factoriols](/solution_java/Extra_Long_Factoriols.md)
+
+## 7. find factor + sqrt
+
+- [1390. Four Divisors](https://leetcode.com/problems/four-divisors/):
+  [java](/solution_java/1390_Four_Divisors.md)
+- [1492. The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/):
+  [java](/solution_java/1492_The_kth_Factor_of_n.md)
