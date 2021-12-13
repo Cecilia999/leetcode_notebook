@@ -304,23 +304,24 @@
 
 ### 15. [Math](math.md)
 
-| \#              | Title                                                                                                      | Solution                                                           | Difficulty |
-| --------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ---------- |
-| 0050            | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                                                         | [java](/solution_java/0050_Power.java)                             | medium     |
-| 0231            | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                | [java](/solution_java/0231_Power_of_Two.java)                      | easy       |
-| 0326            | [Power of Three](https://leetcode.com/problems/power-of-three/)                                            | [java](/solution_java/0326_Power_of_Three.java)                    | easy       |
-| 剑指 Offer64    | [求 1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)                                               | [java](/力扣/剑指Offer64_求1+2+…+n.java)                           | 中等       |
-| 剑指 Offer14-ii | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)                                       | [java](/力扣/剑指Offer14-II_剪绳子II.java)                         | 中等       |
-| 面试题 08-14    | [布尔运算](https://leetcode-cn.com/problems/boolean-evaluation-lcci/)                                      | [java](/力扣/面试题08-14_布尔运算.java)                            | medium     |
-| 0241            | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)      | [java](/solution_java/0241_Different_Ways_to_Add_Parentheses.java) | medium     |
-| 0227            | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)                                  | [java](/solution_java/0227_Basic_Calculator_II.md)                 | medium     |
-| 剑指 Offer62    | [圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | [java](/力扣/剑指Offer62_圆圈中最后剩下的数字.md)                  | 简单       |
-| 1041            | [1041. Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)                    | [java](/solution_java/1041_Robot_Bounded_In_Circle.md)             | medium     |
-| 0829            | [829. Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)                     | [java](/solution_java/0829_Consecutive_Numbers_Sum.md)             | hard       |
-| 0007            | [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                       | [java](/solution_java/0007_Reverse_Integer.md)                     | medium     |
-| 1390            | [1390. Four Divisors](https://leetcode.com/problems/four-divisors/)                                        | [java](/solution_java/1390_Four_Divisors.md)                       | medium     |
-| 1492            | [1492. The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)                            | [java](/solution_java/1492_The_kth_Factor_of_n.md)                 | medium     |
-| 0891            | [891. Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/)                 | [java](/solution_java/0891_Sum_of_Subsequence_Widths.md)           | medium     |
+| \#              | Title                                                                                                             | Solution                                                            | Difficulty |
+| --------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------- |
+| 0050            | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                                                                | [java](/solution_java/0050_Power.java)                              | medium     |
+| 0231            | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                       | [java](/solution_java/0231_Power_of_Two.java)                       | easy       |
+| 0326            | [Power of Three](https://leetcode.com/problems/power-of-three/)                                                   | [java](/solution_java/0326_Power_of_Three.java)                     | easy       |
+| 剑指 Offer64    | [求 1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)                                                      | [java](/力扣/剑指Offer64_求1+2+…+n.java)                            | 中等       |
+| 剑指 Offer14-ii | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)                                              | [java](/力扣/剑指Offer14-II_剪绳子II.java)                          | 中等       |
+| 面试题 08-14    | [布尔运算](https://leetcode-cn.com/problems/boolean-evaluation-lcci/)                                             | [java](/力扣/面试题08-14_布尔运算.java)                             | medium     |
+| 0241            | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)             | [java](/solution_java/0241_Different_Ways_to_Add_Parentheses.java)  | medium     |
+| 0227            | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)                                         | [java](/solution_java/0227_Basic_Calculator_II.md)                  | medium     |
+| 剑指 Offer62    | [圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)        | [java](/力扣/剑指Offer62_圆圈中最后剩下的数字.md)                   | 简单       |
+| 1041            | [1041. Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)                           | [java](/solution_java/1041_Robot_Bounded_In_Circle.md)              | medium     |
+| 0829            | [829. Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)                            | [java](/solution_java/0829_Consecutive_Numbers_Sum.md)              | hard       |
+| 0007            | [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                              | [java](/solution_java/0007_Reverse_Integer.md)                      | medium     |
+| 1390            | [1390. Four Divisors](https://leetcode.com/problems/four-divisors/)                                               | [java](/solution_java/1390_Four_Divisors.md)                        | medium     |
+| 1492            | [1492. The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)                                   | [java](/solution_java/1492_The_kth_Factor_of_n.md)                  | medium     |
+| 0891            | [891. Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/)                        | [java](/solution_java/0891_Sum_of_Subsequence_Widths.md)            | medium     |
+| 1823            | [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | [java](/solution_java/1823_Find_the_Winner_of_the_Circular_Game.md) | medium     |
 
 ### 16. [Breadth-First Search & Depth-First Search](bfs_dfs.md)
 

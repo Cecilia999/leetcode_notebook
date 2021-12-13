@@ -16,6 +16,8 @@
 
 - [剑指 Offer62. 圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/):
   [java](/力扣/剑指Offer62_圆圈中最后剩下的数字.md)
+- [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/):
+  [java](/solution_java/1823_Find_the_Winner_of_the_Circular_Game.md)
 
 ## 4. 两个变量
 
