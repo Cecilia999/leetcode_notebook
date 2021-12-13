@@ -96,6 +96,11 @@
 - [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/):
   [java](/solution_java/0304_Range_Sum_Query_2D-Immutable.java)
 
+### 8. hashmap + array/sort
+
+- [1481. Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/):
+  [java](/solution_java/1481_Least_Number_of_Unique_Integers_after_K_Removals.java)
+
 ## 2d array -->> matrix
 
 ### 1. spiral matrix 螺旋矩阵
