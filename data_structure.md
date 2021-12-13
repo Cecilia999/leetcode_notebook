@@ -279,3 +279,26 @@ char n = (char)(count +'0')
 HashSet<Integer> set = new HashSet<>();
 List<Integer> list = new ArrayList<>(set);
 ```
+
+3. list to array
+
+```java
+<T> T[] List.toArrat(T[] a)
+List<String> list = new ArrayList<String>();
+list.add("1");
+list.add("2");
+String[] s = list.toArray(new String[list.size()]);
+```
+
+```java
+Foo[] array = new Foo[list.size()];
+list.toArray(array); // fill the array
+```
+
+Note that this works only for arrays of reference types. For arrays of **primitive types**, use the traditional way:
+
+```java
+List<Integer> list = ...;
+int[] array = new int[list.size()];
+for(int i = 0; i < list.size(); i++) array[i] = list.get(i);
+```

@@ -300,6 +300,7 @@
 | 0769         | [769. Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)                                                                                          | [java](/solution_java/0769_Max_Chunks_To_Make_Sorted.md)          | medium     |
 | 0716         | [716. Max Stack](https://leetcode.com/problems/max-stack/)                                                                                                                          | [java](/solution_java/0716_Max_Stack.md)                          | easy       |
 | 1249         | [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)                                                           |                                                                   | medium     |
+| 0907         | [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)                                                                                            | [java](/solution_java/0907_Sum_of_Subarray_Minimums.md)           | medium     |
 
 ### 15. [Math](math.md)
 
