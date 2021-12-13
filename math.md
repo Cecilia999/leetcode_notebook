@@ -12,7 +12,7 @@
 - [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/):
   [java](/solution_java/0227_Basic_Calculator_II.md)
 
-## 3.
+## 3. circular array
 
 - [剑指 Offer62. 圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/):
   [java](/力扣/剑指Offer62_圆圈中最后剩下的数字.md)
@@ -37,3 +37,13 @@
   [java](/solution_java/1390_Four_Divisors.md)
 - [1492. The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/):
   [java](/solution_java/1492_The_kth_Factor_of_n.md)
+
+## 8. array sequence width sum
+
+- [891. Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/):
+  [java](/solution_java/0891_Sum_of_Subsequence_Widths.md)
+
+## 9. 和方向有关的
+
+- [1041. Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/):
+  [java](/solution_java/1041_Robot_Bounded_In_Circle.md)

@@ -315,11 +315,12 @@
 | 0241            | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)      | [java](/solution_java/0241_Different_Ways_to_Add_Parentheses.java) | medium     |
 | 0227            | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)                                  | [java](/solution_java/0227_Basic_Calculator_II.md)                 | medium     |
 | 剑指 Offer62    | [圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | [java](/力扣/剑指Offer62_圆圈中最后剩下的数字.md)                  | 简单       |
-| 1041            | [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)                          | [java](/solution_java/1041_Robot_Bounded_In_Circle.md)             | medium     |
+| 1041            | [1041. Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)                    | [java](/solution_java/1041_Robot_Bounded_In_Circle.md)             | medium     |
 | 0829            | [829. Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)                     | [java](/solution_java/0829_Consecutive_Numbers_Sum.md)             | hard       |
 | 0007            | [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                       | [java](/solution_java/0007_Reverse_Integer.md)                     | medium     |
 | 1390            | [1390. Four Divisors](https://leetcode.com/problems/four-divisors/)                                        | [java](/solution_java/1390_Four_Divisors.md)                       | medium     |
 | 1492            | [1492. The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)                            | [java](/solution_java/1492_The_kth_Factor_of_n.md)                 | medium     |
+| 0891            | [891. Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/)                 | [java](/solution_java/0891_Sum_of_Subsequence_Widths.md)           | medium     |
 
 ### 16. [Breadth-First Search & Depth-First Search](bfs_dfs.md)
 
