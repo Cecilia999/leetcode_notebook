@@ -17,30 +17,34 @@
 
 class Solution {
     public boolean canPartitionKSubsets(int[] nums, int k) {
-        //计算sum + maxNum
-        int sum = 0, maxNum=0;
+        int sum = 0, max=0;
         for(int i=0; i<nums.length; i++){
             sum += nums[i];
-            maxNum = Math.max(maxNum, nums[i]);
+            max = Math.max(max, nums[i]);
         }
         
-        if(sum%k!=0 || maxNum>sum/k) return false;
+        if(sum%k!=0 || max>sum/k) 
+            return false;
         boolean[] used = new boolean[nums.length];
-        return backtrackPartition(nums, k, sum/k, 0, 0, used);
+        
+        return backtrack(nums, used, k, sum/k, 0);
     }
     
-    private boolean backtrackPartition(int[] nums, int k, int target, int cur, int start, boolean[] used){
-        if(k==0) return true;
-        if(cur==target)
-            return backtrackPartition(nums, k-1, target, 0, 0, used);
+    public boolean backtrack(int[] nums, boolean[] used, int k, int target, int start){
+        if(k == 0){
+            return true;
+        }
+        if(target == 0) 
+            return backtrack(nums, used, k-1, 0, 0);
         
         for(int i=start; i<nums.length; i++){
-            if(!used[i] && cur+nums[i]<=target){
-                used[i] = true;
-                if(backtrackPartition(nums, k, target, cur+nums[i], i, used)) 
-                    return true;
-                used[i] = false;
-            }
+            if(used[i]) continue;
+            if(target - nums[i] < 0) continue;
+            
+            used[i] = true;
+            if(backtrack(nums, used, k, target-nums[i], i+1))
+                return true;
+            used[i] = false;
         }
         
         return false;
