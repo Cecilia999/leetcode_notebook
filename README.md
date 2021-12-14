@@ -19,8 +19,6 @@
 | 0131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)                                                                                                   | [java](/solution_java/131_Palindrome_Partitioning.java)           | medium     |
 | jz66 | [机器人的运动范围](https://www.nowcoder.com/practice/6e5207314b5241fb83f2329e89fdecc8?tpId=13&&tqId=11219&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/机器人的运动范围.java)                             | 较难       |
 | jz65 | [矩阵中的路径](https://www.nowcoder.com/practice/2a49359695a544b8939c77358d29b7e6?tpId=13&&tqId=11218&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)     | [java](/牛客网/矩阵中的路径.java)                                 | 中等       |
-| 0079 | [Word Search](https://leetcode.com/problems/word-search/)                                                                                                                           | [java](/solution_java/0079_Word_Search.java)                      | medium     |
-| 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                                                               | [java](/solution_java/0200_Number_of_Islands.java)                | medium     |
 | 0698 | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)                                                                                 | [java](/solution_java/0698_Partition_to_K_Equal_Sum_Subsets.java) | medium     |
 
 ### 2. [Dynamic Programming](dynamic_programming.md)
@@ -337,6 +335,8 @@
 | 0994 | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                | [java](/solution_java/0994_Rotting_Oranges.java)                   | medium     |
 | 0675 | [675. Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/)      | [java](/solution_java/0675_Cut_Off_Trees_for_Golf_Event.java)      | hard       |
 | 0529 | [529. Minesweeper](https://leetcode.com/problems/minesweeper/)                                        | [java](/solution_java/0529_Minesweeper.java)                       | medium     |
+| 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                 | [java](/solution_java/0200_Number_of_Islands.java)                 | medium     |
+| 0079 | [Word Search](https://leetcode.com/problems/word-search/)                                             | [java](/solution_java/0079_Word_Search.java)                       | medium     |
 
 ### 17. [Tire / Prefix tree 字典树，前缀树](trie.md)
 
