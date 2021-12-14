@@ -49,3 +49,8 @@
 
 - [1041. Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/):
   [java](/solution_java/1041_Robot_Bounded_In_Circle.md)
+
+## 10. 和 permutation sequence，factorial 有关的
+
+- [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/):  
+   [java](/solution_java/0060_Permutation_Subsequence.java)

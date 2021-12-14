@@ -8,8 +8,6 @@
      [java](/solution_java/046_Permutations.java)
    - [47. Permutations II (contains duplicates)](https://leetcode.com/problems/permutations-ii/):  
      [java](/solution_java/047_Permutations_II.java)
-   - [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/):  
-     [java](/solution_java/0060_Permutation_Subsequence.java)
    - [526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/):  
      [java](/solution_java/0526_Beautiful_Arrangement.java)
 
