@@ -25,7 +25,6 @@
 
 | \#           | Title                                                                                                                                                                             | Solution                                                                   | Difficulty |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------- |
-| 0032         | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                                                                             | [java](/solution_java/0032_Longest_Valid_Parentheses.java)                 | hard       |
 | 0042         | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                                                                                                         | [java](/solution_java/0042_Trapping_Rain_Water.java)                       | hard       |
 | 0070         | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                                                                 | [java](/solution_java/0070_Climbing_Stairs.java)                           | easy       |
 | 0746         | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)                                                                                               | [java](/solution_java/0746_Min_Cost_Climbing_Stairs.java)                  | easy       |
@@ -299,6 +298,7 @@
 | 0716         | [716. Max Stack](https://leetcode.com/problems/max-stack/)                                                                                                                          | [java](/solution_java/0716_Max_Stack.md)                          | easy       |
 | 1249         | [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)                                                           |                                                                   | medium     |
 | 0907         | [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)                                                                                            | [java](/solution_java/0907_Sum_of_Subarray_Minimums.md)           | medium     |
+| 0032         | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                                                                               | [java](/solution_java/0032_Longest_Valid_Parentheses.java)        | hard       |
 
 ### 15. [Math](math.md)
 
@@ -324,19 +324,20 @@
 
 ### 16. [Breadth-First Search & Depth-First Search](bfs_dfs.md)
 
-| \#   | Title                                                                                                 | Solution                                                           | Difficulty |
-| ---- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ---------- |
-| 0126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                       | [java](/solution_java/0126_Word_Ladder_II.java)                    | hard       |
-| 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/)                                         | [java](/solution_java/0752_Open_the_Lock.java)                     | medium     |
-| 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/)                                                 | [java](/solution_java/0542_01_Matrix.java)                         | medium     |
-| 1162 | [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)           | [java](/solution_java/1162_As_Far_from_Land_as_Possible.java)      | medium     |
-| 0126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                       | [java](/solution_java/0126_Word_Ladder_II.java)                    | hard       |
-| 1192 | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [java](/solution_java/1192_Critical_Connections_in_a_Network.java) | hard       |
-| 0994 | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                | [java](/solution_java/0994_Rotting_Oranges.java)                   | medium     |
-| 0675 | [675. Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/)      | [java](/solution_java/0675_Cut_Off_Trees_for_Golf_Event.java)      | hard       |
-| 0529 | [529. Minesweeper](https://leetcode.com/problems/minesweeper/)                                        | [java](/solution_java/0529_Minesweeper.java)                       | medium     |
-| 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                 | [java](/solution_java/0200_Number_of_Islands.java)                 | medium     |
-| 0079 | [Word Search](https://leetcode.com/problems/word-search/)                                             | [java](/solution_java/0079_Word_Search.java)                       | medium     |
+| \#   | Title                                                                                                                                                                           | Solution                                                           | Difficulty |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ---------- |
+| 0126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                                                                                                 | [java](/solution_java/0126_Word_Ladder_II.java)                    | hard       |
+| 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/)                                                                                                                   | [java](/solution_java/0752_Open_the_Lock.java)                     | medium     |
+| 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/)                                                                                                                           | [java](/solution_java/0542_01_Matrix.java)                         | medium     |
+| 1162 | [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)                                                                                     | [java](/solution_java/1162_As_Far_from_Land_as_Possible.java)      | medium     |
+| 0126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                                                                                                 | [java](/solution_java/0126_Word_Ladder_II.java)                    | hard       |
+| 1192 | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)                                                                           | [java](/solution_java/1192_Critical_Connections_in_a_Network.java) | hard       |
+| 0994 | [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                                                                                          | [java](/solution_java/0994_Rotting_Oranges.java)                   | medium     |
+| 0675 | [675. Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/)                                                                                | [java](/solution_java/0675_Cut_Off_Trees_for_Golf_Event.java)      | hard       |
+| 0529 | [529. Minesweeper](https://leetcode.com/problems/minesweeper/)                                                                                                                  | [java](/solution_java/0529_Minesweeper.java)                       | medium     |
+| 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                                                           | [java](/solution_java/0200_Number_of_Islands.java)                 | medium     |
+| 0079 | [Word Search](https://leetcode.com/problems/word-search/)                                                                                                                       | [java](/solution_java/0079_Word_Search.java)                       | medium     |
+| jz65 | [矩阵中的路径](https://www.nowcoder.com/practice/2a49359695a544b8939c77358d29b7e6?tpId=13&&tqId=11218&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/矩阵中的路径.java)                                  | 中等       |
 
 ### 17. [Tire / Prefix tree 字典树，前缀树](trie.md)
 
