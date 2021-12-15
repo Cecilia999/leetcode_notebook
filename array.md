@@ -87,6 +87,8 @@
   [java](/solution_java/0560_Subarray_Sum_Equals_K.java)
 - [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/):
   [java](/solution_java/0303_Range_Sum_Query-Immutable.java)
+- [370. Range Addition](https://leetcode.com/problems/range-addition/):
+  [java](/solution_java/0370_Range_Addition.md)
 
 ### 7.2 二维 matrix 前缀和
 
