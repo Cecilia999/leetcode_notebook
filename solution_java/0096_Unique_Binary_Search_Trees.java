@@ -8,49 +8,19 @@
 //对于任意F(i, n)我们可以得到他等于dp(i-1)和dp(n-i)的cartesian product（笛卡尔积）
 //F(i, n) = dp(i-1)       *  dp(n-i)	         1 <= i <= n 
 //          left sub-tree    right sub-tree
+
 //dp(n) = dp(0) * dp(n-1) + dp(1) * dp(n-2) + … + dp(n-1) * dp(0) 
 
 /*    
 Hope it will help you to understand :
-    
-    n = 0;     null   
-    
-    count[0] = 1
-    
-    
-    n = 1;      1       
-    
-    count[1] = 1 
-    
-    
-    n = 2;    1__       			 __2     
-    		      \					/                 
-    		     count[1]	   	count[1]	
-    
-    count[2] = 1 + 1 = 2
-    
-    
-    
-    n = 3;    1__				      __2__	                   __3
-    		      \		            /       \			      /		
-    		  count[2]		  count[1]    count[1]		count[2]
-    
-    count[3] = 2 + 1 + 2  = 5
-    
-    
-    
-    n = 4;    1__  					__2__					   ___3___                  
-    		      \				 /        \					  /		  \			
-    		  count[3]		 count[1]    count[2]		  count[2]   count[1]
-    
-                 __4				
-               /
-           count[3]   
-    
-    count[4] = 5 + 2 + 2 + 5 = 14     
-    
 
-And  so on...
+1,2,3, ..., n
+
+            k
+        /       \
+   1 ~ (k-1)    (k+1) ~ n
+    
+   F(k, n) = 一共有 (k-1) x (n - k) 种 bst
 */
 
 class Solution {

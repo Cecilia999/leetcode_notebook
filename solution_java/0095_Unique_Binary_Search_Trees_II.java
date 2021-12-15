@@ -1,5 +1,3 @@
-//没想明白。。。
-
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -15,34 +13,42 @@
  *     }
  * }
  */
+
+//I think the key idea of construct unique bst is
+// F(i, n) = G(i-1) * G(n-i)
+// 长度为n，以i为root的bst是由
+//left tree = 长度为i-1，有i-1个possible root + 
+//right tree = 长度为n-i，有n-i个possible root组成的
+
 class Solution {
-  public List<TreeNode> generateTrees(int n) {
-      return generateTreeList(1, n);
-  }
-  
-  private List<TreeNode> generateTreeList(int start, int end){
-      List<TreeNode> list = new ArrayList<TreeNode>();
-      if(start>end)
-          list.add(null);
-      
-      for(int index=start; index<=end; index++){
-          //先得到left sub tree & right sub tree
-          //把他们和由root合并起来
-          
-          List<TreeNode> leftTree = generateTreeList(start, index-1);
-          List<TreeNode> rightTree = generateTreeList(index+1, end);
-          for (TreeNode left : leftTree) {
-              for(TreeNode right: rightTree) {
-                  TreeNode root = new TreeNode(index);
-                  root.left = left;
-                  root.right = right;
-                  list.add(root);                 
-              }
-          }
-          //System.out.println(leftTree + "\n");
-      }
-      
-      return list;
-  }
-  
+    public List<TreeNode> generateTrees(int n) {
+        List<TreeNode> res = generateTree(1, n);
+        return res;
+    }
+    
+    public List<TreeNode> generateTree(int start, int end){
+        List<TreeNode> subtree = new ArrayList<>();
+        
+        if(start>end){
+            subtree.add(null);
+            return subtree;
+        }
+        
+        for(int i=start; i<=end; i++){
+            List<TreeNode> leftTree = generateTree(start, i-1);
+            List<TreeNode> rightTree = generateTree(i+1, end);
+            
+            for(TreeNode leftNode : leftTree){
+                for(TreeNode rightNode : rightTree){
+                    TreeNode root = new TreeNode(i);
+                    root.left = leftNode;
+                    root.right = rightNode;
+                    
+                    subtree.add(root);
+                }
+            }
+        }
+        
+        return subtree;
+    }
 }

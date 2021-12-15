@@ -224,3 +224,27 @@ prefixSumCount.put(currSum, preSum.get(currSum) - 1);
 
 - [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/):
   [java](/solution_java/0437_Path_Sum_III.java)
+
+## 8. constructe bst
+
+I think the key idea of construct unique bst is
+
+F(i, n) = G(i-1) \* G(n-i)
+
+长度为 n，以 i 为 root 的 bst 是由
+left tree = 长度为 i-1，有 i-1 个 possible root + right tree = 长度为 n-i，有 n-i 个 possible root 组成的
+
+```
+       1,2,3, ..., n
+
+            k
+        /       \
+   1 ~ (k-1)    (k+1) ~ n
+
+F(k, n) = 一共有 (k-1) x (n - k) 种 bst
+```
+
+- [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/):
+  [java](/solution_java/0096_Unique_Binary_Search_Trees.java)
+- [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/):
+  [java](/solution_java/0095_Unique_Binary_Search_Trees_II.java)
