@@ -254,3 +254,6 @@ F(k, n) = 一共有 (k-1) x (n - k) 种 bst
   [java](/solution_java/0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.md)
 - [1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/):
   [java](/solution_java/1650_Lowest_Common_Ancestor_of_a_Binary_Tree_III.md)
+- [1740. Find Distance in a Binary Tree](https://leetcode.com/problems/find-distance-in-a-binary-tree/):
+  [java](/solution_java/1740_Find_Distance_in_a_Binary_Tree.md)
+- https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/
