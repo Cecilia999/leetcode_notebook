@@ -1,8 +1,8 @@
 # Tree
 
-## 1. recursion 递归
+## 1. DFS + recursion
 
-### 1.1 树与子树的一些递归
+### 1.1 树与子树
 
 - [100. Same Tree](https://leetcode.com/problems/same-tree/):  
   [java](/solution_java/0100_Same_Tree.java)
@@ -12,14 +12,18 @@
   [JZ17. 树的子结构](https://www.nowcoder.com/practice/6e196c44c7004d15b1610b9afca8bd88?tpId=13&&tqId=11170&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking):  
   [java](/牛客网/JZ17_树的子结构.java)
 
-### 1.2 与 binary tree 的层数有关的一些递归
+### 1.2 与 binary tree 的层数有关
 
 - [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/):
   [java](/solution_java/0104_Maximum_Depth_of_Binary_Tree.java)
 - [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/):
   [java](/solution_java/0110_Balanced_Binary_Tree.java)
+- [366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/):
+  [java](/solution_java/0366_Find_Leaves_of_Binary_Tree.md)
+- [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/):
+  [java](/solution_java/0199_Binary_Tree_Right_Side_View.java)
 
-### 1.3 与树的镜像有关的一些递归
+### 1.3 与树的镜像有关
 
 - [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/):
   [java](/solution_java/0101_Symmetric_Tree.java)
@@ -28,10 +32,19 @@
 - [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/):
   [java](/solution_java/0226_Invert_Binary_Tree.java)
 
-### 1.4 与树的路径有关的一些递归
+### 1.4 pathSum
 
 - [112. Path Sum](https://leetcode.com/problems/path-sum/):
   [java](/solution_java/0112_Path_Sum.java)
+- [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/):
+  [java](/solution_java/0113_Path_Sum_II.java)
+- [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/):
+  [java](/solution_java/0437_Path_Sum_III.java)
+
+### 1.5 dfs + hashmap
+
+- [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/):
+  [java](/solution_java/0863_All_Nodes_Distance_K_in_Binary_Tree.md)
 
 ## 2. 前根 / 中根 / 后根 遍历
 
@@ -180,37 +193,6 @@ using preorder + recursion
 - [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/):
   [java](/solution_java/0297_Serialize_and_Deserialize_Binary_Tree.java)
 
-## 7. dfs
-
-- [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/):
-  [java](/solution_java/0124_Binary_Tree_Maximum_Path_Sum.java)
-- [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/):
-  [java](/solution_java/0543_Diameter_of_Binary_Tree.java)
-- [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/):
-  [java](/solution_java/0199_Binary_Tree_Right_Side_View.java)
-- [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/):
-  [java](/solution_java/0236_Lowest_Common_Ancestor_of_a_Binary_Tree.java)
-- [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/):
-  [java](/solution_java/0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.md)
-- [1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/):
-  [java](/solution_java/1650_Lowest_Common_Ancestor_of_a_Binary_Tree_III.md)
-- [366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/):
-  [java](/solution_java/0366_Find_Leaves_of_Binary_Tree.md)
-
-### 7.1 pathSum
-
-- [112. Path Sum](https://leetcode.com/problems/path-sum/):
-  [java](/solution_java/0112_Path_Sum.java)
-- [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/):
-  [java](/solution_java/0113_Path_Sum_II.java)
-- [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/):
-  [java](/solution_java/0437_Path_Sum_III.java)
-
-### 7.2 dfs + hashmap
-
-- [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/):
-  [java](/solution_java/0863_All_Nodes_Distance_K_in_Binary_Tree.md)
-
 ## 前缀和 prefix sum using HashMap
 
 二叉树的前缀和
@@ -233,7 +215,7 @@ prefixSumCount.put(currSum, preSum.get(currSum) - 1);
 - [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/):
   [java](/solution_java/0437_Path_Sum_III.java)
 
-## 8. constructe bst
+## 7. constructe bst
 
 I think the key idea of construct unique bst is
 
@@ -256,3 +238,19 @@ F(k, n) = 一共有 (k-1) x (n - k) 种 bst
   [java](/solution_java/0096_Unique_Binary_Search_Trees.java)
 - [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/):
   [java](/solution_java/0095_Unique_Binary_Search_Trees_II.java)
+
+## 8. path in a tree
+
+- [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/):
+  [java](/solution_java/0124_Binary_Tree_Maximum_Path_Sum.java)
+- [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/):
+  [java](/solution_java/0543_Diameter_of_Binary_Tree.java)
+
+## 9. LCA
+
+- [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/):
+  [java](/solution_java/0236_Lowest_Common_Ancestor_of_a_Binary_Tree.java)
+- [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/):
+  [java](/solution_java/0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.md)
+- [1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/):
+  [java](/solution_java/1650_Lowest_Common_Ancestor_of_a_Binary_Tree_III.md)
