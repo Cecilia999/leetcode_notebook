@@ -204,6 +204,14 @@ for(String value : map.values()){
 }
 ```
 
+1. Useful tip for Java 8 users:
+
+`if(!map.containsKey(col)) map.put(col, new ArrayList<Integer>());`
+
+can be replaced with:
+
+`map.putIfAbsent(col, new ArrayList<>());`
+
 ## Hashset
 
 ```java

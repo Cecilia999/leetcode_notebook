@@ -151,6 +151,8 @@ public List<Integer> postorderTraversal(TreeNode root) {
   [java](/solution_java/0103_Binary_Tree_Zigzag_Level_Order_Traversal.java)
 - [剑指 Offer*32-I*从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/):
   [java](/力扣/剑指Offer_32-I_从上到下打印二叉树.java)
+- [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/):
+  [java](/solution_java/0314_Binary_Tree_Vertical_Order_Traversal.md)
 
 ## 4. 给出 preorder/inorder/postorder 中的两种，construct binary tree 构造二叉树
 
