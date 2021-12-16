@@ -224,6 +224,7 @@
 | 0235            | [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)                                                           | [java](/solution_java/0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.md)               | easy       |
 | 1650            | [1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)                                                                | [java](/solution_java/1650_Lowest_Common_Ancestor_of_a_Binary_Tree_III.md)                  | medium     |
 | 0314            | [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)                                                                               | [java](/solution_java/0314_Binary_Tree_Vertical_Order_Traversal.md)                         | medium     |
+| 0366            | [366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)                                                                                                   | [java](/solution_java/0366_Find_Leaves_of_Binary_Tree.md)                                   | medium     |
 
 ### 11. [Sort](sort.md)
 
