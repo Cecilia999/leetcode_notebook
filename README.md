@@ -70,6 +70,7 @@
 | 面试题 08-14 | [布尔运算](https://leetcode-cn.com/problems/boolean-evaluation-lcci/)                                                                                                             | [java](/力扣/面试题08-14_布尔运算.java)                                    | medium     |
 | 0072         | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                                                                     | [java](/solution_java/0072_Edit_Distance.java)                             | hard       |
 | 1235         | [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)                                                                         | [java](/solution_java/1235_Maximum_Profit_in_Job_Scheduling.md)            | hard       |
+| 1987         | [1987. Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/)                                                                     | [java](/solution_java/1987_Number_of_Unique_Good_Subsequences.md)          | hard       |
 
 ### 3. [Two Pointer](two_pointer.md)
 

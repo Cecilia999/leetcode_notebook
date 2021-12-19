@@ -163,6 +163,11 @@
    - [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/):
      [java](/solution_java/0368_Largest_Divisible_Subset.java)
 
+### 8.2 count dp
+
+- [1987. Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/):
+  [java](/solution_java/1987_Number_of_Unique_Good_Subsequences.md)
+
 ## 9. probability 概率问题
 
 - [剑指 Offer 60. n 个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/):
