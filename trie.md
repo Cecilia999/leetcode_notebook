@@ -20,3 +20,8 @@ Definition：A trie (pronounced as "try") or prefix tree is a tree data structur
 
 - [212. Word Search II](https://leetcode.com/problems/word-search-ii/):
   [java](/solution_java/0212_Word_Search_II.java)
+
+## trie + pq
+
+- [642. Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/):
+  [java](/solution_java/0642_Design_Search_Autocomplete_System.md)
