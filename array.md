@@ -109,6 +109,8 @@
 
 - [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/):
   [java](/solution_java/0340_Longest_Substring_with_At_Most_K_Distinct_Characters.md)
+- [159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/):
+  [java](/solution_java/0159_Longest_Substring_with_At_Most_Two_Distinct_Characters.md)
 - [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/):
   [java](/solution_java/0992_Subarrays_with_K_Different_Integers.md)
 
