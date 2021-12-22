@@ -103,8 +103,12 @@
 - [1481. Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/):
   [java](/solution_java/1481_Least_Number_of_Unique_Integers_after_K_Removals.java)
 
-### 9. sliding window + subarray
+### 9. subarray/subsequence/substring
 
+### 9.1 sliding window + hashmap
+
+- [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/):
+  [java](/solution_java/0340_Longest_Substring_with_At_Most_K_Distinct_Characters.md)
 - [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/):
   [java](/solution_java/0992_Subarrays_with_K_Different_Integers.md)
 
