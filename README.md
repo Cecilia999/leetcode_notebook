@@ -117,6 +117,7 @@
 | 0348         | [348. Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)                                                                                                                      | [java](/solution_java/0348_Design_Tic-Tac-Toe.md)                               | medium     |
 | 1481         | [1481. Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)                                                         | [java](/solution_java/1481_Least_Number_of_Unique_Integers_after_K_Removals.md) | medium     |
 | 0370         | [370. Range Addition](https://leetcode.com/problems/range-addition/)                                                                                                                              | [java](/solution_java/0370_Range_Addition.md)                                   | medium     |
+| 0992         | [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)                                                                                    | [java](/solution_java/0992_Subarrays_with_K_Different_Integers.md)              | hard       |
 
 ### 5. [String](string.md)
 
@@ -358,7 +359,7 @@
 | 1268 | [1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)                | [java](/solution_java/1268_Search_Suggestions_System.md)         | medium     |
 | 0642 | [642. Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [java](/solution_java/0642_Design_Search_Autocomplete_System.md) | hard       |
 
-### 18. [Design question]
+### 18. [Design question](Design_question.md)
 
 | \#   | Title                                                                                            | Solution                                                      | Difficulty |
 | ---- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- | ---------- |

@@ -103,6 +103,11 @@
 - [1481. Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/):
   [java](/solution_java/1481_Least_Number_of_Unique_Integers_after_K_Removals.java)
 
+### 9. sliding window + subarray
+
+- [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/):
+  [java](/solution_java/0992_Subarrays_with_K_Different_Integers.md)
+
 ## 2d array -->> matrix
 
 ### 1. spiral matrix 螺旋矩阵
