@@ -82,9 +82,10 @@ class AutocompleteSystem {
                 cur.children.put(c, next);
             }
 
+            //先move cur to the next
             cur = next;
             //沿着sentence里的每一个字母都要放
-            cur.sentenceCount.put(sentence, cur.sentenceCount.getOrDefault(sentence, 0)+count);
+            cur.sentenceCount.put(sentence, cur.sentenceCount.getOrDefault(sentence, 0)+count); //+count，不是+1！
         }
         cur.isSentence = true;
     }
@@ -92,7 +93,7 @@ class AutocompleteSystem {
     public List<String> input(char c) {
         if(c=='#'){
             add(prefix, 1);
-            prefix = "";
+            prefix = ""; //reset prefix to null string！！
             return new ArrayList<>();
         }
 
@@ -107,7 +108,7 @@ class AutocompleteSystem {
             cur = next;
         }
 
-        //cur找到了TrieNode之后用priorityqueue sort sentences
+        //cur找到了当前输入的TrieNode之后用priorityqueue sort sentences
         PriorityQueue<Map.Entry<String,Integer>> pq = new PriorityQueue<>((e1, e2)->{
             if(e1.getValue()==e2.getValue()){
                 return e1.getKey().compareTo(e2.getKey());
