@@ -13,10 +13,15 @@
   [java](/牛客网/从尾到头打印链表.java)
 - [92 Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/):  
   [java](/solution_java/0092_Reverse_Linked_List_II.java)
+
+**reverse linked list + recursion**
+
 - [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/):
   [java](/solution_java/0025_Reverse_Nodes_in_k-Group.md)
+- [2074. Reverse Nodes in Even Length Groupsp](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/):
+  [java](/solution_java/2074_Reverse_Nodes_in_Even_Length_Groups.md)
 
-reverse linked list + two pointer
+**reverse linked list + two pointer**
 
 - [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/):
   [java](/solution_java/0234_Palindrome_Linked_List.java)
