@@ -184,6 +184,7 @@
 | 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                                                              | [java](/solution_java/0138_Copy_List_with_Random_Pointer.md)           | medium     |
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                                                                                          | [java](/solution_java/0002_Add_Two_Numbers.java)                       | medium     |
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                                                            | [java](/solution_java/0234_Palindrome_Linked_List.java)                | easy       |
+| 0025 | [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)                                                                                                    | [java](/solution_java/0025_Reverse_Nodes_in_k-Group.md)                | hard       |
 
 ### 10. [Tree](tree.md)
 

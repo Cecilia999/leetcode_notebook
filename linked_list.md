@@ -13,6 +13,8 @@
   [java](/牛客网/从尾到头打印链表.java)
 - [92 Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/):  
   [java](/solution_java/0092_Reverse_Linked_List_II.java)
+- [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/):
+  [java](/solution_java/0025_Reverse_Nodes_in_k-Group.md)
 
 reverse linked list + two pointer
 
