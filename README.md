@@ -311,6 +311,7 @@
 | 1249         | [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)                                                           |                                                                   | medium     |
 | 0907         | [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)                                                                                            | [java](/solution_java/0907_Sum_of_Subarray_Minimums.md)           | medium     |
 | 0032         | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                                                                               | [java](/solution_java/0032_Longest_Valid_Parentheses.java)        | hard       |
+| 1167         | [1167. Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)                                                                               | [java](/solution_java/1167_Minimum_Cost_to_Connect_Sticks.md)     | medium     |
 
 ### 15. [Math](math.md)
 
