@@ -41,8 +41,6 @@ private static int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}
 
 ### 1. matrix dfs 搜索一串单词/一条路径
 
-- [200. Number of Islands](https://leetcode.com/problems/number-of-islands/):
-  [java](/solution_java/0200_Number_of_Islands.java)
 - [79. Word Search](https://leetcode.com/problems/word-search/):
   [java](/solution_java/0079_Word_Search.java)
 
@@ -62,3 +60,7 @@ private static int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}
   [java](/solution_java/0140_Word_Break_II.java)
 - [529. Minesweeper](https://leetcode.com/problems/minesweeper/):
   [java](/solution_java/0529_Minesweeper.java)
+- [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/):
+  [java](/solution_java/0547_Number_of_Provinces.md)
+- [200. Number of Islands](https://leetcode.com/problems/number-of-islands/):
+  [java](/solution_java/0200_Number_of_Islands.java)

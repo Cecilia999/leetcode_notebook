@@ -353,6 +353,7 @@
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                                                           | [java](/solution_java/0200_Number_of_Islands.java)                 | medium     |
 | 0079 | [Word Search](https://leetcode.com/problems/word-search/)                                                                                                                       | [java](/solution_java/0079_Word_Search.java)                       | medium     |
 | jz65 | [矩阵中的路径](https://www.nowcoder.com/practice/2a49359695a544b8939c77358d29b7e6?tpId=13&&tqId=11218&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/矩阵中的路径.java)                                  | 中等       |
+| 0547 | [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)                                                                                                  | [java](/solution_java/0547_Number_of_Provinces.md)                 | medium     |
 
 ### 17. [Tire / Prefix tree 字典树，前缀树](trie.md)
 
