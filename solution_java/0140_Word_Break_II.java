@@ -9,7 +9,7 @@ class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
         List<String> res = new ArrayList<>();
         
-        boolean[] dp = new boolean[s.length()];
+        boolean[] dp = new boolean[s.length()+1];
         Arrays.fill(dp, true);
         
         StringBuilder sb = new StringBuilder();
