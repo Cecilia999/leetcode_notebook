@@ -233,6 +233,7 @@
 | 0314            | [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)                                                                               | [java](/solution_java/0314_Binary_Tree_Vertical_Order_Traversal.md)                         | medium     |
 | 0366            | [366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)                                                                                                   | [java](/solution_java/0366_Find_Leaves_of_Binary_Tree.md)                                   | medium     |
 | 1740            | [1740. Find Distance in a Binary Tree](https://leetcode.com/problems/find-distance-in-a-binary-tree/)                                                                                          | [java](/solution_java/1740_Find_Distance_in_a_Binary_Tree.md)                               | medium     |
+| 1628 | [1628. Design an Expression Tree With Evaluate Function](https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/)                                                                                                  | [java](/solution_java/1628_Design_an_Expression_Tree_With_Evaluate_Function.md)                 | medium     |
 
 ### 11. [Sort](sort.md)
 
@@ -355,6 +356,7 @@
 | 0079 | [Word Search](https://leetcode.com/problems/word-search/)                                                                                                                       | [java](/solution_java/0079_Word_Search.java)                       | medium     |
 | jz65 | [矩阵中的路径](https://www.nowcoder.com/practice/2a49359695a544b8939c77358d29b7e6?tpId=13&&tqId=11218&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/矩阵中的路径.java)                                  | 中等       |
 | 0547 | [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)                                                                                                  | [java](/solution_java/0547_Number_of_Provinces.md)                 | medium     |
+| 1628 | [1628. Design an Expression Tree With Evaluate Function](https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/)                                                                                                  | [java](/solution_java/1628_Design_an_Expression_Tree_With_Evaluate_Function.md)                 | medium     |
 
 ### 17. [Tire / Prefix tree 字典树，前缀树](trie.md)
 
