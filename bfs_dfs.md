@@ -64,3 +64,5 @@ private static int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, 1}, {0, -1}
   [java](/solution_java/0547_Number_of_Provinces.md)
 - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/):
   [java](/solution_java/0200_Number_of_Islands.java)
+- [1628. Design an Expression Tree With Evaluate Function](https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/):
+[java](/solution_java/1628_Design_an_Expression_Tree_With_Evaluate_Function.md)
