@@ -96,3 +96,8 @@ If a narrower scope of the sliding window is invalid, the wider scope of that na
 
 - [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/):
   [java](/solution_java/0030_Substring_with_Concatenation_of_All_Words.md)
+
+## 3. math 算边界条件
+
+- [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/):
+  [java](/solution_java/0880_Decoded_String_at_Index.md)
