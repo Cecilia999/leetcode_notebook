@@ -74,6 +74,7 @@ class Solution {
         Stack<Integer> stack2 = new Stack<>();  //stack这里存的是index，也可以存int[]
         for(int i=n-1; i>=0; i--){
             //arr[stack2.peek()] >= arr[i] 这里是>= 非常重要！！！！！
+            //如果区间有两个相同的最小值，只取一个
             while(!stack2.isEmpty() && arr[stack2.peek()] >= arr[i]){
                 previousLess[stack2.pop()] = i;
             }
