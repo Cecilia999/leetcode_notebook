@@ -193,7 +193,8 @@ for (Integer i : map.values()) {
 map.isEmpty();
 map.size();
 map.remove(key);
-//遍历
+
+//loop
 //key
 for(String key : map.keySet()){
     System.out.println(key);
@@ -201,6 +202,10 @@ for(String key : map.keySet()){
 //value
 for(String value : map.values()){
     System.out.println(value);
+}
+//entry
+for(Map.Entry<String, Map<String, double>> entry : graph.entrySet()){
+
 }
 ```
 

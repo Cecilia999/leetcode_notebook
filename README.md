@@ -314,9 +314,11 @@
 | 1249         | [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)                                                           |                                                                   | medium     |
 | 0907         | [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)                                                                                            | [java](/solution_java/0907_Sum_of_Subarray_Minimums.md)           | medium     |
 | 2104         | [2104. Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)                                                                                               | [java](/solution_java/2104_Sum_of_Subarray_Ranges.md)             | medium     |
+| 901          | [901. Online Stock Span](https://leetcode.com/problems/online-stock-span/)                                                                                                          | [java](/solution_java/0901_Online_Stock_Span.md)                  | medium     |
 | 0032         | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                                                                               | [java](/solution_java/0032_Longest_Valid_Parentheses.java)        | hard       |
 | 1167         | [1167. Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)                                                                               | [java](/solution_java/1167_Minimum_Cost_to_Connect_Sticks.md)     | medium     |
 | 394          | [394. Decode String](https://leetcode.com/problems/decode-string/)                                                                                                                  | [java](/solution_java/0394_Decode_String.md)                      | medium     |
+| 735          | [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)                                                                                                        | [java](/solution_java/0735_Asteroid_Collision.md)                 | medium     |
 
 ### 15. [Math](math.md)
 
@@ -383,3 +385,9 @@
 | 0232 | [232. Implement Queue using Stacks](https://leetcode.com/problems/powx-n/)                       | [java](/solution_java/0232_Implement_Queue_using_Stacks.java) | easy       |
 | 0380 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)   | [java](/solution_java/0380_Insert_Delete_GetRandom_O1.md)     | medium     |
 | 0588 | [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [java](/solution_java/0588_Design_In-Memory_File_System.md)   | medium     |
+
+### 19. Graph
+
+| \#   | Title                                                                      | Solution                                         | Difficulty |
+| ---- | -------------------------------------------------------------------------- | ------------------------------------------------ | ---------- |
+| 0399 | [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/) | [java](/solution_java/0399_Evaluate_Division.md) | medium     |

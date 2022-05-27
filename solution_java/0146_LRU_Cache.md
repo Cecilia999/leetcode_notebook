@@ -192,7 +192,7 @@ class LRUCache {
             tail = node.pre;
             node.pre.next = null;
         }
-        else if(head==node && tail!=node){ //node is tail
+        else if(head==node && tail!=node){ //node is head
             head = node.next;
             node.next.pre = null;
         }
