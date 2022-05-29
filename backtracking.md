@@ -21,6 +21,8 @@
      [java](/solution_java/0077_Combinations.java)
    - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/):  
      [java](/solution_java/0216_Combination_Sum_III.java)
+   - [1239. Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/):
+     [java](/solution_java/1239_Maximum_Length_of_a_Concatenated_String_with_Unique_Characters.md)
 
 3. 子集问题 subsets
 
