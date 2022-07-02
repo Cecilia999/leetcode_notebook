@@ -192,6 +192,8 @@ using preorder + recursion
 
 - [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/):
   [java](/solution_java/0297_Serialize_and_Deserialize_Binary_Tree.java)
+- [428. Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/):
+  [java](/solution_java/0428_Serialize_and_Deserialize_N-ary_Tree.md)
 
 ## 前缀和 prefix sum using HashMap
 

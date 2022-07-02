@@ -10,9 +10,21 @@
 
 //deserialize：用deque，根据preorder traversal，用spliter分开string组成deque，然后创建treenode 连接成二叉树
 
+//思路就是要可以encode the binary tree in to a string, 然后decode it back to a binary tree
+//需要两个特殊的letter来区分不同的node以及空node
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
 public class Codec {
-    public String spliter = ",";
-    public String emptyNode = "#";
+    String spliter = ",";
+    String emptyNode = "#";
     
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
@@ -22,39 +34,43 @@ public class Codec {
     }
     
     public void buildString(TreeNode root, StringBuilder sb){
-        if(root == null){
+        if(root==null){
             sb.append(emptyNode);
             sb.append(spliter);
-        }else{
-            sb.append(root.val);
+        }
+        else{
+            sb.append(String.valueOf(root.val));
             sb.append(spliter);
             buildString(root.left, sb);
             buildString(root.right, sb);
         }
-            
     }
     
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        Deque<String> nodes = new LinkedList<>();
-        //string.split() return an array
-        String[] dataArr = data.split(spliter);
+        String[] values = data.split(",");
+        List<String> valueList = Arrays.asList(values);
         
-        //convert an array to a list
-        List<String> dataList = Arrays.asList(dataArr);
-        nodes.addAll(dataList);
+        //we want to get rid of the values that we already create a node for it when we building the tree, so we need a new datastructure other than a string array to recursively deserukauze our tree
+        //we need to build the tree in pre-order, which means we need to remove the value from the top of the array
+        //so we are using deque here
+        //to conver an array to deque, we first need to convert it to arraylist and then use the addAll() method to append the arraylist to deque
+        
+        Deque<String> nodes = new LinkedList<>();
+        nodes.addAll(valueList);
         
         return buildTree(nodes);
     }
     
     public TreeNode buildTree(Deque<String> nodes){
-        String node = nodes.removeFirst();
-        if(node.equals(emptyNode))
+        String node = nodes.pollFirst();
+        if(node.equals(emptyNode)){
             return null;
+        }
         TreeNode root = new TreeNode(Integer.valueOf(node));
         root.left = buildTree(nodes);
         root.right = buildTree(nodes);
-        return root;
+        return root;     
     }
 }
 
