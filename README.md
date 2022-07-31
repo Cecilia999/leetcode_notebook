@@ -80,6 +80,8 @@
 | 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)              | [java](/solution_java/0042_Trapping_Rain_Water.java)   | hard       |
 | 0696 | [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | [java](/solution_java/0696_Count_Binary_Substrings.md) | easy       |
 | 0443 | [443. String Compression](https://leetcode.com/problems/string-compression/)           | [java](/solution_java/0443_String_Compression.md)      | medium     |
+| 0015         | [15. 3Sum](https://leetcode.com/problems/3sum/)                                                                                                                                                   | [java](/solution_java/0015_3Sum.java)                                                 | medium     |
+| 0016 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)           | [java](/solution_java/0016_3Sum_Closest.md)      | medium     |
 
 ### 4. [Array](array.md)
 

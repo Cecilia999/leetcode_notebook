@@ -54,7 +54,7 @@
 
 ### 2.1.1 preorder traversal using stack
 
-逻辑是 traversal 到最左的根->左 leaf->右子树
+逻辑是 traversal 当前根 + 沿途的所有左子树的跟->左 leaf->右子树当前根 + 沿途所有的左子树的根 + 左 leaf + 右边leaf
 
 ```java
 public List<Integer> preorderTraversal(TreeNode root) {
