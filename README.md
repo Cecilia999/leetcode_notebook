@@ -275,6 +275,7 @@
 | 0316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)                                                 | [java](/solution_java/0316_Remove_Duplicate_Letters.java)                    | medium     |
 | 0646 | [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)                                    | [java](/solution_java/0646_Maximum_Length_of_Pair_Chain.md)                  | medium     |
 | 1353 | [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/) | [java](/solution_java/1353_Maximum_Number_of_Events_That_Can_Be_Attended.md) | medium     |
+| 0452 | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/?envType=study-plan-v2&envId=leetcode-75) | [java](/solution_java/0452_Minimum_Number_of_Arrows_to_Burst_Balloons.md) | medium     |
 
 ### 13. [bit manipulation](bit_manipulation.md)
 
