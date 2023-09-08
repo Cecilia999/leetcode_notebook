@@ -31,3 +31,7 @@
 ## hashtable + trie
 
 - [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [java](/solution_java/0588_Design_In-Memory_File_System.md)
+
+## Iterator
+
+- [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/description/) | [java](/solution_java/0284_Peeking_Iterator.md)

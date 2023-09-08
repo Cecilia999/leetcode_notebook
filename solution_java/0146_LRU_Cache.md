@@ -15,19 +15,24 @@ Implement the LRUCache class:
 
 ### 一、什么是 LRU 算法
 
-就是一种缓存淘汰策略。
+to design LRU and LFU we need use a double linked list and hashmap
 
-计算机的缓存容量有限，如果缓存满了就要删除一些内容，给新内容腾位置。但问题是，删除哪些内容呢？我们肯定希望删掉哪些没什么用的缓存，而把有用的数据继续留在缓存里，方便之后继续使用。那么，什么样的数据，我们判定为「有用的」的数据呢？
+double linked list is that each node of the linked list connect to its prev and next node
+double linked list is used to manage the nodes so that they are sorted in least recently used order.
+several apis are needed for this double linked list
+1. addFirst() - every new used node should add the head position of this double linked list
+2. remove() - if the node is already exist in the double list and it is used again then you need to remove the node first before add it to the head position.
+3. removeLast() - if the LRU cache is full then you remove the last node in the double linked list, which is the least recently used node.
+4. size() - return the size of current double linked list. We want to keep this api O(1) so we maintain this valua each time add/remove the node.
+```java
+// class DoubleLinkedList {
+//     public void addFrist(DLinkedNode n);
+//     public void remove(DLinkedNode n);
+//     public DLinkedNode removeLst();
+//     public int size();
+// }```
 
-LRU 缓存淘汰算法就是一种常用策略。LRU 的全称是 Least Recently Used，也就是说我们认为最近使用过的数据应该是是「有用的」，很久都没用过的数据应该是无用的，内存满了就优先删那些很久没用过的数据。
-
-举个简单的例子，安卓手机都可以把软件放到后台运行，比如我先后打开了「设置」「手机管家」「日历」，那么现在他们在后台排列的顺序是这样的：
-
-「设置」->「手机管家」->「日历」, 日历在最上面
-
-但是这时候如果我访问了一下「设置」界面，那么「设置」就会被提前到第一个，变成这样：
-
-「手机管家」->「日历」-> 「设置」
+Hash map<key, node>
 
 ### 二、LRU 算法描述
 

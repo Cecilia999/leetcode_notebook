@@ -213,7 +213,7 @@ PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(11,new Comparator<In
 
 ```
 
-- [253. Meeting Room](/solution_java/0253_meeting_room.java)
+- [253. Meeting Room](/solution_java/0235_Meeting_Rooms_II.md)
 - [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/):
   [java](/solution_java/0692_Top_K_Frequent_Words.java)
 - [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/):
@@ -263,6 +263,11 @@ Collections.sort(singlyLinkedList, new Comparator<String>() {
     }
 });
 ```
+
+## sory + two pointer
+
+- [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) 
+  | [java](/solution_java/0235_Meeting_Rooms_II.md)
 
 ## 参考
 

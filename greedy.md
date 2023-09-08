@@ -19,6 +19,7 @@
   [java](/solution_java/0122_Best_Time_to_Buy_and_Sell_Stock_II.java)
 - [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/):
   [java](/solution_java/0646_Maximum_Length_of_Pair_Chain.md)
+- [334. Increasing Triplet Subsequence](https://leetcode.com/problems/https://leetcode.com/problems/increasing-triplet-subsequence/) | [java](/solution_java/0334_Increasing_Triplet_Subsequence.md)
 
 ## 1. greedy + monotonic stack (贪心 + 单调栈)
 
@@ -31,7 +32,9 @@
 
 - [1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) :
   [java](/solution_java/1710_Maximum_Units_on_a_Truck.md)
-
+- [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/?envType=study-plan-v2&envId=leetcode-75) :
+  [java](/solution_java/0452_Minimum_Number_of_Arrows_to_Burst_Balloons.md)
+  
 ## 3. greedy + priority queue + sort
 
 - [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/):

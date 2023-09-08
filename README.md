@@ -260,6 +260,7 @@
 | 0269 | [269. Alien Dictionary](https://blog.csdn.net/littlehaes/article/details/104192778)                                                                                                   | [java](/solution_java/0269_Alien_Dictionary_II.md)                                    | hard       |
 | 1647 | [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)                                 | [java](/solution_java/1647_Minimum_Deletions_to_Make_Character_Frequencies_Unique.md) | medium     |
 | 1152 | [1152. Analyze User Website Visit Pattern](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)                                                     | [java](/solution_java/1152_Analyze_User_Website_Visit_Pattern.md)                     | medium     |
+| 0253 | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                                                     | [java](/solution_java/0235_Meeting_Rooms_II.md)                     | medium     |
 
 ### 12. [Greedy](greedy.md)
 
@@ -276,6 +277,7 @@
 | 0646 | [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)                                    | [java](/solution_java/0646_Maximum_Length_of_Pair_Chain.md)                  | medium     |
 | 1353 | [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/) | [java](/solution_java/1353_Maximum_Number_of_Events_That_Can_Be_Attended.md) | medium     |
 | 0452 | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/?envType=study-plan-v2&envId=leetcode-75) | [java](/solution_java/0452_Minimum_Number_of_Arrows_to_Burst_Balloons.md) | medium     |
+| 0344 | [334. Increasing Triplet Subsequence](https://leetcode.com/problems/https://leetcode.com/problems/increasing-triplet-subsequence/) | [java](/solution_java/0334_Increasing_Triplet_Subsequence.md) | medium     |
 
 ### 13. [bit manipulation](bit_manipulation.md)
 
@@ -390,6 +392,7 @@
 | 0232 | [232. Implement Queue using Stacks](https://leetcode.com/problems/powx-n/)                       | [java](/solution_java/0232_Implement_Queue_using_Stacks.java) | easy       |
 | 0380 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)   | [java](/solution_java/0380_Insert_Delete_GetRandom_O1.md)     | medium     |
 | 0588 | [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [java](/solution_java/0588_Design_In-Memory_File_System.md)   | medium     |
+| 0284 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/description/) | [java](/solution_java/0284_Peeking_Iterator.md)   | medium     |
 
 ### 19. Graph
 
