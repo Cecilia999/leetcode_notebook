@@ -1,7 +1,54 @@
 # leetcode_notebook
 
-- ### [big o cheatsheet](bigo_cheatsheet.md)
-- ### [常用数据结构和常用函数](data_structure.md)
+## 复习顺序
+
+### 1. labuladong学习算法和刷题的框架思维：
+https://labuladong.online/algo/essential-technique/abstraction-of-algorithm/
+
+数据结构的存储方式只有两种：数组（顺序存储）和链表（链式存储）。
+
+1. Arrays:
+- Structure: Arrays consist of a fixed-size sequence of elements of the same type, stored in contiguous memory locations.
+- Access Time: Arrays offer constant-time access O(1) to elements using an index.
+- Operations: Insertion and deletion operations can be costly O(n) if they involve shifting elements.
+- Downstream Uses: 
+    - Dynamic Arrays (like ArrayList in Java or List in Python): These can resize themselves as needed.
+    - Vectors: A synchronized, resizable array implementation of the List interface. It is similar to ArrayList but with thread-safety. Thread-safe dynamic arrays. ```Vector<Integer> vector = new Vector<>();```
+    - Stack: A subclass of Vector that implements a last-in-first-out (LIFO) stack of elements. ```Stack<Integer> stack = new Stack<>();```
+    - HashMap: Uses an array of linked lists (or arrays of buckets) to implement a hash table. ```HashMap<String, Integer> map = new HashMap<>();```
+    - PriorityQueue: Implemented using a binary heap, which is based on arrays. ```PriorityQueue<Integer> pq = new PriorityQueue<>();```
+
+2. Linked Lists:
+- Structure: Linked lists consist of nodes where each node contains a data element and a reference (or link) to the next node in the sequence.
+- Access Time: Linked lists offer sequential access O(n) to elements, meaning you need to traverse the list to reach an element.
+- Operations: Insertion and deletion operations are more efficient O(1) if you have a reference to the node where the operation needs to be performed.
+- Downstream Uses: 
+    - Queue and Deque: Implementing queues (FIFO) and deques (double-ended queues). supporting FIFO and LIFO operations.
+        ```Queue<Integer> queue = new LinkedList<>();```
+        ```Deque<Integer> deque = new LinkedList<>();```
+    - ConcurrentLinkedQueue: A thread-safe, unbounded, non-blocking FIFO queue based on linked nodes.
+        ```ConcurrentLinkedQueue<Integer> queue = new ConcurrentLinkedQueue<>()```
+    - HashSet and LinkedHashSet: HashSet can use a LinkedList to handle hash collisions (though usually, it uses arrays of buckets). LinkedHashSet maintains a linked list of entries to preserve insertion order; Collections of unique elements; maintaining insertion order.
+        ```HashSet<Integer> hashSet = new HashSet<>();```
+        ```LinkedHashSet<Integer> linkedHashSet = new LinkedHashSet<>();```
+
+
+
+
+### 2. 双指针 - Linked List
+
+use two pointer to iterate two sub linked list
+use dummy head to hold the head pointer
+
+[0021_Merge_Two_Sorted_Lists](solution_java/0021_Merge_Two_Sorted_Lists.java)
+[0086_Partition_List](solution_java/0086_Partition_List.md)
+
+============================================
+************** OlD VERSION *****************
+============================================
+
+### [big o cheatsheet](bigo_cheatsheet.md)
+### [常用数据结构和常用函数](data_structure.md)
 
 ### 1. [Backtracking](backtracking.md)
 
