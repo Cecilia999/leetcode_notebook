@@ -53,6 +53,7 @@ https://labuladong.online/algo/essential-technique/abstraction-of-algorithm/
     2. can be used to retrieve the middle node of a given linked list.
 
 - [0019_Remove_Nth_Node_From_End_of_List](solution_java/0019_Remove_Nth_Node_From_End_of_List.md)
+- [1474_Delete_N_Nodes_After_M_Nodes_of_a_Linked_List](solution_java/1474_Delete_N_Nodes_After_M_Nodes_of_a_Linked_List.md)
 - [0141_Linked_List_Cycle](solution_java/0141_Linked_List_Cycle.md)
 - [0142_Linked_List_Cycle_II](solution_java/0142_Linked_List_Cycle_II.md)
 ============================================
