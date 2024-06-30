@@ -37,14 +37,25 @@ https://labuladong.online/algo/essential-technique/abstraction-of-algorithm/
 
 ### 2. 双指针 - Linked List
 
-use two pointer to iterate two sub linked list
-use dummy head to hold the head pointer
+1. use two pointer to iterate two sub linked list\
+    use dummy head to hold the head pointer\
 
-[0021_Merge_Two_Sorted_Lists](solution_java/0021_Merge_Two_Sorted_Lists.java)
-[0086_Partition_List](solution_java/0086_Partition_List.md)
+- [0021_Merge_Two_Sorted_Lists](solution_java/0021_Merge_Two_Sorted_Lists.java)\
+- [0086_Partition_List](solution_java/0086_Partition_List.md)\
 
+2. [二叉堆的基本原理](Binary_Heap.md)
+
+- [0023_Merge_k_Sorted_Lists](solution_java/0023_Merge_k_Sorted_Lists.md)\
+
+
+3. slow and fast pointer 
+    1. can be used to check if ther is a cycle in the linked list.
+    2. can be used to retrieve the middle node of a given linked list.
+
+- [0019_Remove_Nth_Node_From_End_of_List](solution_java/0019_Remove_Nth_Node_From_End_of_List.md)
+- [0141_Linked_List_Cycle](solution_java/0141_Linked_List_Cycle.md)
+- [0142_Linked_List_Cycle_II](solution_java/0142_Linked_List_Cycle_II.md)
 ============================================
-************** OlD VERSION *****************
 ============================================
 
 ### [big o cheatsheet](bigo_cheatsheet.md)
