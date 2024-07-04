@@ -56,8 +56,17 @@ https://labuladong.online/algo/essential-technique/abstraction-of-algorithm/
 - [1474_Delete_N_Nodes_After_M_Nodes_of_a_Linked_List](solution_java/1474_Delete_N_Nodes_After_M_Nodes_of_a_Linked_List.md)
 - [0141_Linked_List_Cycle](solution_java/0141_Linked_List_Cycle.md)
 - [0142_Linked_List_Cycle_II](solution_java/0142_Linked_List_Cycle_II.md)
+
+4. 把一个linked list接在另一个linked list后面
+
+-[0160_Intersection_of_Two_Linked_Lists](solution_java/0160_Intersection_of_Two_Linked_Lists.md)
+
 ============================================
+
+
 ============================================
+
+
 
 ### [big o cheatsheet](bigo_cheatsheet.md)
 ### [常用数据结构和常用函数](data_structure.md)
