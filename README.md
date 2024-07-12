@@ -1,6 +1,6 @@
 # leetcode_notebook
 
-## 复习顺序
+## 数据结构
 
 ### 1. labuladong学习算法和刷题的框架思维：
 https://labuladong.online/algo/essential-technique/abstraction-of-algorithm/
@@ -37,15 +37,15 @@ https://labuladong.online/algo/essential-technique/abstraction-of-algorithm/
 
 ### 2. 双指针 - Linked List
 
-1. use two pointer to iterate two sub linked list\
-    use dummy head to hold the head pointer\
+1. use two pointer to iterate two sub linked list
+    use dummy head to hold the head pointer
 
-- [0021_Merge_Two_Sorted_Lists](solution_java/0021_Merge_Two_Sorted_Lists.java)\
-- [0086_Partition_List](solution_java/0086_Partition_List.md)\
+- [0021_Merge_Two_Sorted_Lists](solution_java/0021_Merge_Two_Sorted_Lists.java)
+- [0086_Partition_List](solution_java/0086_Partition_List.md)
 
 2. [二叉堆的基本原理](Binary_Heap.md)
 
-- [0023_Merge_k_Sorted_Lists](solution_java/0023_Merge_k_Sorted_Lists.md)\
+- [0023_Merge_k_Sorted_Lists](solution_java/0023_Merge_k_Sorted_Lists.md)
 
 
 3. slow and fast pointer 
@@ -57,22 +57,29 @@ https://labuladong.online/algo/essential-technique/abstraction-of-algorithm/
 - [0141_Linked_List_Cycle](solution_java/0141_Linked_List_Cycle.md)
 - [0142_Linked_List_Cycle_II](solution_java/0142_Linked_List_Cycle_II.md)
 - [0082_Remove_Duplicates_from_Sorted_List_II](solution_java/0082_Remove_Duplicates_from_Sorted_List_II.md)
+- [1836_Remove_Duplicates_From_an_Unsorted_Linked_List](solution_java/1836_Remove_Duplicates_From_an_Unsorted_Linked_List.md)
 
 4. 把一个linked list接在另一个linked list后面
 
 - [0160_Intersection_of_Two_Linked_Lists](solution_java/0160_Intersection_of_Two_Linked_Lists.md)
 
 
+## 算法技巧
 
+### 1. [如何高效寻找素数（prime number）](https://labuladong.online/algo/frequency-interview/print-prime-number/#%E9%AB%98%E6%95%88%E5%AE%9E%E7%8E%B0-countprimes)
 
+what is prime number？ - A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
 
+A natural number is a positive integer (1, 2, 3, ...) commonly used for counting and ordering.
 
+- [0204_Count_Primes](solution_java/0204_Count_Primes.md)
 
 
 ============================================
 
 
 ============================================
+
 
 
 
