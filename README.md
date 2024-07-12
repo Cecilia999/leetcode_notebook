@@ -85,29 +85,9 @@ Examples:
 The Fundamental Theorem of Arithmetic states that any natural number greater than 1 is either a prime number itself or can be decomposed into a product of prime numbers.
 正整数唯一分解定理 - 任意一个大于 1 的自然数，要么它本身就是质数，要么它可以分解为若干质数的乘积。
 
--[0263_Ugly_Number](solution_java/0263_Ugly_Number.md)
+- [0263_Ugly_Number](solution_java/0263_Ugly_Number.md)
 
 
 ============================================
-
-| \#   | Title                                                                                                                                                                                 | Solution                                                                              | Difficulty |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------- |
-| 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)                                                                                     | [java](/solution_java/0215_Kth_Largest_Element_in_an_Array.java)                      | medium     |
-| jz29 | [最小的 K 个数](https://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf?tpId=13&&tqId=11182&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)      | [java](/牛客网/最小的K个数.java)                                                      | 中等       |
-| 0179 | [Largest Number](https://leetcode.com/problems/largest-number/)                                                                                                                       | [java](/solution_java/0179_Largest_Number.java)                                       | medium     |
-| jz32 | [把数组排成最小的数](https://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?tpId=13&&tqId=11185&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [java](/牛客网/把数组排成最小的数.java)                                               | 较难       |
-| jz35 | [数组中的逆序对](https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?tpId=13&&tqId=11188&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)     | [java](/牛客网/JZ35_数组中的逆序对.java)                                              | 中等       |
-| 0493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)                                                                                                                         | [java](/solution_java/0493_Reverse_Pairs.java)                                        | hard       |
-| 0148 | [Sort List](https://leetcode.com/problems/sort-list/)                                                                                                                                 | [java](/solution_java/0148_Sort_List.java)                                            | medium     |
-| 0969 | [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)                                                                                                                     | [java](/solution_java/0969_Pancake_Sorting.java)                                      | medium     |
-| 0692 | [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)                                                                                                      | [java](/solution_java/0692_Top_K_Frequent_Words.java)                                 | medium     |
-| 0937 | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)                                                                                                 | [java](/solution_java/0937_Reorder_Data_in_Log_Files.java)                            | easy       |
-| 0973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)                                                                                               | [java](/solution_java/0973_K_Closest_Points_to_Origin.md)                             | medium     |
-| 0207 | [207. Course Schedule](https://leetcode.com/problems/course-schedule/)                                                                                                                | [java](/solution_java/0207_Course_Schedule.md)                                        | medium     |
-| 0210 | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                                                                                          | [java](/solution_java/0210_Course_Schedule_II.md)                                     | medium     |
-| 0269 | [269. Alien Dictionary](https://blog.csdn.net/littlehaes/article/details/104192778)                                                                                                   | [java](/solution_java/0269_Alien_Dictionary_II.md)                                    | hard       |
-| 1647 | [1647. Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)                                 | [java](/solution_java/1647_Minimum_Deletions_to_Make_Character_Frequencies_Unique.md) | medium     |
-| 1152 | [1152. Analyze User Website Visit Pattern](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)                                                     | [java](/solution_java/1152_Analyze_User_Website_Visit_Pattern.md)                     | medium     |
-| 0253 | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                                                     | [java](/solution_java/0235_Meeting_Rooms_II.md)                     | medium     |
 **[README_old_version](README_OLD_VERSION.md)**
 ============================================
