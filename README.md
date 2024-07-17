@@ -48,6 +48,7 @@ https://labuladong.online/algo/essential-technique/abstraction-of-algorithm/
 - [0023_Merge_k_Sorted_Lists](solution_java/0023_Merge_k_Sorted_Lists.md)
 - [0264_Ugly_Number_II](solution_java/0264_Ugly_Number_II.md)
 - [0313_Super_Ugly_Number](solution_java/0313_Super_Ugly_Number.md)
+- [0378_Kth_Smallest_Element_in_a_Sorted_Matrix](solution_java/0378_Kth_Smallest_Element_in_a_Sorted_Matrix.md)
 
 
 
