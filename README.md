@@ -46,6 +46,9 @@ https://labuladong.online/algo/essential-technique/abstraction-of-algorithm/
 2. [二叉堆的基本原理](Binary_Heap.md)
 
 - [0023_Merge_k_Sorted_Lists](solution_java/0023_Merge_k_Sorted_Lists.md)
+- [0264_Ugly_Number_II](solution_java/0264_Ugly_Number_II.md)
+- [0313_Super_Ugly_Number](solution_java/0313_Super_Ugly_Number.md)
+
 
 
 3. slow and fast pointer 
@@ -86,8 +89,10 @@ The Fundamental Theorem of Arithmetic states that any natural number greater tha
 正整数唯一分解定理 - 任意一个大于 1 的自然数，要么它本身就是质数，要么它可以分解为若干质数的乘积。
 
 - [0263_Ugly_Number](solution_java/0263_Ugly_Number.md)
+- [0264_Ugly_Number_II](solution_java/0264_Ugly_Number_II.md)
+- [0313_Super_Ugly_Number](solution_java/0313_Super_Ugly_Number.md)
 
 
 ============================================
+
 **[README_old_version](README_OLD_VERSION.md)**
-============================================
